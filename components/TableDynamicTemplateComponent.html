@@ -1,0 +1,2444 @@
+<!doctype html>
+<html class="no-js" lang="">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <title>vendor-tizo documentation</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <link rel="icon" type="image/x-icon" href="../images/favicon.ico">
+	   <link rel="stylesheet" href="../styles/style.css">
+        <link rel="stylesheet" href="../styles/dark.css">
+    </head>
+    <body>
+
+        <div class="navbar navbar-default navbar-fixed-top visible-xs">
+            <a href="../" class="navbar-brand">vendor-tizo documentation</a>
+            <button type="button" class="btn btn-default btn-menu ion-ios-menu" id="btn-menu"></button>
+        </div>
+
+        <div class="xs-menu menu" id="mobile-menu">
+                <div id="book-search-input" role="search"><input type="text" placeholder="Type to search"></div>            <compodoc-menu></compodoc-menu>
+        </div>
+
+        <div class="container-fluid main">
+           <div class="row main">
+               <div class="hidden-xs menu">
+                   <compodoc-menu mode="normal"></compodoc-menu>
+               </div>
+               <!-- START CONTENT -->
+               <div class="content component">
+                   <div class="content-data">
+
+
+
+
+<ol class="breadcrumb">
+  <li>Components</li>
+  <li
+  >
+  TableDynamicTemplateComponent</li>
+</ol>
+
+<ul class="nav nav-tabs" role="tablist">
+        <li class="active">
+            <a href="#info" role="tab" id="info-tab" data-toggle="tab" data-link="info">Info</a>
+        </li>
+        <li >
+            <a href="#source" role="tab" id="source-tab" data-toggle="tab" data-link="source">Source</a>
+        </li>
+        <li >
+            <a href="#tree" role="tab" id="tree-tab" data-toggle="tab" data-link="dom-tree">DOM Tree</a>
+        </li>
+</ul>
+
+<div class="tab-content">
+    <div class="tab-pane fade active in" id="c-info"><p class="comment">
+    <h3>File</h3>
+</p>
+<p class="comment">
+    <code>src/app/schemes/support/table-dynamic-template.ts</code>
+</p>
+
+
+
+
+
+
+<section>
+    <h3>Metadata</h3>
+    <table class="table table-sm table-hover metadata">
+        <tbody>
+
+
+            <tr>
+                <td class="col-md-3">encapsulation</td>
+                <td class="col-md-9"><code>ViewEncapsulation.None</code></td>
+            </tr>
+
+
+
+
+
+
+
+
+
+            <tr>
+                <td class="col-md-3">selector</td>
+                <td class="col-md-9"><code>app-dynamic-table</code></td>
+            </tr>
+
+
+
+            <tr>
+                <td class="col-md-3">template</td>
+                <td class="col-md-9"><pre class="line-numbers"><code class="language-html">&lt;h1&gt;tizo&lt;/h1&gt;</code></pre></td>
+            </tr>
+
+
+
+
+
+
+
+
+
+        </tbody>
+    </table>
+</section>
+
+    <section>
+    <h3 id="index">Index</h3>
+    <table class="table table-sm table-bordered index-table">
+        <tbody>
+                <tr>
+                    <td class="col-md-4">
+                        <h6><b>Properties</b></h6>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <ul class="index-list">
+                            <li>
+                                    <span class="modifier">Public</span>
+                                <a href="#actionOnContentReady" >actionOnContentReady</a>
+                            </li>
+                            <li>
+                                    <span class="modifier">Public</span>
+                                <a href="#constants" >constants</a>
+                            </li>
+                            <li>
+                                    <span class="modifier">Public</span>
+                                <a href="#isShowWarningDialog" >isShowWarningDialog</a>
+                            </li>
+                            <li>
+                                    <span class="modifier">Public</span>
+                                <a href="#warningDialogMessage" >warningDialogMessage</a>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td class="col-md-4">
+                        <h6><b>Methods</b></h6>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <ul class="index-list">
+                            <li>
+                                    <span class="modifier">Public</span>
+                                <a href="#actionClean" >actionClean</a>
+                            </li>
+                            <li>
+                                    <span class="modifier">Public</span>
+                                <a href="#actionEdit" >actionEdit</a>
+                            </li>
+                            <li>
+                                    <span class="modifier">Public</span>
+                                <a href="#actionMap" >actionMap</a>
+                            </li>
+                            <li>
+                                    <span class="modifier">Public</span>
+                                <a href="#actionOnCellPrepared" >actionOnCellPrepared</a>
+                            </li>
+                            <li>
+                                    <span class="modifier">Public</span>
+                                <a href="#actionOnSelectedRows" >actionOnSelectedRows</a>
+                            </li>
+                            <li>
+                                    <span class="modifier">Public</span>
+                                <a href="#actionOnToolbarPreparing" >actionOnToolbarPreparing</a>
+                            </li>
+                            <li>
+                                    <span class="modifier">Public</span>
+                                <a href="#actionRemove" >actionRemove</a>
+                            </li>
+                            <li>
+                                    <span class="modifier">Public</span>
+                                <a href="#actionRestore" >actionRestore</a>
+                            </li>
+                            <li>
+                                    <span class="modifier">Public</span>
+                                <a href="#actionSelectedRow" >actionSelectedRow</a>
+                            </li>
+                            <li>
+                                    <span class="modifier">Public</span>
+                                <a href="#actionUpload" >actionUpload</a>
+                            </li>
+                            <li>
+                                    <span class="modifier">Public</span>
+                                <a href="#actionView" >actionView</a>
+                            </li>
+                            <li>
+                                    <span class="modifier">Public</span>
+                                <a href="#actionViewDelivery" >actionViewDelivery</a>
+                            </li>
+                            <li>
+                                    <span class="modifier">Public</span>
+                                <a href="#actionViewDriver" >actionViewDriver</a>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td class="col-md-4">
+                        <h6><b>Inputs</b></h6>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <ul class="index-list">
+                            <li>
+                                <a href="#customizeExcelCell" >customizeExcelCell</a>
+                            </li>
+                            <li>
+                                <a href="#elements" >elements</a>
+                            </li>
+                            <li>
+                                <a href="#hasButtonClean" >hasButtonClean</a>
+                            </li>
+                            <li>
+                                <a href="#hasButtonEdit" >hasButtonEdit</a>
+                            </li>
+                            <li>
+                                <a href="#hasButtonMap" >hasButtonMap</a>
+                            </li>
+                            <li>
+                                <a href="#hasButtonRemove" >hasButtonRemove</a>
+                            </li>
+                            <li>
+                                <a href="#hasButtonRestore" >hasButtonRestore</a>
+                            </li>
+                            <li>
+                                <a href="#hasButtonUpload" >hasButtonUpload</a>
+                            </li>
+                            <li>
+                                <a href="#hasButtonView" >hasButtonView</a>
+                            </li>
+                            <li>
+                                <a href="#hasButtonViewDelivery" >hasButtonViewDelivery</a>
+                            </li>
+                            <li>
+                                <a href="#hasButtonViewDriver" >hasButtonViewDriver</a>
+                            </li>
+                            <li>
+                                <a href="#showCheckBoxesMode" >showCheckBoxesMode</a>
+                            </li>
+                            <li>
+                                <a href="#status" >status</a>
+                            </li>
+                            <li>
+                                <a href="#templates" >templates</a>
+                            </li>
+                            <li>
+                                <a href="#title" >title</a>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td class="col-md-4">
+                        <h6><b>Outputs</b></h6>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <ul class="index-list">
+                            <li>
+                                <a href="#eventEmitterActionClean" >eventEmitterActionClean</a>
+                            </li>
+                            <li>
+                                <a href="#eventEmitterActionEdit" >eventEmitterActionEdit</a>
+                            </li>
+                            <li>
+                                <a href="#eventEmitterActionMap" >eventEmitterActionMap</a>
+                            </li>
+                            <li>
+                                <a href="#eventEmitterActionRemove" >eventEmitterActionRemove</a>
+                            </li>
+                            <li>
+                                <a href="#eventEmitterActionRestore" >eventEmitterActionRestore</a>
+                            </li>
+                            <li>
+                                <a href="#eventEmitterActionUpload" >eventEmitterActionUpload</a>
+                            </li>
+                            <li>
+                                <a href="#eventEmitterActionView" >eventEmitterActionView</a>
+                            </li>
+                            <li>
+                                <a href="#eventEmitterActionViewDelivery" >eventEmitterActionViewDelivery</a>
+                            </li>
+                            <li>
+                                <a href="#eventEmitterActionViewDriver" >eventEmitterActionViewDriver</a>
+                            </li>
+                            <li>
+                                <a href="#eventEmitterOnCellPrepared" >eventEmitterOnCellPrepared</a>
+                            </li>
+                            <li>
+                                <a href="#eventEmitterOnContentReady" >eventEmitterOnContentReady</a>
+                            </li>
+                            <li>
+                                <a href="#eventEmitterOnSelectionChanged" >eventEmitterOnSelectionChanged</a>
+                            </li>
+                            <li>
+                                <a href="#eventEmitterOnSelectionRowChanged" >eventEmitterOnSelectionRowChanged</a>
+                            </li>
+                            <li>
+                                <a href="#eventEmitterOnToolbarPreparing" >eventEmitterOnToolbarPreparing</a>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
+
+
+
+        </tbody>
+    </table>
+</section>
+
+    <section>
+    <h3 id="constructor">Constructor</h3>
+        <table class="table table-sm table-bordered">
+            <tbody>
+                <tr>
+                    <td class="col-md-4">
+<code>constructor()</code>
+                    </td>
+                </tr>
+                        <tr>
+                            <td class="col-md-4">
+                                <div class="io-line">Defined in <a href="" data-line="150" class="link-to-prism">src/app/schemes/support/table-dynamic-template.ts:150</a></div>
+                            </td>
+                        </tr>
+
+            </tbody>
+        </table>
+</section>
+
+    <section>
+    <h3 id="inputs">Inputs</h3>
+        <table class="table table-sm table-bordered">
+            <tbody>
+                <tr>
+                    <td class="col-md-4">
+                        <a name="customizeExcelCell"></a>
+                        <b>customizeExcelCell</b>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Type : </i>    <code>Function | any</code>
+
+                    </td>
+                </tr>
+                        <tr>
+                            <td class="col-md-2" colspan="2">
+                                    <div class="io-line">Defined in <a href="" data-line="34" class="link-to-prism">src/app/schemes/support/table-dynamic-template.ts:34</a></div>
+                            </td>
+                        </tr>
+            </tbody>
+        </table>
+        <table class="table table-sm table-bordered">
+            <tbody>
+                <tr>
+                    <td class="col-md-4">
+                        <a name="elements"></a>
+                        <b>elements</b>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Type : </i>    <code>any[] | any</code>
+
+                    </td>
+                </tr>
+                        <tr>
+                            <td class="col-md-2" colspan="2">
+                                    <div class="io-line">Defined in <a href="" data-line="28" class="link-to-prism">src/app/schemes/support/table-dynamic-template.ts:28</a></div>
+                            </td>
+                        </tr>
+            </tbody>
+        </table>
+        <table class="table table-sm table-bordered">
+            <tbody>
+                <tr>
+                    <td class="col-md-4">
+                        <a name="hasButtonClean"></a>
+                        <b>hasButtonClean</b>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Type : </i>    <code>boolean | any</code>
+
+                    </td>
+                </tr>
+                        <tr>
+                            <td class="col-md-2" colspan="2">
+                                    <div class="io-line">Defined in <a href="" data-line="61" class="link-to-prism">src/app/schemes/support/table-dynamic-template.ts:61</a></div>
+                            </td>
+                        </tr>
+            </tbody>
+        </table>
+        <table class="table table-sm table-bordered">
+            <tbody>
+                <tr>
+                    <td class="col-md-4">
+                        <a name="hasButtonEdit"></a>
+                        <b>hasButtonEdit</b>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Type : </i>    <code>boolean | any</code>
+
+                    </td>
+                </tr>
+                        <tr>
+                            <td class="col-md-2" colspan="2">
+                                    <div class="io-line">Defined in <a href="" data-line="55" class="link-to-prism">src/app/schemes/support/table-dynamic-template.ts:55</a></div>
+                            </td>
+                        </tr>
+            </tbody>
+        </table>
+        <table class="table table-sm table-bordered">
+            <tbody>
+                <tr>
+                    <td class="col-md-4">
+                        <a name="hasButtonMap"></a>
+                        <b>hasButtonMap</b>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Type : </i>    <code>boolean | any</code>
+
+                    </td>
+                </tr>
+                        <tr>
+                            <td class="col-md-2" colspan="2">
+                                    <div class="io-line">Defined in <a href="" data-line="40" class="link-to-prism">src/app/schemes/support/table-dynamic-template.ts:40</a></div>
+                            </td>
+                        </tr>
+            </tbody>
+        </table>
+        <table class="table table-sm table-bordered">
+            <tbody>
+                <tr>
+                    <td class="col-md-4">
+                        <a name="hasButtonRemove"></a>
+                        <b>hasButtonRemove</b>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Type : </i>    <code>boolean | any</code>
+
+                    </td>
+                </tr>
+                        <tr>
+                            <td class="col-md-2" colspan="2">
+                                    <div class="io-line">Defined in <a href="" data-line="58" class="link-to-prism">src/app/schemes/support/table-dynamic-template.ts:58</a></div>
+                            </td>
+                        </tr>
+            </tbody>
+        </table>
+        <table class="table table-sm table-bordered">
+            <tbody>
+                <tr>
+                    <td class="col-md-4">
+                        <a name="hasButtonRestore"></a>
+                        <b>hasButtonRestore</b>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Type : </i>    <code>boolean | any</code>
+
+                    </td>
+                </tr>
+                        <tr>
+                            <td class="col-md-2" colspan="2">
+                                    <div class="io-line">Defined in <a href="" data-line="64" class="link-to-prism">src/app/schemes/support/table-dynamic-template.ts:64</a></div>
+                            </td>
+                        </tr>
+            </tbody>
+        </table>
+        <table class="table table-sm table-bordered">
+            <tbody>
+                <tr>
+                    <td class="col-md-4">
+                        <a name="hasButtonUpload"></a>
+                        <b>hasButtonUpload</b>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Type : </i>    <code>boolean | any</code>
+
+                    </td>
+                </tr>
+                        <tr>
+                            <td class="col-md-2" colspan="2">
+                                    <div class="io-line">Defined in <a href="" data-line="52" class="link-to-prism">src/app/schemes/support/table-dynamic-template.ts:52</a></div>
+                            </td>
+                        </tr>
+            </tbody>
+        </table>
+        <table class="table table-sm table-bordered">
+            <tbody>
+                <tr>
+                    <td class="col-md-4">
+                        <a name="hasButtonView"></a>
+                        <b>hasButtonView</b>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Type : </i>    <code>boolean | any</code>
+
+                    </td>
+                </tr>
+                        <tr>
+                            <td class="col-md-2" colspan="2">
+                                    <div class="io-line">Defined in <a href="" data-line="43" class="link-to-prism">src/app/schemes/support/table-dynamic-template.ts:43</a></div>
+                            </td>
+                        </tr>
+            </tbody>
+        </table>
+        <table class="table table-sm table-bordered">
+            <tbody>
+                <tr>
+                    <td class="col-md-4">
+                        <a name="hasButtonViewDelivery"></a>
+                        <b>hasButtonViewDelivery</b>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Type : </i>    <code>boolean | any</code>
+
+                    </td>
+                </tr>
+                        <tr>
+                            <td class="col-md-2" colspan="2">
+                                    <div class="io-line">Defined in <a href="" data-line="46" class="link-to-prism">src/app/schemes/support/table-dynamic-template.ts:46</a></div>
+                            </td>
+                        </tr>
+            </tbody>
+        </table>
+        <table class="table table-sm table-bordered">
+            <tbody>
+                <tr>
+                    <td class="col-md-4">
+                        <a name="hasButtonViewDriver"></a>
+                        <b>hasButtonViewDriver</b>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Type : </i>    <code>boolean | any</code>
+
+                    </td>
+                </tr>
+                        <tr>
+                            <td class="col-md-2" colspan="2">
+                                    <div class="io-line">Defined in <a href="" data-line="49" class="link-to-prism">src/app/schemes/support/table-dynamic-template.ts:49</a></div>
+                            </td>
+                        </tr>
+            </tbody>
+        </table>
+        <table class="table table-sm table-bordered">
+            <tbody>
+                <tr>
+                    <td class="col-md-4">
+                        <a name="showCheckBoxesMode"></a>
+                        <b>showCheckBoxesMode</b>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Type : </i>    <code>boolean | any</code>
+
+                    </td>
+                </tr>
+                        <tr>
+                            <td class="col-md-2" colspan="2">
+                                    <div class="io-line">Defined in <a href="" data-line="37" class="link-to-prism">src/app/schemes/support/table-dynamic-template.ts:37</a></div>
+                            </td>
+                        </tr>
+            </tbody>
+        </table>
+        <table class="table table-sm table-bordered">
+            <tbody>
+                <tr>
+                    <td class="col-md-4">
+                        <a name="status"></a>
+                        <b>status</b>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Type : </i>    <code>number | any</code>
+
+                    </td>
+                </tr>
+                        <tr>
+                            <td class="col-md-2" colspan="2">
+                                    <div class="io-line">Defined in <a href="" data-line="25" class="link-to-prism">src/app/schemes/support/table-dynamic-template.ts:25</a></div>
+                            </td>
+                        </tr>
+            </tbody>
+        </table>
+        <table class="table table-sm table-bordered">
+            <tbody>
+                <tr>
+                    <td class="col-md-4">
+                        <a name="templates"></a>
+                        <b>templates</b>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Type : </i>    <code>TableTemplate[] | any</code>
+
+                    </td>
+                </tr>
+                        <tr>
+                            <td class="col-md-2" colspan="2">
+                                    <div class="io-line">Defined in <a href="" data-line="31" class="link-to-prism">src/app/schemes/support/table-dynamic-template.ts:31</a></div>
+                            </td>
+                        </tr>
+            </tbody>
+        </table>
+        <table class="table table-sm table-bordered">
+            <tbody>
+                <tr>
+                    <td class="col-md-4">
+                        <a name="title"></a>
+                        <b>title</b>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Type : </i>    <code>string | any</code>
+
+                    </td>
+                </tr>
+                        <tr>
+                            <td class="col-md-2" colspan="2">
+                                    <div class="io-line">Defined in <a href="" data-line="22" class="link-to-prism">src/app/schemes/support/table-dynamic-template.ts:22</a></div>
+                            </td>
+                        </tr>
+            </tbody>
+        </table>
+</section>
+    <section>
+    <h3 id="outputs">Outputs</h3>
+        <table class="table table-sm table-bordered">
+            <tbody>
+                <tr>
+                    <td class="col-md-4">
+                        <a name="eventEmitterActionClean"></a>
+                        <b>eventEmitterActionClean</b>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Type : </i>    <code>EventEmitter&lt;any&gt;</code>
+
+                    </td>
+                </tr>
+                        <tr>
+                            <td class="col-md-2" colspan="2">
+                                    <div class="io-line">Defined in <a href="" data-line="142" class="link-to-prism">src/app/schemes/support/table-dynamic-template.ts:142</a></div>
+                            </td>
+                        </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <div class="io-description"><p>actionClean</p>
+</div>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+        <table class="table table-sm table-bordered">
+            <tbody>
+                <tr>
+                    <td class="col-md-4">
+                        <a name="eventEmitterActionEdit"></a>
+                        <b>eventEmitterActionEdit</b>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Type : </i>    <code>EventEmitter&lt;any&gt;</code>
+
+                    </td>
+                </tr>
+                        <tr>
+                            <td class="col-md-2" colspan="2">
+                                    <div class="io-line">Defined in <a href="" data-line="130" class="link-to-prism">src/app/schemes/support/table-dynamic-template.ts:130</a></div>
+                            </td>
+                        </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <div class="io-description"><p>actionEdit</p>
+</div>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+        <table class="table table-sm table-bordered">
+            <tbody>
+                <tr>
+                    <td class="col-md-4">
+                        <a name="eventEmitterActionMap"></a>
+                        <b>eventEmitterActionMap</b>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Type : </i>    <code>EventEmitter&lt;any&gt;</code>
+
+                    </td>
+                </tr>
+                        <tr>
+                            <td class="col-md-2" colspan="2">
+                                    <div class="io-line">Defined in <a href="" data-line="100" class="link-to-prism">src/app/schemes/support/table-dynamic-template.ts:100</a></div>
+                            </td>
+                        </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <div class="io-description"><p>actionMap</p>
+</div>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+        <table class="table table-sm table-bordered">
+            <tbody>
+                <tr>
+                    <td class="col-md-4">
+                        <a name="eventEmitterActionRemove"></a>
+                        <b>eventEmitterActionRemove</b>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Type : </i>    <code>EventEmitter&lt;any&gt;</code>
+
+                    </td>
+                </tr>
+                        <tr>
+                            <td class="col-md-2" colspan="2">
+                                    <div class="io-line">Defined in <a href="" data-line="136" class="link-to-prism">src/app/schemes/support/table-dynamic-template.ts:136</a></div>
+                            </td>
+                        </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <div class="io-description"><p>actionRemove</p>
+</div>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+        <table class="table table-sm table-bordered">
+            <tbody>
+                <tr>
+                    <td class="col-md-4">
+                        <a name="eventEmitterActionRestore"></a>
+                        <b>eventEmitterActionRestore</b>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Type : </i>    <code>EventEmitter&lt;any&gt;</code>
+
+                    </td>
+                </tr>
+                        <tr>
+                            <td class="col-md-2" colspan="2">
+                                    <div class="io-line">Defined in <a href="" data-line="148" class="link-to-prism">src/app/schemes/support/table-dynamic-template.ts:148</a></div>
+                            </td>
+                        </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <div class="io-description"><p>actionRestore</p>
+</div>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+        <table class="table table-sm table-bordered">
+            <tbody>
+                <tr>
+                    <td class="col-md-4">
+                        <a name="eventEmitterActionUpload"></a>
+                        <b>eventEmitterActionUpload</b>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Type : </i>    <code>EventEmitter&lt;any&gt;</code>
+
+                    </td>
+                </tr>
+                        <tr>
+                            <td class="col-md-2" colspan="2">
+                                    <div class="io-line">Defined in <a href="" data-line="124" class="link-to-prism">src/app/schemes/support/table-dynamic-template.ts:124</a></div>
+                            </td>
+                        </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <div class="io-description"><p>actionUpload</p>
+</div>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+        <table class="table table-sm table-bordered">
+            <tbody>
+                <tr>
+                    <td class="col-md-4">
+                        <a name="eventEmitterActionView"></a>
+                        <b>eventEmitterActionView</b>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Type : </i>    <code>EventEmitter&lt;any&gt;</code>
+
+                    </td>
+                </tr>
+                        <tr>
+                            <td class="col-md-2" colspan="2">
+                                    <div class="io-line">Defined in <a href="" data-line="106" class="link-to-prism">src/app/schemes/support/table-dynamic-template.ts:106</a></div>
+                            </td>
+                        </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <div class="io-description"><p>actionView</p>
+</div>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+        <table class="table table-sm table-bordered">
+            <tbody>
+                <tr>
+                    <td class="col-md-4">
+                        <a name="eventEmitterActionViewDelivery"></a>
+                        <b>eventEmitterActionViewDelivery</b>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Type : </i>    <code>EventEmitter&lt;any&gt;</code>
+
+                    </td>
+                </tr>
+                        <tr>
+                            <td class="col-md-2" colspan="2">
+                                    <div class="io-line">Defined in <a href="" data-line="118" class="link-to-prism">src/app/schemes/support/table-dynamic-template.ts:118</a></div>
+                            </td>
+                        </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <div class="io-description"><p>actionViewDelivery</p>
+</div>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+        <table class="table table-sm table-bordered">
+            <tbody>
+                <tr>
+                    <td class="col-md-4">
+                        <a name="eventEmitterActionViewDriver"></a>
+                        <b>eventEmitterActionViewDriver</b>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Type : </i>    <code>EventEmitter&lt;any&gt;</code>
+
+                    </td>
+                </tr>
+                        <tr>
+                            <td class="col-md-2" colspan="2">
+                                    <div class="io-line">Defined in <a href="" data-line="112" class="link-to-prism">src/app/schemes/support/table-dynamic-template.ts:112</a></div>
+                            </td>
+                        </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <div class="io-description"><p>actionViewDriver</p>
+</div>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+        <table class="table table-sm table-bordered">
+            <tbody>
+                <tr>
+                    <td class="col-md-4">
+                        <a name="eventEmitterOnCellPrepared"></a>
+                        <b>eventEmitterOnCellPrepared</b>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Type : </i>    <code>EventEmitter&lt;any&gt;</code>
+
+                    </td>
+                </tr>
+                        <tr>
+                            <td class="col-md-2" colspan="2">
+                                    <div class="io-line">Defined in <a href="" data-line="76" class="link-to-prism">src/app/schemes/support/table-dynamic-template.ts:76</a></div>
+                            </td>
+                        </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <div class="io-description"><p>onCellPrepared</p>
+</div>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+        <table class="table table-sm table-bordered">
+            <tbody>
+                <tr>
+                    <td class="col-md-4">
+                        <a name="eventEmitterOnContentReady"></a>
+                        <b>eventEmitterOnContentReady</b>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Type : </i>    <code>EventEmitter&lt;any&gt;</code>
+
+                    </td>
+                </tr>
+                        <tr>
+                            <td class="col-md-2" colspan="2">
+                                    <div class="io-line">Defined in <a href="" data-line="70" class="link-to-prism">src/app/schemes/support/table-dynamic-template.ts:70</a></div>
+                            </td>
+                        </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <div class="io-description"><p>onContentReady</p>
+</div>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+        <table class="table table-sm table-bordered">
+            <tbody>
+                <tr>
+                    <td class="col-md-4">
+                        <a name="eventEmitterOnSelectionChanged"></a>
+                        <b>eventEmitterOnSelectionChanged</b>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Type : </i>    <code>EventEmitter&lt;any&gt;</code>
+
+                    </td>
+                </tr>
+                        <tr>
+                            <td class="col-md-2" colspan="2">
+                                    <div class="io-line">Defined in <a href="" data-line="88" class="link-to-prism">src/app/schemes/support/table-dynamic-template.ts:88</a></div>
+                            </td>
+                        </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <div class="io-description"><p>actionOnSelectedRows</p>
+</div>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+        <table class="table table-sm table-bordered">
+            <tbody>
+                <tr>
+                    <td class="col-md-4">
+                        <a name="eventEmitterOnSelectionRowChanged"></a>
+                        <b>eventEmitterOnSelectionRowChanged</b>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Type : </i>    <code>EventEmitter&lt;any&gt;</code>
+
+                    </td>
+                </tr>
+                        <tr>
+                            <td class="col-md-2" colspan="2">
+                                    <div class="io-line">Defined in <a href="" data-line="94" class="link-to-prism">src/app/schemes/support/table-dynamic-template.ts:94</a></div>
+                            </td>
+                        </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <div class="io-description"><p>onSelectionRowChanged</p>
+</div>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+        <table class="table table-sm table-bordered">
+            <tbody>
+                <tr>
+                    <td class="col-md-4">
+                        <a name="eventEmitterOnToolbarPreparing"></a>
+                        <b>eventEmitterOnToolbarPreparing</b>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Type : </i>    <code>EventEmitter&lt;any&gt;</code>
+
+                    </td>
+                </tr>
+                        <tr>
+                            <td class="col-md-2" colspan="2">
+                                    <div class="io-line">Defined in <a href="" data-line="82" class="link-to-prism">src/app/schemes/support/table-dynamic-template.ts:82</a></div>
+                            </td>
+                        </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <div class="io-description"><p>onToolbarPreparing</p>
+</div>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+</section>
+
+
+    <section>
+    
+    <h3 id="methods">
+        Methods
+    </h3>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="actionClean"></a>
+                    <span class="name">
+                        <span class="modifier">Public</span>
+                        <span ><b>actionClean</b></span>
+                        <a href="#actionClean"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+            <tr>
+                <td class="col-md-4">
+                    <span class="modifier-icon icon ion-ios-reset"></span>
+                    <code>actionClean(data: <a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank">any</a>)</code>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+                    <div class="io-line">Defined in <a href="" data-line="216"
+                            class="link-to-prism">src/app/schemes/support/table-dynamic-template.ts:216</a></div>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+
+                    <div class="io-description">
+                        <b>Parameters :</b>
+                        
+                        <table class="params">
+                            <thead>
+                                <tr>
+                                    <td>Name</td>
+                                    <td>Type</td>
+                                    <td>Optional</td>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>data</td>
+                                    <td>
+                                                <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >any</a></code>
+                                    </td>
+
+                                    <td>
+                                        No
+                                    </td>
+
+
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <div>
+                    </div>
+                    <div class="io-description">
+                        <b>Returns : </b>        <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >void</a></code>
+
+                    </div>
+                    <div class="io-description">
+                        
+                    </div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="actionEdit"></a>
+                    <span class="name">
+                        <span class="modifier">Public</span>
+                        <span ><b>actionEdit</b></span>
+                        <a href="#actionEdit"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+            <tr>
+                <td class="col-md-4">
+                    <span class="modifier-icon icon ion-ios-reset"></span>
+                    <code>actionEdit(data: <a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank">any</a>)</code>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+                    <div class="io-line">Defined in <a href="" data-line="212"
+                            class="link-to-prism">src/app/schemes/support/table-dynamic-template.ts:212</a></div>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+
+                    <div class="io-description">
+                        <b>Parameters :</b>
+                        
+                        <table class="params">
+                            <thead>
+                                <tr>
+                                    <td>Name</td>
+                                    <td>Type</td>
+                                    <td>Optional</td>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>data</td>
+                                    <td>
+                                                <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >any</a></code>
+                                    </td>
+
+                                    <td>
+                                        No
+                                    </td>
+
+
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <div>
+                    </div>
+                    <div class="io-description">
+                        <b>Returns : </b>        <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >void</a></code>
+
+                    </div>
+                    <div class="io-description">
+                        
+                    </div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="actionMap"></a>
+                    <span class="name">
+                        <span class="modifier">Public</span>
+                        <span ><b>actionMap</b></span>
+                        <a href="#actionMap"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+            <tr>
+                <td class="col-md-4">
+                    <span class="modifier-icon icon ion-ios-reset"></span>
+                    <code>actionMap(data: <a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank">any</a>)</code>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+                    <div class="io-line">Defined in <a href="" data-line="204"
+                            class="link-to-prism">src/app/schemes/support/table-dynamic-template.ts:204</a></div>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+
+                    <div class="io-description">
+                        <b>Parameters :</b>
+                        
+                        <table class="params">
+                            <thead>
+                                <tr>
+                                    <td>Name</td>
+                                    <td>Type</td>
+                                    <td>Optional</td>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>data</td>
+                                    <td>
+                                                <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >any</a></code>
+                                    </td>
+
+                                    <td>
+                                        No
+                                    </td>
+
+
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <div>
+                    </div>
+                    <div class="io-description">
+                        <b>Returns : </b>        <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >void</a></code>
+
+                    </div>
+                    <div class="io-description">
+                        
+                    </div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="actionOnCellPrepared"></a>
+                    <span class="name">
+                        <span class="modifier">Public</span>
+                        <span ><b>actionOnCellPrepared</b></span>
+                        <a href="#actionOnCellPrepared"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+            <tr>
+                <td class="col-md-4">
+                    <span class="modifier-icon icon ion-ios-reset"></span>
+                    <code>actionOnCellPrepared(event: <a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank">any</a>)</code>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+                    <div class="io-line">Defined in <a href="" data-line="172"
+                            class="link-to-prism">src/app/schemes/support/table-dynamic-template.ts:172</a></div>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+
+                    <div class="io-description">
+                        <b>Parameters :</b>
+                        
+                        <table class="params">
+                            <thead>
+                                <tr>
+                                    <td>Name</td>
+                                    <td>Type</td>
+                                    <td>Optional</td>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>event</td>
+                                    <td>
+                                                <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >any</a></code>
+                                    </td>
+
+                                    <td>
+                                        No
+                                    </td>
+
+
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <div>
+                    </div>
+                    <div class="io-description">
+                        <b>Returns : </b>        <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >void</a></code>
+
+                    </div>
+                    <div class="io-description">
+                        
+                    </div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="actionOnSelectedRows"></a>
+                    <span class="name">
+                        <span class="modifier">Public</span>
+                        <span ><b>actionOnSelectedRows</b></span>
+                        <a href="#actionOnSelectedRows"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+            <tr>
+                <td class="col-md-4">
+                    <span class="modifier-icon icon ion-ios-reset"></span>
+                    <code>actionOnSelectedRows(event: <a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank">any</a>)</code>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+                    <div class="io-line">Defined in <a href="" data-line="180"
+                            class="link-to-prism">src/app/schemes/support/table-dynamic-template.ts:180</a></div>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+
+                    <div class="io-description">
+                        <b>Parameters :</b>
+                        
+                        <table class="params">
+                            <thead>
+                                <tr>
+                                    <td>Name</td>
+                                    <td>Type</td>
+                                    <td>Optional</td>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>event</td>
+                                    <td>
+                                                <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >any</a></code>
+                                    </td>
+
+                                    <td>
+                                        No
+                                    </td>
+
+
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <div>
+                    </div>
+                    <div class="io-description">
+                        <b>Returns : </b>        <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >void</a></code>
+
+                    </div>
+                    <div class="io-description">
+                        
+                    </div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="actionOnToolbarPreparing"></a>
+                    <span class="name">
+                        <span class="modifier">Public</span>
+                        <span ><b>actionOnToolbarPreparing</b></span>
+                        <a href="#actionOnToolbarPreparing"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+            <tr>
+                <td class="col-md-4">
+                    <span class="modifier-icon icon ion-ios-reset"></span>
+                    <code>actionOnToolbarPreparing(event: <a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank">any</a>)</code>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+                    <div class="io-line">Defined in <a href="" data-line="176"
+                            class="link-to-prism">src/app/schemes/support/table-dynamic-template.ts:176</a></div>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+
+                    <div class="io-description">
+                        <b>Parameters :</b>
+                        
+                        <table class="params">
+                            <thead>
+                                <tr>
+                                    <td>Name</td>
+                                    <td>Type</td>
+                                    <td>Optional</td>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>event</td>
+                                    <td>
+                                                <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >any</a></code>
+                                    </td>
+
+                                    <td>
+                                        No
+                                    </td>
+
+
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <div>
+                    </div>
+                    <div class="io-description">
+                        <b>Returns : </b>        <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >void</a></code>
+
+                    </div>
+                    <div class="io-description">
+                        
+                    </div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="actionRemove"></a>
+                    <span class="name">
+                        <span class="modifier">Public</span>
+                        <span ><b>actionRemove</b></span>
+                        <a href="#actionRemove"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+            <tr>
+                <td class="col-md-4">
+                    <span class="modifier-icon icon ion-ios-reset"></span>
+                    <code>actionRemove(data: <a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank">any</a>)</code>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+                    <div class="io-line">Defined in <a href="" data-line="220"
+                            class="link-to-prism">src/app/schemes/support/table-dynamic-template.ts:220</a></div>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+
+                    <div class="io-description">
+                        <b>Parameters :</b>
+                        
+                        <table class="params">
+                            <thead>
+                                <tr>
+                                    <td>Name</td>
+                                    <td>Type</td>
+                                    <td>Optional</td>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>data</td>
+                                    <td>
+                                                <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >any</a></code>
+                                    </td>
+
+                                    <td>
+                                        No
+                                    </td>
+
+
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <div>
+                    </div>
+                    <div class="io-description">
+                        <b>Returns : </b>        <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >void</a></code>
+
+                    </div>
+                    <div class="io-description">
+                        
+                    </div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="actionRestore"></a>
+                    <span class="name">
+                        <span class="modifier">Public</span>
+                        <span ><b>actionRestore</b></span>
+                        <a href="#actionRestore"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+            <tr>
+                <td class="col-md-4">
+                    <span class="modifier-icon icon ion-ios-reset"></span>
+                    <code>actionRestore(data: <a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank">any</a>)</code>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+                    <div class="io-line">Defined in <a href="" data-line="224"
+                            class="link-to-prism">src/app/schemes/support/table-dynamic-template.ts:224</a></div>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+
+                    <div class="io-description">
+                        <b>Parameters :</b>
+                        
+                        <table class="params">
+                            <thead>
+                                <tr>
+                                    <td>Name</td>
+                                    <td>Type</td>
+                                    <td>Optional</td>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>data</td>
+                                    <td>
+                                                <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >any</a></code>
+                                    </td>
+
+                                    <td>
+                                        No
+                                    </td>
+
+
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <div>
+                    </div>
+                    <div class="io-description">
+                        <b>Returns : </b>        <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >void</a></code>
+
+                    </div>
+                    <div class="io-description">
+                        
+                    </div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="actionSelectedRow"></a>
+                    <span class="name">
+                        <span class="modifier">Public</span>
+                        <span ><b>actionSelectedRow</b></span>
+                        <a href="#actionSelectedRow"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+            <tr>
+                <td class="col-md-4">
+                    <span class="modifier-icon icon ion-ios-reset"></span>
+                    <code>actionSelectedRow(event: <a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank">any</a>)</code>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+                    <div class="io-line">Defined in <a href="" data-line="184"
+                            class="link-to-prism">src/app/schemes/support/table-dynamic-template.ts:184</a></div>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+
+                    <div class="io-description">
+                        <b>Parameters :</b>
+                        
+                        <table class="params">
+                            <thead>
+                                <tr>
+                                    <td>Name</td>
+                                    <td>Type</td>
+                                    <td>Optional</td>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>event</td>
+                                    <td>
+                                                <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >any</a></code>
+                                    </td>
+
+                                    <td>
+                                        No
+                                    </td>
+
+
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <div>
+                    </div>
+                    <div class="io-description">
+                        <b>Returns : </b>        <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >void</a></code>
+
+                    </div>
+                    <div class="io-description">
+                        
+                    </div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="actionUpload"></a>
+                    <span class="name">
+                        <span class="modifier">Public</span>
+                        <span ><b>actionUpload</b></span>
+                        <a href="#actionUpload"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+            <tr>
+                <td class="col-md-4">
+                    <span class="modifier-icon icon ion-ios-reset"></span>
+                    <code>actionUpload(event: <a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank">any</a>, data: <a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank">any</a>)</code>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+                    <div class="io-line">Defined in <a href="" data-line="208"
+                            class="link-to-prism">src/app/schemes/support/table-dynamic-template.ts:208</a></div>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+
+                    <div class="io-description">
+                        <b>Parameters :</b>
+                        
+                        <table class="params">
+                            <thead>
+                                <tr>
+                                    <td>Name</td>
+                                    <td>Type</td>
+                                    <td>Optional</td>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>event</td>
+                                    <td>
+                                                <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >any</a></code>
+                                    </td>
+
+                                    <td>
+                                        No
+                                    </td>
+
+
+                                </tr>
+                                <tr>
+                                    <td>data</td>
+                                    <td>
+                                                <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >any</a></code>
+                                    </td>
+
+                                    <td>
+                                        No
+                                    </td>
+
+
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <div>
+                    </div>
+                    <div class="io-description">
+                        <b>Returns : </b>        <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >void</a></code>
+
+                    </div>
+                    <div class="io-description">
+                        
+                    </div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="actionView"></a>
+                    <span class="name">
+                        <span class="modifier">Public</span>
+                        <span ><b>actionView</b></span>
+                        <a href="#actionView"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+            <tr>
+                <td class="col-md-4">
+                    <span class="modifier-icon icon ion-ios-reset"></span>
+                    <code>actionView(data: <a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank">any</a>)</code>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+                    <div class="io-line">Defined in <a href="" data-line="192"
+                            class="link-to-prism">src/app/schemes/support/table-dynamic-template.ts:192</a></div>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+
+                    <div class="io-description">
+                        <b>Parameters :</b>
+                        
+                        <table class="params">
+                            <thead>
+                                <tr>
+                                    <td>Name</td>
+                                    <td>Type</td>
+                                    <td>Optional</td>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>data</td>
+                                    <td>
+                                                <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >any</a></code>
+                                    </td>
+
+                                    <td>
+                                        No
+                                    </td>
+
+
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <div>
+                    </div>
+                    <div class="io-description">
+                        <b>Returns : </b>        <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >void</a></code>
+
+                    </div>
+                    <div class="io-description">
+                        
+                    </div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="actionViewDelivery"></a>
+                    <span class="name">
+                        <span class="modifier">Public</span>
+                        <span ><b>actionViewDelivery</b></span>
+                        <a href="#actionViewDelivery"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+            <tr>
+                <td class="col-md-4">
+                    <span class="modifier-icon icon ion-ios-reset"></span>
+                    <code>actionViewDelivery(data: <a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank">any</a>)</code>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+                    <div class="io-line">Defined in <a href="" data-line="200"
+                            class="link-to-prism">src/app/schemes/support/table-dynamic-template.ts:200</a></div>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+
+                    <div class="io-description">
+                        <b>Parameters :</b>
+                        
+                        <table class="params">
+                            <thead>
+                                <tr>
+                                    <td>Name</td>
+                                    <td>Type</td>
+                                    <td>Optional</td>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>data</td>
+                                    <td>
+                                                <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >any</a></code>
+                                    </td>
+
+                                    <td>
+                                        No
+                                    </td>
+
+
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <div>
+                    </div>
+                    <div class="io-description">
+                        <b>Returns : </b>        <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >void</a></code>
+
+                    </div>
+                    <div class="io-description">
+                        
+                    </div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="actionViewDriver"></a>
+                    <span class="name">
+                        <span class="modifier">Public</span>
+                        <span ><b>actionViewDriver</b></span>
+                        <a href="#actionViewDriver"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+            <tr>
+                <td class="col-md-4">
+                    <span class="modifier-icon icon ion-ios-reset"></span>
+                    <code>actionViewDriver(data: <a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank">any</a>)</code>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+                    <div class="io-line">Defined in <a href="" data-line="196"
+                            class="link-to-prism">src/app/schemes/support/table-dynamic-template.ts:196</a></div>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+
+                    <div class="io-description">
+                        <b>Parameters :</b>
+                        
+                        <table class="params">
+                            <thead>
+                                <tr>
+                                    <td>Name</td>
+                                    <td>Type</td>
+                                    <td>Optional</td>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>data</td>
+                                    <td>
+                                                <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >any</a></code>
+                                    </td>
+
+                                    <td>
+                                        No
+                                    </td>
+
+
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <div>
+                    </div>
+                    <div class="io-description">
+                        <b>Returns : </b>        <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >void</a></code>
+
+                    </div>
+                    <div class="io-description">
+                        
+                    </div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+</section>
+    <section>
+    
+    <h3 id="inputs">
+        Properties
+    </h3>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="actionOnContentReady"></a>
+                    <span class="name">
+                            <span class="modifier">Public</span>
+                        <span ><b>actionOnContentReady</b></span>
+                        <a href="#actionOnContentReady"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Default value : </i><code>() &#x3D;&gt; {...}</code>
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                                <div class="io-line">Defined in <a href="" data-line="188" class="link-to-prism">src/app/schemes/support/table-dynamic-template.ts:188</a></div>
+                        </td>
+                    </tr>
+
+
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="constants"></a>
+                    <span class="name">
+                            <span class="modifier">Public</span>
+                        <span ><b>constants</b></span>
+                        <a href="#constants"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Type : </i>        <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >any</a></code>
+
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                                <div class="io-line">Defined in <a href="" data-line="150" class="link-to-prism">src/app/schemes/support/table-dynamic-template.ts:150</a></div>
+                        </td>
+                    </tr>
+
+
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="isShowWarningDialog"></a>
+                    <span class="name">
+                            <span class="modifier">Public</span>
+                        <span ><b>isShowWarningDialog</b></span>
+                        <a href="#isShowWarningDialog"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Type : </i>    <code>boolean | any</code>
+
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                                <div class="io-line">Defined in <a href="" data-line="18" class="link-to-prism">src/app/schemes/support/table-dynamic-template.ts:18</a></div>
+                        </td>
+                    </tr>
+
+
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="warningDialogMessage"></a>
+                    <span class="name">
+                            <span class="modifier">Public</span>
+                        <span ><b>warningDialogMessage</b></span>
+                        <a href="#warningDialogMessage"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Type : </i>    <code>string | any</code>
+
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                                <div class="io-line">Defined in <a href="" data-line="19" class="link-to-prism">src/app/schemes/support/table-dynamic-template.ts:19</a></div>
+                        </td>
+                    </tr>
+
+
+        </tbody>
+    </table>
+</section>
+
+</div>
+
+
+    <div class="tab-pane fade  tab-source-code" id="c-source">
+        <pre class="line-numbers compodoc-sourcecode"><code class="language-typescript">import {
+  Component,
+  EventEmitter,
+  Input,
+  Output,
+  ViewEncapsulation
+} from &#x27;@angular/core&#x27;;
+
+import {TableTemplate} from &#x27;./table-template&#x27;;
+
+@Component({
+  selector: &#x27;app-dynamic-table&#x27;,
+  template: &#x60;&lt;h1&gt;tizo&lt;/h1&gt;&#x60;,
+  encapsulation: ViewEncapsulation.None
+})
+export class TableDynamicTemplateComponent {
+
+  public isShowWarningDialog: boolean | any;
+  public warningDialogMessage: string | any;
+
+  @Input()
+  public title: string | any;
+
+  @Input()
+  public status: number | any;
+
+  @Input()
+  public elements: any[] | any;
+
+  @Input()
+  public templates: TableTemplate[] | any;
+
+  @Input()
+  public customizeExcelCell: Function| any;
+
+  @Input()
+  public showCheckBoxesMode: boolean | any;
+
+  @Input()
+  public hasButtonMap: boolean| any;
+
+  @Input()
+  public hasButtonView: boolean | any;
+
+  @Input()
+  public hasButtonViewDelivery: boolean | any;
+
+  @Input()
+  public hasButtonViewDriver: boolean | any;
+
+  @Input()
+  public hasButtonUpload: boolean | any;
+
+  @Input()
+  public hasButtonEdit: boolean | any;
+
+  @Input()
+  public hasButtonRemove: boolean | any;
+
+  @Input()
+  public hasButtonClean: boolean | any;
+
+  @Input()
+  public hasButtonRestore: boolean | any;
+
+  /**
+   * onContentReady
+   * */
+  @Output()
+  public eventEmitterOnContentReady: EventEmitter&lt;any&gt;;
+
+  /**
+   * onCellPrepared
+   * */
+  @Output()
+  public eventEmitterOnCellPrepared: EventEmitter&lt;any&gt;;
+
+  /**
+   * onToolbarPreparing
+   * */
+  @Output()
+  public eventEmitterOnToolbarPreparing: EventEmitter&lt;any&gt;;
+
+  /**
+   * actionOnSelectedRows
+   * */
+  @Output()
+  public eventEmitterOnSelectionChanged: EventEmitter&lt;any&gt;;
+
+  /**
+   * onSelectionRowChanged
+   * */
+  @Output()
+  public eventEmitterOnSelectionRowChanged: EventEmitter&lt;any&gt;;
+
+  /**
+   * actionMap
+   * */
+  @Output()
+  public eventEmitterActionMap: EventEmitter&lt;any&gt;;
+
+  /**
+   * actionView
+   * */
+  @Output()
+  public eventEmitterActionView: EventEmitter&lt;any&gt;;
+
+  /**
+   * actionViewDriver
+   * */
+  @Output()
+  public eventEmitterActionViewDriver: EventEmitter&lt;any&gt;;
+
+  /**
+   * actionViewDelivery
+   * */
+  @Output()
+  public eventEmitterActionViewDelivery: EventEmitter&lt;any&gt;;
+
+  /**
+   * actionUpload
+   * */
+  @Output()
+  public eventEmitterActionUpload: EventEmitter&lt;any&gt;;
+
+  /**
+   * actionEdit
+   * */
+  @Output()
+  public eventEmitterActionEdit: EventEmitter&lt;any&gt;;
+
+  /**
+   * actionRemove
+   * */
+  @Output()
+  public eventEmitterActionRemove: EventEmitter&lt;any&gt;;
+
+  /**
+   * actionClean
+   * */
+  @Output()
+  public eventEmitterActionClean: EventEmitter&lt;any&gt;;
+
+  /**
+   * actionRestore
+   * */
+  @Output()
+  public eventEmitterActionRestore: EventEmitter&lt;any&gt;;
+
+  public constants: any;
+
+  constructor() {
+    this.eventEmitterOnContentReady &#x3D; new EventEmitter();
+    this.eventEmitterOnCellPrepared &#x3D; new EventEmitter();
+    this.eventEmitterOnToolbarPreparing &#x3D; new EventEmitter();
+    this.eventEmitterOnSelectionChanged &#x3D; new EventEmitter();
+    this.eventEmitterOnSelectionRowChanged &#x3D; new EventEmitter();
+    this.eventEmitterActionMap &#x3D; new EventEmitter();
+    this.eventEmitterActionView &#x3D; new EventEmitter();
+    this.eventEmitterActionViewDriver &#x3D; new EventEmitter();
+    this.eventEmitterActionViewDelivery &#x3D; new EventEmitter();
+    this.eventEmitterActionUpload &#x3D; new EventEmitter();
+    this.eventEmitterActionEdit &#x3D; new EventEmitter();
+    this.eventEmitterActionClean &#x3D; new EventEmitter();
+    this.eventEmitterActionRemove &#x3D; new EventEmitter();
+    this.eventEmitterActionRestore &#x3D; new EventEmitter();
+    this.eventEmitterActionUpload &#x3D; new EventEmitter();
+
+    this.isShowWarningDialog &#x3D; false;
+  }
+
+  public actionOnCellPrepared(event: any): void {
+    this.eventEmitterOnCellPrepared.emit(event);
+  }
+
+  public actionOnToolbarPreparing(event: any): void {
+    this.eventEmitterOnToolbarPreparing.emit(event);
+  }
+
+  public actionOnSelectedRows(event: any): void {
+    this.eventEmitterOnSelectionChanged.emit(event);
+  }
+
+  public actionSelectedRow(event: any): void {
+    this.eventEmitterOnSelectionRowChanged.emit(event.key);
+  }
+
+  public actionOnContentReady &#x3D; (event: any) &#x3D;&gt; {
+    this.eventEmitterOnContentReady.emit(event);
+  };
+
+  public actionView(data: any): void {
+    this.eventEmitterActionView.emit(data);
+  }
+
+  public actionViewDriver(data: any): void {
+    this.eventEmitterActionViewDriver.emit(data);
+  }
+
+  public actionViewDelivery(data: any): void {
+    this.eventEmitterActionViewDelivery.emit(data);
+  }
+
+  public actionMap(data: any): void {
+    this.eventEmitterActionMap.emit(data);
+  }
+
+  public actionUpload(event: any, data: any): void {
+    this.eventEmitterActionUpload.emit(event);
+  }
+
+  public actionEdit(data: any): void {
+    this.eventEmitterActionEdit.emit(data);
+  }
+
+  public actionClean(data: any): void {
+    this.eventEmitterActionClean.emit(data);
+  }
+
+  public actionRemove(data: any): void {
+    this.eventEmitterActionRemove.emit(data);
+  }
+
+  public actionRestore(data: any): void {
+    this.eventEmitterActionRestore.emit(data);
+  }
+
+}
+
+</code></pre>
+    </div>
+
+
+
+    <div class="tab-pane fade " id="c-tree">
+        <div id="tree-container"></div>
+        <div class="tree-legend">
+            <div class="title">
+                <b>Legend</b>
+            </div>
+            <div>
+                <div class="color htmlelement"></div><span>Html element</span>
+            </div>
+            <div>
+                <div class="color component"></div><span>Component</span>
+            </div>
+            <div>
+                <div class="color directive"></div><span>Html element with directive</span>
+            </div>
+        </div>
+    </div>
+
+    
+</div>
+
+<script src="../js/libs/vis.min.js"></script>
+<script src="../js/libs/htmlparser.js"></script>
+<script src="../js/libs/deep-iterator.js"></script>
+<script>
+        var COMPONENT_TEMPLATE = '<div><h1>tizo</h1></div>'
+    var COMPONENTS = [{'name': 'AccessComponent', 'selector': 'app-access'},{'name': 'AccountsPayableComponent', 'selector': 'app-accounts-payable'},{'name': 'AccountsReceivableComponent', 'selector': 'app-accounts-receivable'},{'name': 'ApiIntegrationsComponent', 'selector': 'app-api-integrations'},{'name': 'ApiTizoComponent', 'selector': 'app-api-tizo'},{'name': 'AppComponent', 'selector': 'app-root'},{'name': 'BranchComponent', 'selector': 'app-branch'},{'name': 'BranchesComponent', 'selector': 'app-branches'},{'name': 'BreadcrumbComponent', 'selector': 'app-breadcrumb'},{'name': 'CancellationOfAccountsComponent', 'selector': 'app-cancellation-of-accounts'},{'name': 'ChangePasswordComponent', 'selector': 'app-change-password'},{'name': 'CompleteStepsComponent', 'selector': 'app-complete-steps'},{'name': 'CouponsComponent', 'selector': 'app-coupons'},{'name': 'CreditcardComponent', 'selector': 'app-creditcard'},{'name': 'CustomerComponent', 'selector': 'app-customer'},{'name': 'CustomersComponent', 'selector': 'app-customers'},{'name': 'CustomerShipmentMapComponent', 'selector': 'app-customer-shipment-map'},{'name': 'DashboardComponent', 'selector': 'app-dashboard'},{'name': 'DynamicFormComponent', 'selector': 'app-dynamic-form'},{'name': 'DynamicTableComponent', 'selector': 'app-dynamic-table'},{'name': 'ErrorComponent', 'selector': 'app-error'},{'name': 'FinanceComponent', 'selector': 'app-finance'},{'name': 'FooterComponent', 'selector': 'app-footer'},{'name': 'ForgotPasswordComponent', 'selector': 'app-forgot-password'},{'name': 'ImageCropperComponent', 'selector': 'app-image-cropper'},{'name': 'InformationDialogComponent', 'selector': 'app-information-dialog'},{'name': 'InvoicesComponent', 'selector': 'app-invoices'},{'name': 'InvoicesHistoricalComponent', 'selector': 'app-invoices-historical'},{'name': 'ManagementComponent', 'selector': 'app-management'},{'name': 'MapDirectionComponent', 'selector': 'app-map-direction'},{'name': 'MenuItemsComponent', 'selector': 'app-menu-items'},{'name': 'NavbarComponent', 'selector': 'app-navbar'},{'name': 'NotificationsComponent', 'selector': 'app-notifications'},{'name': 'PageListButtonsComponent', 'selector': 'app-page-list-buttons'},{'name': 'PagesComponent', 'selector': 'app-pages'},{'name': 'ProductComponent', 'selector': 'app-product'},{'name': 'ProductReturnComponent', 'selector': 'app-product-return'},{'name': 'ProductsComponent', 'selector': 'app-products'},{'name': 'ProfileManagerComponent', 'selector': 'app-profile-manager'},{'name': 'ProfilesManagerComponent', 'selector': 'app-profiles-manager'},{'name': 'PromotionsComponent', 'selector': 'app-promotions'},{'name': 'PromotionsContainerComponent', 'selector': 'app-promotions-container'},{'name': 'QuestionDialogComponent', 'selector': 'app-question-dialog'},{'name': 'RatingsComponent', 'selector': 'app-ratings'},{'name': 'RecordComponent', 'selector': 'app-record'},{'name': 'RecoveryPasswordComponent', 'selector': 'app-recovery-password'},{'name': 'ResetPasswordForgivenComponent', 'selector': 'app-reset-password-forgiven'},{'name': 'ShipmentMapComponent', 'selector': 'app-shipment-map'},{'name': 'ShipmentsProductsComponent', 'selector': 'app-shipments-products'},{'name': 'SidebarComponent', 'selector': 'app-sidebar'},{'name': 'SidebarSalesComponent', 'selector': 'app-sidebar-sales'},{'name': 'SidebarSystemComponent', 'selector': 'app-sidebar-system'},{'name': 'SigninComponent', 'selector': 'app-signin'},{'name': 'StatementPayableComponent', 'selector': 'app-statement-payable'},{'name': 'StatementsPayableComponent', 'selector': 'app-statements-payable'},{'name': 'StepsComponent', 'selector': 'app-steps'},{'name': 'StoreComponent', 'selector': 'app-store'},{'name': 'SuccessDialogComponent', 'selector': 'app-success-dialog'},{'name': 'TableDynamicTemplateComponent', 'selector': 'app-dynamic-table'},{'name': 'TizoDatepickerComponent', 'selector': 'app-tizo-datepicker'},{'name': 'TizoFilesComponent', 'selector': 'app-tizo-files'},{'name': 'TizoImageComponent', 'selector': 'app-tizo-image'},{'name': 'TizoModalComponent', 'selector': 'app-tizo-modal'},{'name': 'TizoPaginationComponent', 'selector': 'app-tizo-pagination'},{'name': 'TizoVideoComponent', 'selector': 'app-tizo-video'},{'name': 'UserComponent', 'selector': 'app-user'},{'name': 'UsersComponent', 'selector': 'app-users'},{'name': 'VendorComponent', 'selector': 'app-vendor'},{'name': 'WalletComponent', 'selector': 'app-wallet'},{'name': 'WarningDialogComponent', 'selector': 'app-warning-dialog'}];
+    var DIRECTIVES = [{'name': 'AppRoleDirective', 'selector': '[appRole]'},{'name': 'ClickOutSideDirective', 'selector': '[appClickOutSide]'},{'name': 'ColumnCustomDirective', 'selector': '[appColumnCustom]'},{'name': 'TizoTemplateDirective', 'selector': '[appTizoTemplate]'}];
+    var ACTUAL_COMPONENT = {'name': 'TableDynamicTemplateComponent'};
+</script>
+<script src="../js/tree.js"></script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                   </div><div class="search-results">
+    <div class="has-results">
+        <h1 class="search-results-title"><span class='search-results-count'></span> results matching "<span class='search-query'></span>"</h1>
+        <ul class="search-results-list"></ul>
+    </div>
+    <div class="no-results">
+        <h1 class="search-results-title">No results matching "<span class='search-query'></span>"</h1>
+    </div>
+</div>
+</div>
+               <!-- END CONTENT -->
+           </div>
+       </div>
+
+          <label class="dark-mode-switch">
+               <input type="checkbox">
+               <span class="slider">
+                    <svg class="slider-icon" viewBox="0 0 24 24" fill="none" height="20" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" width="20" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M21 12.79A9 9 0 1111.21 3 7 7 0 0021 12.79z"></path>
+                    </svg>
+               </span>
+          </label>
+
+       <script>
+            var COMPODOC_CURRENT_PAGE_DEPTH = 1;
+            var COMPODOC_CURRENT_PAGE_CONTEXT = 'component';
+            var COMPODOC_CURRENT_PAGE_URL = 'TableDynamicTemplateComponent.html';
+            var MAX_SEARCH_RESULTS = 15;
+       </script>
+
+       <script src="../js/libs/custom-elements.min.js"></script>
+       <script src="../js/libs/lit-html.js"></script>
+
+       <script src="../js/menu-wc.js" defer></script>
+       <script nomodule src="../js/menu-wc_es5.js" defer></script>
+
+       <script src="../js/libs/bootstrap-native.js"></script>
+
+       <script src="../js/libs/es6-shim.min.js"></script>
+       <script src="../js/libs/EventDispatcher.js"></script>
+       <script src="../js/libs/promise.min.js"></script>
+       <script src="../js/libs/zepto.min.js"></script>
+
+       <script src="../js/compodoc.js"></script>
+
+       <script src="../js/tabs.js"></script>
+       <script src="../js/menu.js"></script>
+       <script src="../js/libs/clipboard.min.js"></script>
+       <script src="../js/libs/prism.js"></script>
+       <script src="../js/sourceCode.js"></script>
+          <script src="../js/search/search.js"></script>
+          <script src="../js/search/lunr.min.js"></script>
+          <script src="../js/search/search-lunr.js"></script>
+          <script src="../js/search/search_index.js"></script>
+       <script src="../js/lazy-load-graphs.js"></script>
+
+
+    </body>
+</html>

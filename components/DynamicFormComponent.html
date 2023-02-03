@@ -1,0 +1,2094 @@
+<!doctype html>
+<html class="no-js" lang="">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <title>vendor-tizo documentation</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <link rel="icon" type="image/x-icon" href="../images/favicon.ico">
+	   <link rel="stylesheet" href="../styles/style.css">
+        <link rel="stylesheet" href="../styles/dark.css">
+    </head>
+    <body>
+
+        <div class="navbar navbar-default navbar-fixed-top visible-xs">
+            <a href="../" class="navbar-brand">vendor-tizo documentation</a>
+            <button type="button" class="btn btn-default btn-menu ion-ios-menu" id="btn-menu"></button>
+        </div>
+
+        <div class="xs-menu menu" id="mobile-menu">
+                <div id="book-search-input" role="search"><input type="text" placeholder="Type to search"></div>            <compodoc-menu></compodoc-menu>
+        </div>
+
+        <div class="container-fluid main">
+           <div class="row main">
+               <div class="hidden-xs menu">
+                   <compodoc-menu mode="normal"></compodoc-menu>
+               </div>
+               <!-- START CONTENT -->
+               <div class="content component">
+                   <div class="content-data">
+
+
+
+
+<ol class="breadcrumb">
+  <li>Components</li>
+  <li
+  >
+  DynamicFormComponent</li>
+</ol>
+
+<ul class="nav nav-tabs" role="tablist">
+        <li class="active">
+            <a href="#info" role="tab" id="info-tab" data-toggle="tab" data-link="info">Info</a>
+        </li>
+        <li >
+            <a href="#source" role="tab" id="source-tab" data-toggle="tab" data-link="source">Source</a>
+        </li>
+        <li >
+            <a href="#templateData" role="tab" id="templateData-tab" data-toggle="tab" data-link="template">Template</a>
+        </li>
+        <li >
+            <a href="#styleData" role="tab" id="styleData-tab" data-toggle="tab" data-link="style">Styles</a>
+        </li>
+        <li >
+            <a href="#tree" role="tab" id="tree-tab" data-toggle="tab" data-link="dom-tree">DOM Tree</a>
+        </li>
+</ul>
+
+<div class="tab-content">
+    <div class="tab-pane fade active in" id="c-info"><p class="comment">
+    <h3>File</h3>
+</p>
+<p class="comment">
+    <code>src/app/components/dynamic-form/dynamic-form.component.ts</code>
+</p>
+
+
+
+
+    <p class="comment">
+        <h3>Implements</h3>
+    </p>
+    <p class="comment">
+                    <code><a href="https://angular.io/api/core/OnInit" target="_blank" >OnInit</a></code>
+                    <code><a href="https://angular.io/api/core/OnChanges" target="_blank" >OnChanges</a></code>
+    </p>
+
+
+<section>
+    <h3>Metadata</h3>
+    <table class="table table-sm table-hover metadata">
+        <tbody>
+
+
+
+
+
+
+
+
+
+
+
+            <tr>
+                <td class="col-md-3">selector</td>
+                <td class="col-md-9"><code>app-dynamic-form</code></td>
+            </tr>
+
+            <tr>
+                <td class="col-md-3">styleUrls</td>
+                <td class="col-md-9"><code>./dynamic-form.component.scss</code></td>
+            </tr>
+
+
+
+            <tr>
+                <td class="col-md-3">templateUrl</td>
+                <td class="col-md-9"><code>./dynamic-form.component.html</code></td>
+            </tr>
+
+
+
+
+
+
+
+
+        </tbody>
+    </table>
+</section>
+
+    <section>
+    <h3 id="index">Index</h3>
+    <table class="table table-sm table-bordered index-table">
+        <tbody>
+                <tr>
+                    <td class="col-md-4">
+                        <h6><b>Properties</b></h6>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <ul class="index-list">
+                            <li>
+                                    <span class="modifier">Public</span>
+                                <a href="#defaultSuggestion" >defaultSuggestion</a>
+                            </li>
+                            <li>
+                                <a href="#minDate" >minDate</a>
+                            </li>
+                            <li>
+                                <a href="#name" >name</a>
+                            </li>
+                            <li>
+                                <a href="#now" >now</a>
+                            </li>
+                            <li>
+                                    <span class="modifier">Public</span>
+                                <a href="#preferredCountries" >preferredCountries</a>
+                            </li>
+                            <li>
+                                    <span class="modifier">Public</span>
+                                <a href="#segments" >segments</a>
+                            </li>
+                            <li>
+                                    <span class="modifier">Public</span>
+                                <a href="#showPassword" >showPassword</a>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td class="col-md-4">
+                        <h6><b>Methods</b></h6>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <ul class="index-list">
+                            <li>
+                                    <span class="modifier">Public</span>
+                                <a href="#actionChangeMultiSelector" >actionChangeMultiSelector</a>
+                            </li>
+                            <li>
+                                    <span class="modifier">Public</span>
+                                <a href="#actionChangeSimpleSelector" >actionChangeSimpleSelector</a>
+                            </li>
+                            <li>
+                                    <span class="modifier">Public</span>
+                                <a href="#actionSubmit" >actionSubmit</a>
+                            </li>
+                            <li>
+                                    <span class="modifier">Public</span>
+                                <a href="#actionUploadImage" >actionUploadImage</a>
+                            </li>
+                            <li>
+                                    <span class="modifier">Private</span>
+                                <a href="#initializeForm" >initializeForm</a>
+                            </li>
+                            <li>
+                                    <span class="modifier">Public</span>
+                                <a href="#ngOnChanges" >ngOnChanges</a>
+                            </li>
+                            <li>
+                                <a href="#ngOnInit" >ngOnInit</a>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td class="col-md-4">
+                        <h6><b>Inputs</b></h6>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <ul class="index-list">
+                            <li>
+                                <a href="#alertRequired" >alertRequired</a>
+                            </li>
+                            <li>
+                                <a href="#confirmSubmit" >confirmSubmit</a>
+                            </li>
+                            <li>
+                                <a href="#entity" >entity</a>
+                            </li>
+                            <li>
+                                <a href="#errorMessage" >errorMessage</a>
+                            </li>
+                            <li>
+                                <a href="#fieldShow" >fieldShow</a>
+                            </li>
+                            <li>
+                                <a href="#formGroup" >formGroup</a>
+                            </li>
+                            <li>
+                                <a href="#selectables" >selectables</a>
+                            </li>
+                            <li>
+                                <a href="#selectedCountryISO" >selectedCountryISO</a>
+                            </li>
+                            <li>
+                                <a href="#suggestions" >suggestions</a>
+                            </li>
+                            <li>
+                                <a href="#type" >type</a>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td class="col-md-4">
+                        <h6><b>Outputs</b></h6>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <ul class="index-list">
+                            <li>
+                                <a href="#actionUploadDocumentForm" >actionUploadDocumentForm</a>
+                            </li>
+                            <li>
+                                <a href="#actionUploadImageForm" >actionUploadImageForm</a>
+                            </li>
+                            <li>
+                                <a href="#eventEmitterActionChangeLoginText" >eventEmitterActionChangeLoginText</a>
+                            </li>
+                            <li>
+                                <a href="#eventEmitterActionChangeMultiSelector" >eventEmitterActionChangeMultiSelector</a>
+                            </li>
+                            <li>
+                                <a href="#eventEmitterActionChangeSimpleDate" >eventEmitterActionChangeSimpleDate</a>
+                            </li>
+                            <li>
+                                <a href="#eventEmitterActionChangeSimpleNumber" >eventEmitterActionChangeSimpleNumber</a>
+                            </li>
+                            <li>
+                                <a href="#eventEmitterActionChangeSimpleSelector" >eventEmitterActionChangeSimpleSelector</a>
+                            </li>
+                            <li>
+                                <a href="#eventEmitterActionChangeSimpleText" >eventEmitterActionChangeSimpleText</a>
+                            </li>
+                            <li>
+                                <a href="#eventEmitterActionChangeSimpleTextArea" >eventEmitterActionChangeSimpleTextArea</a>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
+
+
+
+        </tbody>
+    </table>
+</section>
+
+    <section>
+    <h3 id="constructor">Constructor</h3>
+        <table class="table table-sm table-bordered">
+            <tbody>
+                <tr>
+                    <td class="col-md-4">
+<code>constructor(_formBuilder: UntypedFormBuilder)</code>
+                    </td>
+                </tr>
+                        <tr>
+                            <td class="col-md-4">
+                                <div class="io-line">Defined in <a href="" data-line="94" class="link-to-prism">src/app/components/dynamic-form/dynamic-form.component.ts:94</a></div>
+                            </td>
+                        </tr>
+
+                <tr>
+                    <td class="col-md-4">
+                            <div>
+                                    <b>Parameters :</b>
+                                    <table class="params">
+                                        <thead>
+                                            <tr>
+                                                <td>Name</td>
+                                                    <td>Type</td>
+                                                <td>Optional</td>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                                <tr>
+                                                        <td>_formBuilder</td>
+                                                  
+                                                        <td>
+                                                                    <code>UntypedFormBuilder</code>
+                                                        </td>
+                                                  
+                                                    <td>
+                                                            No
+                                                    </td>
+                                                    
+                                                </tr>
+                                        </tbody>
+                                    </table>
+                            </div>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+</section>
+
+    <section>
+    <h3 id="inputs">Inputs</h3>
+        <table class="table table-sm table-bordered">
+            <tbody>
+                <tr>
+                    <td class="col-md-4">
+                        <a name="alertRequired"></a>
+                        <b>alertRequired</b>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Type : </i>    <code>boolean | any</code>
+
+                    </td>
+                </tr>
+                        <tr>
+                            <td class="col-md-2" colspan="2">
+                                    <div class="io-line">Defined in <a href="" data-line="48" class="link-to-prism">src/app/components/dynamic-form/dynamic-form.component.ts:48</a></div>
+                            </td>
+                        </tr>
+            </tbody>
+        </table>
+        <table class="table table-sm table-bordered">
+            <tbody>
+                <tr>
+                    <td class="col-md-4">
+                        <a name="confirmSubmit"></a>
+                        <b>confirmSubmit</b>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Type : </i>    <code>boolean | any</code>
+
+                    </td>
+                </tr>
+                        <tr>
+                            <td class="col-md-2" colspan="2">
+                                    <div class="io-line">Defined in <a href="" data-line="44" class="link-to-prism">src/app/components/dynamic-form/dynamic-form.component.ts:44</a></div>
+                            </td>
+                        </tr>
+            </tbody>
+        </table>
+        <table class="table table-sm table-bordered">
+            <tbody>
+                <tr>
+                    <td class="col-md-4">
+                        <a name="entity"></a>
+                        <b>entity</b>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Type : </i>        <code><a href="../interfaces/FormInterface.html" target="_self" >FormInterface | any</a></code>
+
+                    </td>
+                </tr>
+                        <tr>
+                            <td class="col-md-2" colspan="2">
+                                    <div class="io-line">Defined in <a href="" data-line="34" class="link-to-prism">src/app/components/dynamic-form/dynamic-form.component.ts:34</a></div>
+                            </td>
+                        </tr>
+            </tbody>
+        </table>
+        <table class="table table-sm table-bordered">
+            <tbody>
+                <tr>
+                    <td class="col-md-4">
+                        <a name="errorMessage"></a>
+                        <b>errorMessage</b>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Type : </i>    <code>string | any</code>
+
+                    </td>
+                </tr>
+                        <tr>
+                            <td class="col-md-2" colspan="2">
+                                    <div class="io-line">Defined in <a href="" data-line="46" class="link-to-prism">src/app/components/dynamic-form/dynamic-form.component.ts:46</a></div>
+                            </td>
+                        </tr>
+            </tbody>
+        </table>
+        <table class="table table-sm table-bordered">
+            <tbody>
+                <tr>
+                    <td class="col-md-4">
+                        <a name="fieldShow"></a>
+                        <b>fieldShow</b>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Type : </i>    <code>boolean | any</code>
+
+                    </td>
+                </tr>
+                        <tr>
+                            <td class="col-md-2" colspan="2">
+                                    <div class="io-line">Defined in <a href="" data-line="32" class="link-to-prism">src/app/components/dynamic-form/dynamic-form.component.ts:32</a></div>
+                            </td>
+                        </tr>
+            </tbody>
+        </table>
+        <table class="table table-sm table-bordered">
+            <tbody>
+                <tr>
+                    <td class="col-md-4">
+                        <a name="formGroup"></a>
+                        <b>formGroup</b>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Type : </i>    <code>UntypedFormGroup | any</code>
+
+                    </td>
+                </tr>
+                        <tr>
+                            <td class="col-md-2" colspan="2">
+                                    <div class="io-line">Defined in <a href="" data-line="36" class="link-to-prism">src/app/components/dynamic-form/dynamic-form.component.ts:36</a></div>
+                            </td>
+                        </tr>
+            </tbody>
+        </table>
+        <table class="table table-sm table-bordered">
+            <tbody>
+                <tr>
+                    <td class="col-md-4">
+                        <a name="selectables"></a>
+                        <b>selectables</b>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Type : </i>    <code>literal type</code>
+
+                    </td>
+                </tr>
+                        <tr>
+                            <td class="col-md-2" colspan="2">
+                                    <div class="io-line">Defined in <a href="" data-line="38" class="link-to-prism">src/app/components/dynamic-form/dynamic-form.component.ts:38</a></div>
+                            </td>
+                        </tr>
+            </tbody>
+        </table>
+        <table class="table table-sm table-bordered">
+            <tbody>
+                <tr>
+                    <td class="col-md-4">
+                        <a name="selectedCountryISO"></a>
+                        <b>selectedCountryISO</b>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Type : </i>    <code>CountryISO</code>
+
+                    </td>
+                </tr>
+                        <tr>
+                            <td class="col-md-2" colspan="2">
+                                    <div class="io-line">Defined in <a href="" data-line="42" class="link-to-prism">src/app/components/dynamic-form/dynamic-form.component.ts:42</a></div>
+                            </td>
+                        </tr>
+            </tbody>
+        </table>
+        <table class="table table-sm table-bordered">
+            <tbody>
+                <tr>
+                    <td class="col-md-4">
+                        <a name="suggestions"></a>
+                        <b>suggestions</b>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Type : </i>    <code>literal type</code>
+
+                    </td>
+                </tr>
+                        <tr>
+                            <td class="col-md-2" colspan="2">
+                                    <div class="io-line">Defined in <a href="" data-line="40" class="link-to-prism">src/app/components/dynamic-form/dynamic-form.component.ts:40</a></div>
+                            </td>
+                        </tr>
+            </tbody>
+        </table>
+        <table class="table table-sm table-bordered">
+            <tbody>
+                <tr>
+                    <td class="col-md-4">
+                        <a name="type"></a>
+                        <b>type</b>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Type : </i>    <code>string | any</code>
+
+                    </td>
+                </tr>
+                        <tr>
+                            <td class="col-md-2" colspan="2">
+                                    <div class="io-line">Defined in <a href="" data-line="30" class="link-to-prism">src/app/components/dynamic-form/dynamic-form.component.ts:30</a></div>
+                            </td>
+                        </tr>
+            </tbody>
+        </table>
+</section>
+    <section>
+    <h3 id="outputs">Outputs</h3>
+        <table class="table table-sm table-bordered">
+            <tbody>
+                <tr>
+                    <td class="col-md-4">
+                        <a name="actionUploadDocumentForm"></a>
+                        <b>actionUploadDocumentForm</b>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Type : </i>        <code><a href="https://angular.io/api/core/EventEmitter" target="_blank" >EventEmitter</a></code>
+
+                    </td>
+                </tr>
+                        <tr>
+                            <td class="col-md-2" colspan="2">
+                                    <div class="io-line">Defined in <a href="" data-line="87" class="link-to-prism">src/app/components/dynamic-form/dynamic-form.component.ts:87</a></div>
+                            </td>
+                        </tr>
+            </tbody>
+        </table>
+        <table class="table table-sm table-bordered">
+            <tbody>
+                <tr>
+                    <td class="col-md-4">
+                        <a name="actionUploadImageForm"></a>
+                        <b>actionUploadImageForm</b>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Type : </i>        <code><a href="https://angular.io/api/core/EventEmitter" target="_blank" >EventEmitter</a></code>
+
+                    </td>
+                </tr>
+                        <tr>
+                            <td class="col-md-2" colspan="2">
+                                    <div class="io-line">Defined in <a href="" data-line="85" class="link-to-prism">src/app/components/dynamic-form/dynamic-form.component.ts:85</a></div>
+                            </td>
+                        </tr>
+            </tbody>
+        </table>
+        <table class="table table-sm table-bordered">
+            <tbody>
+                <tr>
+                    <td class="col-md-4">
+                        <a name="eventEmitterActionChangeLoginText"></a>
+                        <b>eventEmitterActionChangeLoginText</b>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Type : </i>    <code>EventEmitter&lt;any&gt;</code>
+
+                    </td>
+                </tr>
+                        <tr>
+                            <td class="col-md-2" colspan="2">
+                                    <div class="io-line">Defined in <a href="" data-line="53" class="link-to-prism">src/app/components/dynamic-form/dynamic-form.component.ts:53</a></div>
+                            </td>
+                        </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <div class="io-description"><p>actionChangeLoginText</p>
+</div>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+        <table class="table table-sm table-bordered">
+            <tbody>
+                <tr>
+                    <td class="col-md-4">
+                        <a name="eventEmitterActionChangeMultiSelector"></a>
+                        <b>eventEmitterActionChangeMultiSelector</b>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Type : </i>    <code>EventEmitter&lt;any&gt;</code>
+
+                    </td>
+                </tr>
+                        <tr>
+                            <td class="col-md-2" colspan="2">
+                                    <div class="io-line">Defined in <a href="" data-line="78" class="link-to-prism">src/app/components/dynamic-form/dynamic-form.component.ts:78</a></div>
+                            </td>
+                        </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <div class="io-description"><p>actionChangeMultiSelector</p>
+</div>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+        <table class="table table-sm table-bordered">
+            <tbody>
+                <tr>
+                    <td class="col-md-4">
+                        <a name="eventEmitterActionChangeSimpleDate"></a>
+                        <b>eventEmitterActionChangeSimpleDate</b>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Type : </i>    <code>EventEmitter&lt;any&gt;</code>
+
+                    </td>
+                </tr>
+                        <tr>
+                            <td class="col-md-2" colspan="2">
+                                    <div class="io-line">Defined in <a href="" data-line="83" class="link-to-prism">src/app/components/dynamic-form/dynamic-form.component.ts:83</a></div>
+                            </td>
+                        </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <div class="io-description"><p>actionChangeSimpleDate</p>
+</div>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+        <table class="table table-sm table-bordered">
+            <tbody>
+                <tr>
+                    <td class="col-md-4">
+                        <a name="eventEmitterActionChangeSimpleNumber"></a>
+                        <b>eventEmitterActionChangeSimpleNumber</b>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Type : </i>    <code>EventEmitter&lt;any&gt;</code>
+
+                    </td>
+                </tr>
+                        <tr>
+                            <td class="col-md-2" colspan="2">
+                                    <div class="io-line">Defined in <a href="" data-line="58" class="link-to-prism">src/app/components/dynamic-form/dynamic-form.component.ts:58</a></div>
+                            </td>
+                        </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <div class="io-description"><p>actionChangeSimpleNumber</p>
+</div>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+        <table class="table table-sm table-bordered">
+            <tbody>
+                <tr>
+                    <td class="col-md-4">
+                        <a name="eventEmitterActionChangeSimpleSelector"></a>
+                        <b>eventEmitterActionChangeSimpleSelector</b>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Type : </i>    <code>EventEmitter&lt;any&gt;</code>
+
+                    </td>
+                </tr>
+                        <tr>
+                            <td class="col-md-2" colspan="2">
+                                    <div class="io-line">Defined in <a href="" data-line="73" class="link-to-prism">src/app/components/dynamic-form/dynamic-form.component.ts:73</a></div>
+                            </td>
+                        </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <div class="io-description"><p>actionChangeSimpleSelector</p>
+</div>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+        <table class="table table-sm table-bordered">
+            <tbody>
+                <tr>
+                    <td class="col-md-4">
+                        <a name="eventEmitterActionChangeSimpleText"></a>
+                        <b>eventEmitterActionChangeSimpleText</b>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Type : </i>    <code>EventEmitter&lt;any&gt;</code>
+
+                    </td>
+                </tr>
+                        <tr>
+                            <td class="col-md-2" colspan="2">
+                                    <div class="io-line">Defined in <a href="" data-line="63" class="link-to-prism">src/app/components/dynamic-form/dynamic-form.component.ts:63</a></div>
+                            </td>
+                        </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <div class="io-description"><p>actionChangeSimpleText</p>
+</div>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+        <table class="table table-sm table-bordered">
+            <tbody>
+                <tr>
+                    <td class="col-md-4">
+                        <a name="eventEmitterActionChangeSimpleTextArea"></a>
+                        <b>eventEmitterActionChangeSimpleTextArea</b>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Type : </i>    <code>EventEmitter&lt;any&gt;</code>
+
+                    </td>
+                </tr>
+                        <tr>
+                            <td class="col-md-2" colspan="2">
+                                    <div class="io-line">Defined in <a href="" data-line="68" class="link-to-prism">src/app/components/dynamic-form/dynamic-form.component.ts:68</a></div>
+                            </td>
+                        </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <div class="io-description"><p>actionChangeSimpleTextArea</p>
+</div>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+</section>
+
+
+    <section>
+    
+    <h3 id="methods">
+        Methods
+    </h3>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="actionChangeMultiSelector"></a>
+                    <span class="name">
+                        <span class="modifier">Public</span>
+                        <span ><b>actionChangeMultiSelector</b></span>
+                        <a href="#actionChangeMultiSelector"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+            <tr>
+                <td class="col-md-4">
+                    <span class="modifier-icon icon ion-ios-reset"></span>
+                    <code>actionChangeMultiSelector(selection: any[], field: <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string" target="_blank">string</a>)</code>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+                    <div class="io-line">Defined in <a href="" data-line="196"
+                            class="link-to-prism">src/app/components/dynamic-form/dynamic-form.component.ts:196</a></div>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+
+                    <div class="io-description">
+                        <b>Parameters :</b>
+                        
+                        <table class="params">
+                            <thead>
+                                <tr>
+                                    <td>Name</td>
+                                    <td>Type</td>
+                                    <td>Optional</td>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>selection</td>
+                                    <td>
+                                            <code>any[]</code>
+                                    </td>
+
+                                    <td>
+                                        No
+                                    </td>
+
+
+                                </tr>
+                                <tr>
+                                    <td>field</td>
+                                    <td>
+                                                <code><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string" target="_blank" >string</a></code>
+                                    </td>
+
+                                    <td>
+                                        No
+                                    </td>
+
+
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <div>
+                    </div>
+                    <div class="io-description">
+                        <b>Returns : </b>        <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >void</a></code>
+
+                    </div>
+                    <div class="io-description">
+                        
+                    </div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="actionChangeSimpleSelector"></a>
+                    <span class="name">
+                        <span class="modifier">Public</span>
+                        <span ><b>actionChangeSimpleSelector</b></span>
+                        <a href="#actionChangeSimpleSelector"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+            <tr>
+                <td class="col-md-4">
+                    <span class="modifier-icon icon ion-ios-reset"></span>
+                    <code>actionChangeSimpleSelector(value: <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/number" target="_blank">number</a>, field: <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string" target="_blank">string</a>)</code>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+                    <div class="io-line">Defined in <a href="" data-line="179"
+                            class="link-to-prism">src/app/components/dynamic-form/dynamic-form.component.ts:179</a></div>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+
+                    <div class="io-description">
+                        <b>Parameters :</b>
+                        
+                        <table class="params">
+                            <thead>
+                                <tr>
+                                    <td>Name</td>
+                                    <td>Type</td>
+                                    <td>Optional</td>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>value</td>
+                                    <td>
+                                                <code><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/number" target="_blank" >number</a></code>
+                                    </td>
+
+                                    <td>
+                                        No
+                                    </td>
+
+
+                                </tr>
+                                <tr>
+                                    <td>field</td>
+                                    <td>
+                                                <code><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string" target="_blank" >string</a></code>
+                                    </td>
+
+                                    <td>
+                                        No
+                                    </td>
+
+
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <div>
+                    </div>
+                    <div class="io-description">
+                        <b>Returns : </b>        <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >void</a></code>
+
+                    </div>
+                    <div class="io-description">
+                        
+                    </div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="actionSubmit"></a>
+                    <span class="name">
+                        <span class="modifier">Public</span>
+                        <span ><b>actionSubmit</b></span>
+                        <a href="#actionSubmit"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+            <tr>
+                <td class="col-md-4">
+                    <span class="modifier-icon icon ion-ios-reset"></span>
+                    <code>actionSubmit()</code>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+                    <div class="io-line">Defined in <a href="" data-line="176"
+                            class="link-to-prism">src/app/components/dynamic-form/dynamic-form.component.ts:176</a></div>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+
+                    <div class="io-description">
+                        <b>Returns : </b>        <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >void</a></code>
+
+                    </div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="actionUploadImage"></a>
+                    <span class="name">
+                        <span class="modifier">Public</span>
+                        <span ><b>actionUploadImage</b></span>
+                        <a href="#actionUploadImage"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+            <tr>
+                <td class="col-md-4">
+                    <span class="modifier-icon icon ion-ios-reset"></span>
+                    <code>actionUploadImage(event: string | undefined)</code>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+                    <div class="io-line">Defined in <a href="" data-line="201"
+                            class="link-to-prism">src/app/components/dynamic-form/dynamic-form.component.ts:201</a></div>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+
+                    <div class="io-description">
+                        <b>Parameters :</b>
+                        
+                        <table class="params">
+                            <thead>
+                                <tr>
+                                    <td>Name</td>
+                                    <td>Type</td>
+                                    <td>Optional</td>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>event</td>
+                                    <td>
+                                            <code>string | undefined</code>
+                                    </td>
+
+                                    <td>
+                                        No
+                                    </td>
+
+
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <div>
+                    </div>
+                    <div class="io-description">
+                        <b>Returns : </b>        <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >void</a></code>
+
+                    </div>
+                    <div class="io-description">
+                        
+                    </div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="initializeForm"></a>
+                    <span class="name">
+                        <span class="modifier">Private</span>
+                        <span ><b>initializeForm</b></span>
+                        <a href="#initializeForm"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+            <tr>
+                <td class="col-md-4">
+                    <span class="modifier-icon icon ion-ios-reset"></span>
+                    <code>initializeForm()</code>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+                    <div class="io-line">Defined in <a href="" data-line="124"
+                            class="link-to-prism">src/app/components/dynamic-form/dynamic-form.component.ts:124</a></div>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+
+                    <div class="io-description">
+                        <b>Returns : </b>        <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >void</a></code>
+
+                    </div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="ngOnChanges"></a>
+                    <span class="name">
+                        <span class="modifier">Public</span>
+                        <span ><b>ngOnChanges</b></span>
+                        <a href="#ngOnChanges"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+            <tr>
+                <td class="col-md-4">
+                    <span class="modifier-icon icon ion-ios-reset"></span>
+                    <code>ngOnChanges(simpleChanges: <a href="https://angular.io/api/core/SimpleChanges" target="_blank">SimpleChanges</a>)</code>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+                    <div class="io-line">Defined in <a href="" data-line="158"
+                            class="link-to-prism">src/app/components/dynamic-form/dynamic-form.component.ts:158</a></div>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+
+                    <div class="io-description">
+                        <b>Parameters :</b>
+                        
+                        <table class="params">
+                            <thead>
+                                <tr>
+                                    <td>Name</td>
+                                    <td>Type</td>
+                                    <td>Optional</td>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>simpleChanges</td>
+                                    <td>
+                                                <code><a href="https://angular.io/api/core/SimpleChanges" target="_blank" >SimpleChanges</a></code>
+                                    </td>
+
+                                    <td>
+                                        No
+                                    </td>
+
+
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <div>
+                    </div>
+                    <div class="io-description">
+                        <b>Returns : </b>        <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >void</a></code>
+
+                    </div>
+                    <div class="io-description">
+                        
+                    </div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="ngOnInit"></a>
+                    <span class="name">
+                        <span ><b>ngOnInit</b></span>
+                        <a href="#ngOnInit"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+            <tr>
+                <td class="col-md-4">
+<code>ngOnInit()</code>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+                    <div class="io-line">Defined in <a href="" data-line="205"
+                            class="link-to-prism">src/app/components/dynamic-form/dynamic-form.component.ts:205</a></div>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+
+                    <div class="io-description">
+                        <b>Returns : </b>        <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >void</a></code>
+
+                    </div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+</section>
+    <section>
+    
+    <h3 id="inputs">
+        Properties
+    </h3>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="defaultSuggestion"></a>
+                    <span class="name">
+                            <span class="modifier">Public</span>
+                        <span ><b>defaultSuggestion</b></span>
+                        <a href="#defaultSuggestion"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Type : </i>        <code><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/function" target="_blank" >function</a></code>
+
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                                <div class="io-line">Defined in <a href="" data-line="94" class="link-to-prism">src/app/components/dynamic-form/dynamic-form.component.ts:94</a></div>
+                        </td>
+                    </tr>
+
+
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="minDate"></a>
+                    <span class="name">
+                        <span ><b>minDate</b></span>
+                        <a href="#minDate"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Type : </i>        <code><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/object" target="_blank" >object</a></code>
+
+                    </td>
+                </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Default value : </i><code>{ year: 1900, month: 1, day: 1 }</code>
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                                <div class="io-line">Defined in <a href="" data-line="91" class="link-to-prism">src/app/components/dynamic-form/dynamic-form.component.ts:91</a></div>
+                        </td>
+                    </tr>
+
+
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="name"></a>
+                    <span class="name">
+                        <span ><b>name</b></span>
+                        <a href="#name"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Type : </i>        <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >any</a></code>
+
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                                <div class="io-line">Defined in <a href="" data-line="92" class="link-to-prism">src/app/components/dynamic-form/dynamic-form.component.ts:92</a></div>
+                        </td>
+                    </tr>
+
+
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="now"></a>
+                    <span class="name">
+                        <span ><b>now</b></span>
+                        <a href="#now"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Type : </i>        <code><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Date" target="_blank" >Date</a></code>
+
+                    </td>
+                </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Default value : </i><code>new Date()</code>
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                                <div class="io-line">Defined in <a href="" data-line="90" class="link-to-prism">src/app/components/dynamic-form/dynamic-form.component.ts:90</a></div>
+                        </td>
+                    </tr>
+
+
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="preferredCountries"></a>
+                    <span class="name">
+                            <span class="modifier">Public</span>
+                        <span ><b>preferredCountries</b></span>
+                        <a href="#preferredCountries"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Type : </i>    <code>string[]</code>
+
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                                <div class="io-line">Defined in <a href="" data-line="89" class="link-to-prism">src/app/components/dynamic-form/dynamic-form.component.ts:89</a></div>
+                        </td>
+                    </tr>
+
+
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="segments"></a>
+                    <span class="name">
+                            <span class="modifier">Public</span>
+                        <span ><b>segments</b></span>
+                        <a href="#segments"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Type : </i>        <code><a href="../classes/FormSegment.html" target="_self" >FormSegment[]</a></code>
+
+                    </td>
+                </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Default value : </i><code>[]</code>
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                                <div class="io-line">Defined in <a href="" data-line="27" class="link-to-prism">src/app/components/dynamic-form/dynamic-form.component.ts:27</a></div>
+                        </td>
+                    </tr>
+
+
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="showPassword"></a>
+                    <span class="name">
+                            <span class="modifier">Public</span>
+                        <span ><b>showPassword</b></span>
+                        <a href="#showPassword"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Type : </i>        <code><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/boolean" target="_blank" >boolean</a></code>
+
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                                <div class="io-line">Defined in <a href="" data-line="28" class="link-to-prism">src/app/components/dynamic-form/dynamic-form.component.ts:28</a></div>
+                        </td>
+                    </tr>
+
+
+        </tbody>
+    </table>
+</section>
+
+</div>
+
+
+    <div class="tab-pane fade  tab-source-code" id="c-source">
+        <pre class="line-numbers compodoc-sourcecode"><code class="language-typescript">import {
+  Component,
+  EventEmitter,
+  Input,
+  OnChanges,
+  OnInit,
+  Output,
+  SimpleChanges
+} from &#x27;@angular/core&#x27;;
+import {CountryISO} from &quot;ngx-intl-tel-input&quot;;
+import {UntypedFormBuilder, UntypedFormControl, UntypedFormGroup, Validators } from &quot;@angular/forms&quot;;
+import {Observable, map} from &quot;rxjs&quot;;
+
+import {FormInterface} from &quot;../../schemes/interface/form.interface&quot;;
+import {FormSelectable} from &quot;../../schemes/support/form-selectable&quot;;
+import {FormSegment} from &quot;../../schemes/support/form-segment&quot;;
+
+import * as moment from &#x27;moment&#x27;;
+
+@Component({
+  selector: &#x27;app-dynamic-form&#x27;,
+  templateUrl: &#x27;./dynamic-form.component.html&#x27;,
+  styleUrls: [&#x27;./dynamic-form.component.scss&#x27;]
+})
+export class DynamicFormComponent implements OnInit, OnChanges{
+
+  public segments: FormSegment[] &#x3D; [];
+  public showPassword: boolean;
+
+  @Input() public type: string | any;
+
+  @Input() public fieldShow: boolean | any;
+
+  @Input() public entity: FormInterface | any;
+
+  @Input() public formGroup: UntypedFormGroup | any;
+
+  @Input() public selectables: { [name: string]: FormSelectable };
+
+  @Input() public suggestions: { [name: string]: (text: Observable&lt;string&gt;) &#x3D;&gt; Observable&lt;readonly any[]&gt;; };
+
+  @Input() public selectedCountryISO: CountryISO;
+
+  @Input() public confirmSubmit: boolean | any;
+
+  @Input() public errorMessage: string | any;
+
+  @Input() alertRequired: boolean | any;
+
+  /**
+   * actionChangeLoginText
+   * */
+  @Output() public eventEmitterActionChangeLoginText: EventEmitter&lt;any&gt;;
+
+  /**
+   * actionChangeSimpleNumber
+   * */
+  @Output() public eventEmitterActionChangeSimpleNumber: EventEmitter&lt;any&gt;;
+
+  /**
+   * actionChangeSimpleText
+   * */
+  @Output() public eventEmitterActionChangeSimpleText: EventEmitter&lt;any&gt;;
+
+  /**
+   * actionChangeSimpleTextArea
+   * */
+  @Output() public eventEmitterActionChangeSimpleTextArea: EventEmitter&lt;any&gt;;
+
+  /**
+   * actionChangeSimpleSelector
+   * */
+  @Output() public eventEmitterActionChangeSimpleSelector: EventEmitter&lt;any&gt;;
+
+  /**
+   * actionChangeMultiSelector
+   * */
+  @Output() public eventEmitterActionChangeMultiSelector: EventEmitter&lt;any&gt;;
+
+  /**
+   * actionChangeSimpleDate
+   * */
+  @Output() public eventEmitterActionChangeSimpleDate: EventEmitter&lt;any&gt;;
+
+  @Output() actionUploadImageForm &#x3D; new EventEmitter&lt;string&gt;();
+
+  @Output() actionUploadDocumentForm &#x3D; new EventEmitter&lt;string&gt;();
+
+  public preferredCountries: string[];
+  now: Date &#x3D; new Date();
+  minDate &#x3D; { year: 1900, month: 1, day: 1 };
+  name: any;
+
+  public defaultSuggestion: (text: Observable&lt;string&gt;) &#x3D;&gt; Observable&lt;readonly any[]&gt;;
+
+  constructor(
+    protected readonly _formBuilder: UntypedFormBuilder,
+  ) {
+    this.eventEmitterActionChangeLoginText &#x3D; new EventEmitter();
+    this.eventEmitterActionChangeSimpleNumber &#x3D; new EventEmitter();
+    this.eventEmitterActionChangeSimpleText &#x3D; new EventEmitter();
+    this.eventEmitterActionChangeSimpleTextArea &#x3D; new EventEmitter();
+    this.eventEmitterActionChangeSimpleSelector &#x3D; new EventEmitter();
+    this.eventEmitterActionChangeMultiSelector &#x3D; new EventEmitter();
+    this.eventEmitterActionChangeSimpleDate &#x3D; new EventEmitter();
+
+    this.preferredCountries &#x3D; [
+      CountryISO.Nicaragua,
+      CountryISO.Panama,
+      CountryISO.Guatemala,
+      CountryISO.UnitedStates
+    ];
+
+    this.selectedCountryISO &#x3D; CountryISO.Nicaragua;
+
+    this.selectables &#x3D; {};
+    this.suggestions &#x3D; {};
+
+    this.defaultSuggestion &#x3D; (text: Observable&lt;string&gt;) &#x3D;&gt; text.pipe(map(() &#x3D;&gt; []));
+  }
+
+
+
+  private initializeForm(): void {
+    this.segments?.forEach((segment) &#x3D;&gt; {
+      segment.templates.forEach((template) &#x3D;&gt; {
+        const validators: any[] &#x3D; [];
+        if (template.isRequired) validators.push(Validators.required);
+        if (template.isEmail) validators.push(Validators.email);
+
+        let value: any &#x3D; this.entity[template.field];
+        if (template.isDate) {
+          let dateMoment &#x3D; moment();
+          if (value) {
+            dateMoment &#x3D; moment(value);
+            value &#x3D; {
+              year: dateMoment.year(),
+              month: dateMoment.month() + 1,
+              day: dateMoment.date()
+            };
+          }
+        }
+
+        this.formGroup.removeControl(template.field);
+
+        this.formGroup.addControl(
+          template.field,
+          new UntypedFormControl({
+            value: value,
+            disabled: template.isDisabled
+          },
+          validators));
+
+      });
+    });
+  }
+
+  public ngOnChanges(simpleChanges: SimpleChanges): void {
+    this.segments &#x3D; this.entity?.setFormSegment(this.type, this.fieldShow);
+    try {
+      if (
+        simpleChanges &amp;&amp;
+        simpleChanges[&#x27;entity&#x27;] &amp;&amp;
+        simpleChanges[&#x27;entity&#x27;].currentValue
+      ) {
+        this.entity &#x3D; simpleChanges[&#x27;entity&#x27;].currentValue;
+        this.segments &#x3D; this.entity.setFormSegment(this.type, this.fieldShow);
+
+        this.initializeForm();
+      }
+    } catch (exception) {
+      console.log(exception);
+    }
+  }
+
+  public actionSubmit(): void { }
+
+
+  public actionChangeSimpleSelector(value: number, field: string): void {
+    let index &#x3D; 0;
+    let selectable &#x3D; null;
+    if (value) {
+      try {
+        selectable &#x3D; this.selectables[field].data.find((data: any) &#x3D;&gt;
+          data[this.selectables[field].value] &#x3D;&#x3D;&#x3D; value);
+        if (selectable) {
+          index &#x3D; this.selectables[field].data.indexOf(selectable);
+        }
+      } catch (exception) {
+        console.log(exception);
+      }
+    }
+    this.eventEmitterActionChangeSimpleSelector.emit({ index, field, selectable, });
+  }
+
+  public actionChangeMultiSelector(selection: any[], field: string): void {
+    this.eventEmitterActionChangeMultiSelector.emit({ selection, field });
+  }
+
+
+  public actionUploadImage(event: string | undefined) {
+    this.actionUploadImageForm.emit(event);
+  }
+
+  ngOnInit(): void {
+    this.initializeForm();
+  }
+}
+</code></pre>
+    </div>
+
+    <div class="tab-pane fade " id="c-templateData">
+        <pre class="line-numbers"><code class="language-html">&lt;div *ngIf&#x3D;&quot;formGroup&quot; class&#x3D;&quot;left container-dynamic-form bg-white rounded-lg rounded shadow-xl my-2&quot;&gt;
+
+  &lt;!-- Muestra el mensaje de error --&gt;
+  &lt;div *ngIf&#x3D;&quot;errorMessage&quot; class&#x3D;&quot;bg-fuchsia-50 &quot;&gt;
+    {{ errorMessage }}
+  &lt;/div&gt;
+
+  &lt;!-- Muestra el formulario dinámico para crear los
+       campos de la información de los  datos a ingresar --&gt;
+  &lt;form [formGroup]&#x3D;&quot;formGroup&quot; (ngSubmit)&#x3D;&quot;actionSubmit()&quot; autoComplete&#x3D;&quot;off&quot;&gt;
+    &lt;div *ngFor&#x3D;&quot;let segment of segments&quot; class&#x3D;&quot;form form-control-container pt-1 pb-8&quot;&gt;
+      &lt;div class&#x3D;&quot;&quot;&gt;
+
+        &lt;!-- Muestra el título del segmento --&gt;
+        &lt;h2 [hidden]&#x3D;&quot;segment.isHidden&quot; class&#x3D;&quot;mt-1 mb-4 text-color-black text-[20px] font-bold pl-5 text-information-segment&quot;&gt;
+          {{ segment.name }}
+        &lt;/h2&gt;
+
+        &lt;!-- Muestra los campos del segmento --&gt;
+        &lt;div class&#x3D;&quot;{{segment.layoutCss}} mx-5&quot; [ngClass]&#x3D;&quot;segment.layoutCss&quot;&gt;
+          &lt;div
+            *ngFor&#x3D;&quot;let template of segment.templates&quot;
+            [hidden]&#x3D;&quot;template.isHidden&quot;
+            [ngClass]&#x3D;&quot;template.cssClass&quot;&gt;
+
+            &lt;container-element [ngSwitch]&#x3D;&quot;template.type&quot;&gt;
+
+              &lt;!-- Simple image for input --&gt;
+              &lt;div *ngSwitchCase&#x3D;&quot;&#x27;simple-image&#x27;&quot;&gt;
+                &lt;label&gt;{{ template.name }}&lt;/label&gt;
+                &lt;div class&#x3D;&quot;col-md-12&quot;&gt;
+                  &lt;app-image-cropper (actionUploadImage)&#x3D;&quot;actionUploadImage($event)&quot;&gt;
+                  &lt;/app-image-cropper&gt;
+                &lt;/div&gt;
+              &lt;/div&gt;
+
+              &lt;!-- Simple text for input --&gt;
+              &lt;div *ngSwitchCase&#x3D;&quot;&#x27;simple-text&#x27;&quot; &gt;
+                &lt;label class&#x3D;&quot;pl-2 font-bold&quot; for&#x3D;&quot;{{template.name}}&quot;&gt;{{template.name}}&lt;/label&gt;
+                &lt;div class&#x3D;&quot;relative bg-white shadow-md mx-2&quot;&gt;
+                  &lt;div class&#x3D;&quot;absolute bg-transparent flex left-0 top-0 h-full w-10&quot;&gt;
+                    &lt;div class&#x3D;&quot;flex items-center justify-center rounded-tl rounded-bl z-10 text-gray-600  h-full w-full &quot;&gt;
+                      &lt;i class&#x3D;&quot;{{template.icon}}&quot;&gt;&lt;/i&gt;
+                    &lt;/div&gt;
+                  &lt;/div&gt;
+                  &lt;input name&#x3D;&quot;name&quot;
+                         id&#x3D;&quot;{{template.name}}&quot;
+                         type&#x3D;&quot;text&quot;
+                         placeholder&#x3D;&quot;{{template.placeholder}}&quot;
+                         [formControlName]&#x3D;&quot;template.field&quot;
+                         [readonly]&#x3D;&quot;template.readonly&quot;
+                         class&#x3D;&quot;text-sm sm:text-base w-full border rounded placeholder-gray-400 focus:border-b-amber-400 focus:outline-none py-2 pr-2 pl-12&quot; /&gt;
+                &lt;/div&gt;
+                &lt;div *ngIf&#x3D;&quot;
+                    formGroup.controls[template.field].dirty &amp;&amp;
+                    formGroup.controls[template.field].errors
+                  &quot; class&#x3D;&quot;text-pink mt-1 pl-2&quot;&gt;
+                  &lt;div *ngIf&#x3D;&quot;formGroup.controls[template.field].errors[&#x27;required&#x27;]&quot;&gt;
+                    {{ &quot;Este campo es requerido&quot; }}
+                  &lt;/div&gt;
+                &lt;/div&gt;
+              &lt;/div&gt;
+
+              &lt;!-- Simple password for input --&gt;
+              &lt;div *ngSwitchCase&#x3D;&quot;&#x27;simple-password&#x27;&quot; &gt;
+                &lt;label class&#x3D;&quot;pl-2 font-bold&quot; for&#x3D;&quot;{{template.name}}&quot;&gt;{{template.name}}&lt;/label&gt;
+                &lt;div class&#x3D;&quot;relative bg-white shadow-md mx-2&quot;&gt;
+                  &lt;div class&#x3D;&quot;absolute bg-transparent flex left-0 top-0 h-full w-10&quot;&gt;
+                    &lt;div class&#x3D;&quot;flex items-center justify-center rounded-tl rounded-bl z-10 text-gray-600  h-full w-full &quot;&gt;
+                      &lt;i class&#x3D;&quot;{{template.icon}}&quot;&gt;&lt;/i&gt;
+                    &lt;/div&gt;
+                  &lt;/div&gt;
+                  &lt;input name&#x3D;&quot;name&quot;
+                         id&#x3D;&quot;{{template.name}}&quot;
+                         [type]&#x3D;&quot;showPassword ? &#x27;text&#x27; : &#x27;password&#x27;&quot;
+                         placeholder&#x3D;&quot;{{template.placeholder}}&quot;
+                         [formControlName]&#x3D;&quot;template.field&quot;
+                         class&#x3D;&quot;text-sm sm:text-base w-full border rounded placeholder-gray-400 focus:border-b-amber-400 focus:outline-none py-2 pr-2 pl-12&quot; /&gt;
+                &lt;/div&gt;
+                &lt;div *ngIf&#x3D;&quot;
+                    formGroup.controls[template.field].dirty &amp;&amp;
+                    formGroup.controls[template.field].errors
+                  &quot; class&#x3D;&quot;text-pink mt-1 pl-2&quot;&gt;
+                  &lt;div *ngIf&#x3D;&quot;formGroup.controls[template.field].errors[&#x27;required&#x27;]&quot;&gt;
+                    {{ &quot;Este campo es requerido&quot; }}
+                  &lt;/div&gt;
+                &lt;/div&gt;
+              &lt;/div&gt;
+
+
+              &lt;!-- Simple number for input --&gt;
+              &lt;div *ngSwitchCase&#x3D;&quot;&#x27;simple-number&#x27;&quot;&gt;
+                &lt;label class&#x3D;&quot;pl-2 font-bold&quot; for&#x3D;&quot;{{template.name}}&quot;&gt;{{template.name}}&lt;/label&gt;
+                &lt;div class&#x3D;&quot;relative bg-white shadow-md mx-2&quot;&gt;
+                  &lt;div class&#x3D;&quot;absolute bg-transparent flex left-0 top-0 h-full w-10&quot;&gt;
+                    &lt;div class&#x3D;&quot;flex items-center justify-center rounded-tl rounded-bl z-10 text-gray-600  h-full w-full &quot;&gt;
+                      &lt;i class&#x3D;&quot;{{template.icon}}&quot;&gt;&lt;/i&gt;
+                    &lt;/div&gt;
+                  &lt;/div&gt;
+                  &lt;input id&#x3D;&quot;{{template.name}}&quot;
+                         name&#x3D;&quot;name&quot;
+                         type&#x3D;&quot;number&quot;
+                         min&#x3D;&quot;1&quot;
+                         value&#x3D;&quot;1&quot;
+                         placeholder&#x3D;&quot;{{template.placeholder}}&quot;
+                         [formControlName]&#x3D;&quot;template.field&quot;
+                         [readonly]&#x3D;&quot;template.readonly&quot;
+                         class&#x3D;&quot;text-sm sm:text-base w-full border rounded placeholder-gray-400 focus:border-b-amber-400 focus:outline-none py-2 pr-2 pl-12&quot; /&gt;
+                &lt;/div&gt;
+                &lt;div *ngIf&#x3D;&quot;
+                    formGroup.controls[template.field].dirty &amp;&amp;
+                    formGroup.controls[template.field].errors
+                  &quot; class&#x3D;&quot;text-pink mt-1&quot;&gt;
+                  &lt;div *ngIf&#x3D;&quot;formGroup.controls[template.field].errors[&#x27;required&#x27;]&quot;&gt;
+                    {{ &quot;Este campo es requerido&quot; }}
+                  &lt;/div&gt;
+                &lt;/div&gt;
+              &lt;/div&gt;
+
+              &lt;!-- Simple email for input --&gt;
+              &lt;div *ngSwitchCase&#x3D;&quot;&#x27;simple-email&#x27;&quot; &gt;
+                &lt;label class&#x3D;&quot;pl-2 font-bold&quot; for&#x3D;&quot;{{template.name}}&quot;&gt;{{template.name}}&lt;/label&gt;
+                &lt;div class&#x3D;&quot;relative bg-white shadow-md mx-2&quot;&gt;
+                  &lt;div class&#x3D;&quot;absolute bg-transparent flex left-0 top-0 h-full w-10&quot;&gt;
+                    &lt;div class&#x3D;&quot;flex items-center justify-center rounded-tl rounded-bl z-10 text-gray-600  h-full w-full &quot;&gt;
+                      &lt;i class&#x3D;&quot;{{template.icon}}&quot;&gt;&lt;/i&gt;
+                    &lt;/div&gt;
+                  &lt;/div&gt;
+                  &lt;input id&#x3D;&quot;{{template.name}}&quot;
+                         name&#x3D;&quot;name&quot;
+                         type&#x3D;&quot;email&quot;
+                         placeholder&#x3D;&quot;{{template.placeholder}}&quot;
+                         [formControlName]&#x3D;&quot;template.field&quot;
+                         class&#x3D;&quot;text-sm sm:text-base w-full border rounded placeholder-gray-400 focus:border-b-amber-400 focus:outline-none py-2 pr-2 pl-12&quot; /&gt;
+                &lt;/div&gt;
+                &lt;div *ngIf&#x3D;&quot;
+                    formGroup.controls[template.field].dirty &amp;&amp;
+                    formGroup.controls[template.field].errors
+                  &quot; class&#x3D;&quot;text-pink mt-1 pl-2&quot;&gt;
+                  &lt;div *ngIf&#x3D;&quot;formGroup.controls[template.field].errors[&#x27;required&#x27;]&quot;&gt;
+                    {{ &quot;Este campo es requerido&quot; }}
+                  &lt;/div&gt;
+                  &lt;div *ngIf&#x3D;&quot;formGroup.controls[template.field].errors[&#x27;email&#x27;]&quot;&gt;
+                    {{ &quot;Email invalido&quot; }}
+                  &lt;/div&gt;
+                &lt;/div&gt;
+              &lt;/div&gt;
+
+              &lt;!-- Simple phone for input --&gt;
+              &lt;div *ngSwitchCase&#x3D;&quot;&#x27;simple-phone&#x27;&quot; &gt;
+               &lt;div class&#x3D;&quot;relative bg-white mx-2&quot;&gt;
+                 &lt;label class&#x3D;&quot;font-bold&quot; for&#x3D;&quot;{{template.name}}&quot;&gt;{{ template.name }}&lt;/label&gt;
+                 &lt;div class&#x3D;&quot;shadow-lg border&quot;&gt;
+                   &lt;ngx-intl-tel-input
+                     [enablePlaceholder]&#x3D;&quot;false&quot;
+                     [formControlName]&#x3D;&quot;template.field&quot;
+                     [selectedCountryISO]&#x3D;&quot;selectedCountryISO&quot;
+                     [onlyCountries]&#x3D;&quot;preferredCountries&quot;
+                     [maxLength]&#x3D;&quot;12&quot;
+                     [cssClass]&#x3D;&quot;&#x27;text-sm sm:text-base rounded placeholder-gray-400 focus:border-b-amber-400 focus:outline-none py-2 pr-2 pl-12&#x27;&quot;&gt;
+                   &lt;/ngx-intl-tel-input&gt;
+                 &lt;/div&gt;
+               &lt;/div&gt;
+               &lt;div *ngIf&#x3D;&quot;
+                    formGroup.controls[template.field].dirty &amp;&amp;
+                    formGroup.controls[template.field].errors
+                  &quot; class&#x3D;&quot;text-pink mt-1 pl-2&quot;&gt;
+                  &lt;div *ngIf&#x3D;&quot;formGroup.controls[template.field].errors[&#x27;required&#x27;]&quot;&gt;
+                    {{ &quot;Este campo es requerido&quot; }}
+                  &lt;/div&gt;
+                  &lt;div *ngIf&#x3D;&quot;formGroup.controls[template.field].errors[&#x27;phone&#x27;]&quot;&gt;
+                    {{ &quot;Número de teléfono inválido&quot; }}
+                  &lt;/div&gt;
+                 &lt;div *ngIf&#x3D;&quot;formGroup.controls[template.field].errors[&#x27;validatePhoneNumber&#x27;]&quot;&gt;
+                   {{ &quot;Número de teléfono inválido&quot; }}
+                 &lt;/div&gt;
+                &lt;/div&gt;
+              &lt;/div&gt;
+
+              &lt;!--  Simple selector--&gt;
+              &lt;div *ngSwitchCase&#x3D;&quot;&#x27;simple-selector&#x27;&quot;&gt;
+                &lt;label class&#x3D;&quot;font-bold pl-2&quot; for&#x3D;&quot;{{template.name}}&quot;&gt;{{template.name}}&lt;/label&gt;
+                &lt;ng-select
+                  [formControlName]&#x3D;&quot;template.field&quot;
+                  (ngModelChange)&#x3D;&quot;actionChangeSimpleSelector($event, template.field)&quot;&gt;
+                  &lt;ng-option
+                    *ngFor&#x3D;&quot;let data of selectables[template.field]?.data&quot;
+                    [value]&#x3D;&quot;data[selectables[template.field].value]&quot;&gt;
+                    {{ data[selectables[template.field].name] }}
+                  &lt;/ng-option&gt;
+                &lt;/ng-select&gt;
+                &lt;div *ngIf&#x3D;&quot;
+                    formGroup.controls[template.field].dirty &amp;&amp;
+                    formGroup.controls[template.field].errors&quot;
+                    class&#x3D;&quot;text-pink mt-1 pl-2&quot;&gt;
+                  &lt;div *ngIf&#x3D;&quot;formGroup.controls[template.field].errors[&#x27;required&#x27;]&quot;&gt;
+                    {{ &quot;Este campo es requerido&quot; }}
+                  &lt;/div&gt;
+                &lt;/div&gt;
+              &lt;/div&gt;
+
+
+              &lt;!-- multi selector --&gt;
+              &lt;div class&#x3D;&quot;form-group&quot; *ngSwitchCase&#x3D;&quot;&#x27;multiple-selector&#x27;&quot;&gt;
+                &lt;label&gt;{{ template.name }}&lt;/label&gt;
+                &lt;label *ngIf&#x3D;&quot;template.isRequired&quot; class&#x3D;&quot;text-pink&quot;&gt;*&lt;/label&gt;
+                &lt;ng-select
+                  class&#x3D;&quot;form-control&quot;
+                  [multiple]&#x3D;&quot;true&quot;
+                  [formControlName]&#x3D;&quot;template.field&quot;
+                  (ngModelChange)&#x3D;&quot;actionChangeMultiSelector($event, template.field)&quot;&gt;
+                  &lt;ng-option *ngFor&#x3D;&quot;let data of selectables[template.field]?.data&quot;
+                             [value]&#x3D;&quot;data[selectables[template.field].value]&quot;&gt;
+                    {{ data[selectables[template.field].name] }}
+                  &lt;/ng-option&gt;
+                &lt;/ng-select&gt;
+                &lt;div *ngIf&#x3D;&quot;
+                    formGroup.controls[template.field].dirty &amp;&amp;
+                    formGroup.controls[template.field].errors&quot;
+                     class&#x3D;&quot;text-pink mt-1 pl-2&quot;&gt;
+                  &lt;div *ngIf&#x3D;&quot;formGroup.controls[template.field].errors[&#x27;required&#x27;]&quot;&gt;
+                    {{ &quot;Este campo es requerido&quot; }}
+                  &lt;/div&gt;
+                &lt;/div&gt;
+              &lt;/div&gt;
+
+              &lt;!-- Simple date --&gt;
+              &lt;div *ngSwitchCase&#x3D;&quot;&#x27;simple-date&#x27;&quot;&gt;
+                &lt;label class&#x3D;&quot;font-bold pl-2&quot;&gt;{{ template.name  }}&lt;/label&gt;
+                &lt;label *ngIf&#x3D;&quot;template.isRequired&quot; class&#x3D;&quot;text-danger&quot;&gt;*&lt;/label&gt;
+                &lt;div class&#x3D;&quot;mx-2&quot;&gt;
+&lt;!--                  &lt;dx-date-box--&gt;
+&lt;!--                    stylingMode&#x3D;&quot;outlined&quot;--&gt;
+&lt;!--                    [formControlName]&#x3D;&quot;template.field&quot;--&gt;
+&lt;!--                    [value]&#x3D;&quot;formGroup.controls[template.field].value&quot;--&gt;
+&lt;!--                    displayFormat&#x3D;&quot;dd/MM/yyyy&quot;&gt;--&gt;
+&lt;!--                  &lt;/dx-date-box&gt;--&gt;
+                &lt;/div&gt;
+              &lt;/div&gt;
+
+              &lt;!-- Simple radio button---&gt;
+              &lt;div *ngSwitchCase&#x3D;&quot;&#x27;simple-radio&#x27;&quot;&gt;
+                &lt;div class&#x3D;&quot;flex flex-col justify-center items-start&quot;&gt;
+                  &lt;p class&#x3D;&quot;font-bold pl-2&quot;&gt;{{ template.name }}&lt;/p&gt;
+                  &lt;div class&#x3D;&quot;pl-2 h-10 flex items-center&quot;&gt;
+                    &lt;div *ngFor&#x3D;&quot;let data of selectables[template.field]?.data&quot; class&#x3D;&quot;form-check form-check-inline&quot;&gt;
+                      &lt;input class&#x3D;&quot;form-check-input form-check-input appearance-none rounded-full h-4 w-4 border border-gray-300 bg-white
+                                  checked:bg-green checked:border-green focus:outline-none transition duration-200 mt-1 align-top bg-no-repeat bg-center bg-contain float-left mr-2 cursor-pointer&quot;
+                             type&#x3D;&quot;radio&quot;
+                             name&#x3D;&quot;inlineRadioOptions&quot;
+                             id&#x3D;&quot;inlineRadio1&quot;
+                             [readonly]&#x3D;&quot;template.readonly&quot;
+                             [value]&#x3D;&#x27;data.value&#x27;
+                             [formControlName]&#x3D;&quot;template.field&quot;&gt;
+                      &lt;label class&#x3D;&quot;form-check-label inline-block text-gray-800 font-bold&quot; for&#x3D;&quot;inlineRadio1&quot;&gt;{{data.name}}&lt;/label&gt;
+                    &lt;/div&gt;
+                  &lt;/div&gt;
+                  &lt;div *ngIf&#x3D;&quot;
+                    formGroup.controls[template.field].dirty &amp;&amp;
+                    formGroup.controls[template.field].errors
+                  &quot; class&#x3D;&quot;text-pink mt-1 pl-2&quot;&gt;
+                    &lt;div *ngIf&#x3D;&quot;formGroup.controls[template.field].errors[&#x27;required&#x27;]&quot;&gt;
+                      {{ &quot;Este campo es requerido&quot; }}
+                    &lt;/div&gt;
+                  &lt;/div&gt;
+                &lt;/div&gt;
+              &lt;/div&gt;
+
+              &lt;!-- Simple switch button---&gt;
+              &lt;div *ngSwitchCase&#x3D;&quot;&#x27;simple-switch&#x27;&quot; class&#x3D;&quot;flex justify-items-start form-check form-switch py-4&quot;&gt;
+                &lt;label class&#x3D;&quot;&quot;&gt;{{ template.name }}&lt;/label&gt;
+
+                &lt;input
+                  class&#x3D;&quot;form-check-input
+                          appearance-none w-9 ml-2 rounded-full float-left
+                          h-5 align-top bg-white bg-no-repeat bg-contain bg-gray-300
+                          focus:outline-none cursor-pointer shadow-sm&quot;
+                          [formControlName]&#x3D;&quot;template.field&quot;
+                        type&#x3D;&quot;checkbox&quot; role&#x3D;&quot;switch&quot;&gt;
+              &lt;/div&gt;
+            &lt;/container-element&gt;
+          &lt;/div&gt;
+        &lt;/div&gt;
+      &lt;/div&gt;
+    &lt;/div&gt;
+  &lt;/form&gt;
+  &lt;ng-content&gt;&lt;/ng-content&gt;
+&lt;/div&gt;
+
+&lt;!--------------------------------------------------------------------------------------------------------------------------------&gt;
+</code></pre>
+    </div>
+
+    <div class="tab-pane fade " id="c-styleData">
+                <p class="comment">
+                    <code>./dynamic-form.component.scss</code>
+                </p>
+                <pre class="line-numbers"><code class="language-scss">@import &#x27;../../shared/mixins.scss&#x27;;
+
+.container-dynamic-form{
+  min-width: 100%;
+}
+
+.form-control-container{
+  i{
+    color: $color-orange;
+  }
+}
+
+.ng-select{
+  margin: auto 8px;
+  box-shadow: 0 10px 15px -3px rgb(0 0 0 / 10%), 0 4px 6px -4px rgb(0 0 0 / 10%);
+  &amp;.ng-select-container{
+    border-radius: 0.25rem;
+    border:1px solid #e5e7eb;
+  }
+}
+
+.text-information-segment{
+  padding-bottom: 3px;
+  border-bottom: 2px solid #f3f3f3;
+}
+
+input[type&#x3D;&quot;text&quot;],
+input[type&#x3D;&quot;number&quot;],
+input[type&#x3D;&quot;email&quot;]
+{
+  width: 100%;
+  //min-width: 300px;
+  //max-width: 500px;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  /* display: none; &lt;- Crashes Chrome on hover */
+  -webkit-appearance: none;
+  margin: 0; /* &lt;-- Apparently some margin are still there even though it&#x27;s hidden */
+}
+
+input[type&#x3D;number] {
+  -moz-appearance:textfield; /* Firefox */
+}
+</code></pre>
+    </div>
+
+    <div class="tab-pane fade " id="c-tree">
+        <div id="tree-container"></div>
+        <div class="tree-legend">
+            <div class="title">
+                <b>Legend</b>
+            </div>
+            <div>
+                <div class="color htmlelement"></div><span>Html element</span>
+            </div>
+            <div>
+                <div class="color component"></div><span>Component</span>
+            </div>
+            <div>
+                <div class="color directive"></div><span>Html element with directive</span>
+            </div>
+        </div>
+    </div>
+
+    
+</div>
+
+<script src="../js/libs/vis.min.js"></script>
+<script src="../js/libs/htmlparser.js"></script>
+<script src="../js/libs/deep-iterator.js"></script>
+<script>
+        var COMPONENT_TEMPLATE = '<div><div *ngIf="formGroup" class="left container-dynamic-form bg-white rounded-lg rounded shadow-xl my-2">  <!-- Muestra el mensaje de error -->  <div *ngIf="errorMessage" class="bg-fuchsia-50 ">    {{ errorMessage }}  </div>  <!-- Muestra el formulario dinámico para crear los       campos de la información de los  datos a ingresar -->  <form [formGroup]="formGroup" (ngSubmit)="actionSubmit()" autoComplete="off">    <div *ngFor="let segment of segments" class="form form-control-container pt-1 pb-8">      <div class="">        <!-- Muestra el título del segmento -->        <h2 [hidden]="segment.isHidden" class="mt-1 mb-4 text-color-black text-[20px] font-bold pl-5 text-information-segment">          {{ segment.name }}        </h2>        <!-- Muestra los campos del segmento -->        <div class="{{segment.layoutCss}} mx-5" [ngClass]="segment.layoutCss">          <div            *ngFor="let template of segment.templates"            [hidden]="template.isHidden"            [ngClass]="template.cssClass">            <container-element [ngSwitch]="template.type">              <!-- Simple image for input -->              <div *ngSwitchCase="\'simple-image\'">                <label>{{ template.name }}</label>                <div class="col-md-12">                  <app-image-cropper (actionUploadImage)="actionUploadImage($event)">                  </app-image-cropper>                </div>              </div>              <!-- Simple text for input -->              <div *ngSwitchCase="\'simple-text\'" >                <label class="pl-2 font-bold" for="{{template.name}}">{{template.name}}</label>                <div class="relative bg-white shadow-md mx-2">                  <div class="absolute bg-transparent flex left-0 top-0 h-full w-10">                    <div class="flex items-center justify-center rounded-tl rounded-bl z-10 text-gray-600  h-full w-full ">                      <i class="{{template.icon}}"></i>                    </div>                  </div>                  <input name="name"                         id="{{template.name}}"                         type="text"                         placeholder="{{template.placeholder}}"                         [formControlName]="template.field"                         [readonly]="template.readonly"                         class="text-sm sm:text-base w-full border rounded placeholder-gray-400 focus:border-b-amber-400 focus:outline-none py-2 pr-2 pl-12" />                </div>                <div *ngIf="                    formGroup.controls[template.field].dirty &&                    formGroup.controls[template.field].errors                  " class="text-pink mt-1 pl-2">                  <div *ngIf="formGroup.controls[template.field].errors[\'required\']">                    {{ "Este campo es requerido" }}                  </div>                </div>              </div>              <!-- Simple password for input -->              <div *ngSwitchCase="\'simple-password\'" >                <label class="pl-2 font-bold" for="{{template.name}}">{{template.name}}</label>                <div class="relative bg-white shadow-md mx-2">                  <div class="absolute bg-transparent flex left-0 top-0 h-full w-10">                    <div class="flex items-center justify-center rounded-tl rounded-bl z-10 text-gray-600  h-full w-full ">                      <i class="{{template.icon}}"></i>                    </div>                  </div>                  <input name="name"                         id="{{template.name}}"                         [type]="showPassword ? \'text\' : \'password\'"                         placeholder="{{template.placeholder}}"                         [formControlName]="template.field"                         class="text-sm sm:text-base w-full border rounded placeholder-gray-400 focus:border-b-amber-400 focus:outline-none py-2 pr-2 pl-12" />                </div>                <div *ngIf="                    formGroup.controls[template.field].dirty &&                    formGroup.controls[template.field].errors                  " class="text-pink mt-1 pl-2">                  <div *ngIf="formGroup.controls[template.field].errors[\'required\']">                    {{ "Este campo es requerido" }}                  </div>                </div>              </div>              <!-- Simple number for input -->              <div *ngSwitchCase="\'simple-number\'">                <label class="pl-2 font-bold" for="{{template.name}}">{{template.name}}</label>                <div class="relative bg-white shadow-md mx-2">                  <div class="absolute bg-transparent flex left-0 top-0 h-full w-10">                    <div class="flex items-center justify-center rounded-tl rounded-bl z-10 text-gray-600  h-full w-full ">                      <i class="{{template.icon}}"></i>                    </div>                  </div>                  <input id="{{template.name}}"                         name="name"                         type="number"                         min="1"                         value="1"                         placeholder="{{template.placeholder}}"                         [formControlName]="template.field"                         [readonly]="template.readonly"                         class="text-sm sm:text-base w-full border rounded placeholder-gray-400 focus:border-b-amber-400 focus:outline-none py-2 pr-2 pl-12" />                </div>                <div *ngIf="                    formGroup.controls[template.field].dirty &&                    formGroup.controls[template.field].errors                  " class="text-pink mt-1">                  <div *ngIf="formGroup.controls[template.field].errors[\'required\']">                    {{ "Este campo es requerido" }}                  </div>                </div>              </div>              <!-- Simple email for input -->              <div *ngSwitchCase="\'simple-email\'" >                <label class="pl-2 font-bold" for="{{template.name}}">{{template.name}}</label>                <div class="relative bg-white shadow-md mx-2">                  <div class="absolute bg-transparent flex left-0 top-0 h-full w-10">                    <div class="flex items-center justify-center rounded-tl rounded-bl z-10 text-gray-600  h-full w-full ">                      <i class="{{template.icon}}"></i>                    </div>                  </div>                  <input id="{{template.name}}"                         name="name"                         type="email"                         placeholder="{{template.placeholder}}"                         [formControlName]="template.field"                         class="text-sm sm:text-base w-full border rounded placeholder-gray-400 focus:border-b-amber-400 focus:outline-none py-2 pr-2 pl-12" />                </div>                <div *ngIf="                    formGroup.controls[template.field].dirty &&                    formGroup.controls[template.field].errors                  " class="text-pink mt-1 pl-2">                  <div *ngIf="formGroup.controls[template.field].errors[\'required\']">                    {{ "Este campo es requerido" }}                  </div>                  <div *ngIf="formGroup.controls[template.field].errors[\'email\']">                    {{ "Email invalido" }}                  </div>                </div>              </div>              <!-- Simple phone for input -->              <div *ngSwitchCase="\'simple-phone\'" >               <div class="relative bg-white mx-2">                 <label class="font-bold" for="{{template.name}}">{{ template.name }}</label>                 <div class="shadow-lg border">                   <ngx-intl-tel-input                     [enablePlaceholder]="false"                     [formControlName]="template.field"                     [selectedCountryISO]="selectedCountryISO"                     [onlyCountries]="preferredCountries"                     [maxLength]="12"                     [cssClass]="\'text-sm sm:text-base rounded placeholder-gray-400 focus:border-b-amber-400 focus:outline-none py-2 pr-2 pl-12\'">                   </ngx-intl-tel-input>                 </div>               </div>               <div *ngIf="                    formGroup.controls[template.field].dirty &&                    formGroup.controls[template.field].errors                  " class="text-pink mt-1 pl-2">                  <div *ngIf="formGroup.controls[template.field].errors[\'required\']">                    {{ "Este campo es requerido" }}                  </div>                  <div *ngIf="formGroup.controls[template.field].errors[\'phone\']">                    {{ "Número de teléfono inválido" }}                  </div>                 <div *ngIf="formGroup.controls[template.field].errors[\'validatePhoneNumber\']">                   {{ "Número de teléfono inválido" }}                 </div>                </div>              </div>              <!--  Simple selector-->              <div *ngSwitchCase="\'simple-selector\'">                <label class="font-bold pl-2" for="{{template.name}}">{{template.name}}</label>                <ng-select                  [formControlName]="template.field"                  (ngModelChange)="actionChangeSimpleSelector($event, template.field)">                  <ng-option                    *ngFor="let data of selectables[template.field]?.data"                    [value]="data[selectables[template.field].value]">                    {{ data[selectables[template.field].name] }}                  </ng-option>                </ng-select>                <div *ngIf="                    formGroup.controls[template.field].dirty &&                    formGroup.controls[template.field].errors"                    class="text-pink mt-1 pl-2">                  <div *ngIf="formGroup.controls[template.field].errors[\'required\']">                    {{ "Este campo es requerido" }}                  </div>                </div>              </div>              <!-- multi selector -->              <div class="form-group" *ngSwitchCase="\'multiple-selector\'">                <label>{{ template.name }}</label>                <label *ngIf="template.isRequired" class="text-pink">*</label>                <ng-select                  class="form-control"                  [multiple]="true"                  [formControlName]="template.field"                  (ngModelChange)="actionChangeMultiSelector($event, template.field)">                  <ng-option *ngFor="let data of selectables[template.field]?.data"                             [value]="data[selectables[template.field].value]">                    {{ data[selectables[template.field].name] }}                  </ng-option>                </ng-select>                <div *ngIf="                    formGroup.controls[template.field].dirty &&                    formGroup.controls[template.field].errors"                     class="text-pink mt-1 pl-2">                  <div *ngIf="formGroup.controls[template.field].errors[\'required\']">                    {{ "Este campo es requerido" }}                  </div>                </div>              </div>              <!-- Simple date -->              <div *ngSwitchCase="\'simple-date\'">                <label class="font-bold pl-2">{{ template.name  }}</label>                <label *ngIf="template.isRequired" class="text-danger">*</label>                <div class="mx-2"><!--                  <dx-date-box--><!--                    stylingMode="outlined"--><!--                    [formControlName]="template.field"--><!--                    [value]="formGroup.controls[template.field].value"--><!--                    displayFormat="dd/MM/yyyy">--><!--                  </dx-date-box>-->                </div>              </div>              <!-- Simple radio button--->              <div *ngSwitchCase="\'simple-radio\'">                <div class="flex flex-col justify-center items-start">                  <p class="font-bold pl-2">{{ template.name }}</p>                  <div class="pl-2 h-10 flex items-center">                    <div *ngFor="let data of selectables[template.field]?.data" class="form-check form-check-inline">                      <input class="form-check-input form-check-input appearance-none rounded-full h-4 w-4 border border-gray-300 bg-white                                  checked:bg-green checked:border-green focus:outline-none transition duration-200 mt-1 align-top bg-no-repeat bg-center bg-contain float-left mr-2 cursor-pointer"                             type="radio"                             name="inlineRadioOptions"                             id="inlineRadio1"                             [readonly]="template.readonly"                             [value]=\'data.value\'                             [formControlName]="template.field">                      <label class="form-check-label inline-block text-gray-800 font-bold" for="inlineRadio1">{{data.name}}</label>                    </div>                  </div>                  <div *ngIf="                    formGroup.controls[template.field].dirty &&                    formGroup.controls[template.field].errors                  " class="text-pink mt-1 pl-2">                    <div *ngIf="formGroup.controls[template.field].errors[\'required\']">                      {{ "Este campo es requerido" }}                    </div>                  </div>                </div>              </div>              <!-- Simple switch button--->              <div *ngSwitchCase="\'simple-switch\'" class="flex justify-items-start form-check form-switch py-4">                <label class="">{{ template.name }}</label>                <input                  class="form-check-input                          appearance-none w-9 ml-2 rounded-full float-left                          h-5 align-top bg-white bg-no-repeat bg-contain bg-gray-300                          focus:outline-none cursor-pointer shadow-sm"                          [formControlName]="template.field"                        type="checkbox" role="switch">              </div>            </container-element>          </div>        </div>      </div>    </div>  </form>  <ng-content></ng-content></div><!--------------------------------------------------------------------------------------------------------------------------------></div>'
+    var COMPONENTS = [{'name': 'AccessComponent', 'selector': 'app-access'},{'name': 'AccountsPayableComponent', 'selector': 'app-accounts-payable'},{'name': 'AccountsReceivableComponent', 'selector': 'app-accounts-receivable'},{'name': 'ApiIntegrationsComponent', 'selector': 'app-api-integrations'},{'name': 'ApiTizoComponent', 'selector': 'app-api-tizo'},{'name': 'AppComponent', 'selector': 'app-root'},{'name': 'BranchComponent', 'selector': 'app-branch'},{'name': 'BranchesComponent', 'selector': 'app-branches'},{'name': 'BreadcrumbComponent', 'selector': 'app-breadcrumb'},{'name': 'CancellationOfAccountsComponent', 'selector': 'app-cancellation-of-accounts'},{'name': 'ChangePasswordComponent', 'selector': 'app-change-password'},{'name': 'CompleteStepsComponent', 'selector': 'app-complete-steps'},{'name': 'CouponsComponent', 'selector': 'app-coupons'},{'name': 'CreditcardComponent', 'selector': 'app-creditcard'},{'name': 'CustomerComponent', 'selector': 'app-customer'},{'name': 'CustomersComponent', 'selector': 'app-customers'},{'name': 'CustomerShipmentMapComponent', 'selector': 'app-customer-shipment-map'},{'name': 'DashboardComponent', 'selector': 'app-dashboard'},{'name': 'DynamicFormComponent', 'selector': 'app-dynamic-form'},{'name': 'DynamicTableComponent', 'selector': 'app-dynamic-table'},{'name': 'ErrorComponent', 'selector': 'app-error'},{'name': 'FinanceComponent', 'selector': 'app-finance'},{'name': 'FooterComponent', 'selector': 'app-footer'},{'name': 'ForgotPasswordComponent', 'selector': 'app-forgot-password'},{'name': 'ImageCropperComponent', 'selector': 'app-image-cropper'},{'name': 'InformationDialogComponent', 'selector': 'app-information-dialog'},{'name': 'InvoicesComponent', 'selector': 'app-invoices'},{'name': 'InvoicesHistoricalComponent', 'selector': 'app-invoices-historical'},{'name': 'ManagementComponent', 'selector': 'app-management'},{'name': 'MapDirectionComponent', 'selector': 'app-map-direction'},{'name': 'MenuItemsComponent', 'selector': 'app-menu-items'},{'name': 'NavbarComponent', 'selector': 'app-navbar'},{'name': 'NotificationsComponent', 'selector': 'app-notifications'},{'name': 'PageListButtonsComponent', 'selector': 'app-page-list-buttons'},{'name': 'PagesComponent', 'selector': 'app-pages'},{'name': 'ProductComponent', 'selector': 'app-product'},{'name': 'ProductReturnComponent', 'selector': 'app-product-return'},{'name': 'ProductsComponent', 'selector': 'app-products'},{'name': 'ProfileManagerComponent', 'selector': 'app-profile-manager'},{'name': 'ProfilesManagerComponent', 'selector': 'app-profiles-manager'},{'name': 'PromotionsComponent', 'selector': 'app-promotions'},{'name': 'PromotionsContainerComponent', 'selector': 'app-promotions-container'},{'name': 'QuestionDialogComponent', 'selector': 'app-question-dialog'},{'name': 'RatingsComponent', 'selector': 'app-ratings'},{'name': 'RecordComponent', 'selector': 'app-record'},{'name': 'RecoveryPasswordComponent', 'selector': 'app-recovery-password'},{'name': 'ResetPasswordForgivenComponent', 'selector': 'app-reset-password-forgiven'},{'name': 'ShipmentMapComponent', 'selector': 'app-shipment-map'},{'name': 'ShipmentsProductsComponent', 'selector': 'app-shipments-products'},{'name': 'SidebarComponent', 'selector': 'app-sidebar'},{'name': 'SidebarSalesComponent', 'selector': 'app-sidebar-sales'},{'name': 'SidebarSystemComponent', 'selector': 'app-sidebar-system'},{'name': 'SigninComponent', 'selector': 'app-signin'},{'name': 'StatementPayableComponent', 'selector': 'app-statement-payable'},{'name': 'StatementsPayableComponent', 'selector': 'app-statements-payable'},{'name': 'StepsComponent', 'selector': 'app-steps'},{'name': 'StoreComponent', 'selector': 'app-store'},{'name': 'SuccessDialogComponent', 'selector': 'app-success-dialog'},{'name': 'TableDynamicTemplateComponent', 'selector': 'app-dynamic-table'},{'name': 'TizoDatepickerComponent', 'selector': 'app-tizo-datepicker'},{'name': 'TizoFilesComponent', 'selector': 'app-tizo-files'},{'name': 'TizoImageComponent', 'selector': 'app-tizo-image'},{'name': 'TizoModalComponent', 'selector': 'app-tizo-modal'},{'name': 'TizoPaginationComponent', 'selector': 'app-tizo-pagination'},{'name': 'TizoVideoComponent', 'selector': 'app-tizo-video'},{'name': 'UserComponent', 'selector': 'app-user'},{'name': 'UsersComponent', 'selector': 'app-users'},{'name': 'VendorComponent', 'selector': 'app-vendor'},{'name': 'WalletComponent', 'selector': 'app-wallet'},{'name': 'WarningDialogComponent', 'selector': 'app-warning-dialog'}];
+    var DIRECTIVES = [{'name': 'AppRoleDirective', 'selector': '[appRole]'},{'name': 'ClickOutSideDirective', 'selector': '[appClickOutSide]'},{'name': 'ColumnCustomDirective', 'selector': '[appColumnCustom]'},{'name': 'TizoTemplateDirective', 'selector': '[appTizoTemplate]'}];
+    var ACTUAL_COMPONENT = {'name': 'DynamicFormComponent'};
+</script>
+<script src="../js/tree.js"></script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                   </div><div class="search-results">
+    <div class="has-results">
+        <h1 class="search-results-title"><span class='search-results-count'></span> results matching "<span class='search-query'></span>"</h1>
+        <ul class="search-results-list"></ul>
+    </div>
+    <div class="no-results">
+        <h1 class="search-results-title">No results matching "<span class='search-query'></span>"</h1>
+    </div>
+</div>
+</div>
+               <!-- END CONTENT -->
+           </div>
+       </div>
+
+          <label class="dark-mode-switch">
+               <input type="checkbox">
+               <span class="slider">
+                    <svg class="slider-icon" viewBox="0 0 24 24" fill="none" height="20" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" width="20" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M21 12.79A9 9 0 1111.21 3 7 7 0 0021 12.79z"></path>
+                    </svg>
+               </span>
+          </label>
+
+       <script>
+            var COMPODOC_CURRENT_PAGE_DEPTH = 1;
+            var COMPODOC_CURRENT_PAGE_CONTEXT = 'component';
+            var COMPODOC_CURRENT_PAGE_URL = 'DynamicFormComponent.html';
+            var MAX_SEARCH_RESULTS = 15;
+       </script>
+
+       <script src="../js/libs/custom-elements.min.js"></script>
+       <script src="../js/libs/lit-html.js"></script>
+
+       <script src="../js/menu-wc.js" defer></script>
+       <script nomodule src="../js/menu-wc_es5.js" defer></script>
+
+       <script src="../js/libs/bootstrap-native.js"></script>
+
+       <script src="../js/libs/es6-shim.min.js"></script>
+       <script src="../js/libs/EventDispatcher.js"></script>
+       <script src="../js/libs/promise.min.js"></script>
+       <script src="../js/libs/zepto.min.js"></script>
+
+       <script src="../js/compodoc.js"></script>
+
+       <script src="../js/tabs.js"></script>
+       <script src="../js/menu.js"></script>
+       <script src="../js/libs/clipboard.min.js"></script>
+       <script src="../js/libs/prism.js"></script>
+       <script src="../js/sourceCode.js"></script>
+          <script src="../js/search/search.js"></script>
+          <script src="../js/search/lunr.min.js"></script>
+          <script src="../js/search/search-lunr.js"></script>
+          <script src="../js/search/search_index.js"></script>
+       <script src="../js/lazy-load-graphs.js"></script>
+
+
+    </body>
+</html>

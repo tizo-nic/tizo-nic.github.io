@@ -1,0 +1,3070 @@
+<!doctype html>
+<html class="no-js" lang="">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <title>vendor-tizo documentation</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <link rel="icon" type="image/x-icon" href="../images/favicon.ico">
+	   <link rel="stylesheet" href="../styles/style.css">
+        <link rel="stylesheet" href="../styles/dark.css">
+    </head>
+    <body>
+
+        <div class="navbar navbar-default navbar-fixed-top visible-xs">
+            <a href="../" class="navbar-brand">vendor-tizo documentation</a>
+            <button type="button" class="btn btn-default btn-menu ion-ios-menu" id="btn-menu"></button>
+        </div>
+
+        <div class="xs-menu menu" id="mobile-menu">
+                <div id="book-search-input" role="search"><input type="text" placeholder="Type to search"></div>            <compodoc-menu></compodoc-menu>
+        </div>
+
+        <div class="container-fluid main">
+           <div class="row main">
+               <div class="hidden-xs menu">
+                   <compodoc-menu mode="normal"></compodoc-menu>
+               </div>
+               <!-- START CONTENT -->
+               <div class="content component">
+                   <div class="content-data">
+
+
+
+
+<ol class="breadcrumb">
+  <li>Components</li>
+  <li
+  >
+  UserComponent</li>
+</ol>
+
+<ul class="nav nav-tabs" role="tablist">
+        <li class="active">
+            <a href="#info" role="tab" id="info-tab" data-toggle="tab" data-link="info">Info</a>
+        </li>
+        <li >
+            <a href="#source" role="tab" id="source-tab" data-toggle="tab" data-link="source">Source</a>
+        </li>
+        <li >
+            <a href="#templateData" role="tab" id="templateData-tab" data-toggle="tab" data-link="template">Template</a>
+        </li>
+        <li >
+            <a href="#styleData" role="tab" id="styleData-tab" data-toggle="tab" data-link="style">Styles</a>
+        </li>
+        <li >
+            <a href="#tree" role="tab" id="tree-tab" data-toggle="tab" data-link="dom-tree">DOM Tree</a>
+        </li>
+</ul>
+
+<div class="tab-content">
+    <div class="tab-pane fade active in" id="c-info"><p class="comment">
+    <h3>File</h3>
+</p>
+<p class="comment">
+    <code>src/app/pages/vendor-manager/pages/management/access/user/user.component.ts</code>
+</p>
+
+
+
+    <p class="comment">
+        <h3>Extends</h3>
+    </p>
+    <p class="comment">
+                <code><a href="../classes/TizoEditorComponent.html" target="_self" >TizoEditorComponent</a></code>
+    </p>
+
+    <p class="comment">
+        <h3>Implements</h3>
+    </p>
+    <p class="comment">
+                    <code><a href="https://angular.io/api/core/OnInit" target="_blank" >OnInit</a></code>
+    </p>
+
+
+<section>
+    <h3>Metadata</h3>
+    <table class="table table-sm table-hover metadata">
+        <tbody>
+
+
+
+
+
+
+
+
+
+
+
+            <tr>
+                <td class="col-md-3">selector</td>
+                <td class="col-md-9"><code>app-user</code></td>
+            </tr>
+
+            <tr>
+                <td class="col-md-3">styleUrls</td>
+                <td class="col-md-9"><code>./user.component.scss</code></td>
+            </tr>
+
+
+
+            <tr>
+                <td class="col-md-3">templateUrl</td>
+                <td class="col-md-9"><code>./user.component.html</code></td>
+            </tr>
+
+
+
+
+
+
+
+
+        </tbody>
+    </table>
+</section>
+
+    <section>
+    <h3 id="index">Index</h3>
+    <table class="table table-sm table-bordered index-table">
+        <tbody>
+                <tr>
+                    <td class="col-md-4">
+                        <h6><b>Properties</b></h6>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <ul class="index-list">
+                            <li>
+                                    <span class="modifier">Public</span>
+                                    <span class="modifier"></span>
+                                <a href="#_http" >_http</a>
+                            </li>
+                            <li>
+                                    <span class="modifier">Public</span>
+                                    <span class="modifier"></span>
+                                <a href="#ipUser" >ipUser</a>
+                            </li>
+                            <li>
+                                    <span class="modifier">Public</span>
+                                    <span class="modifier"></span>
+                                <a href="#isShowSuccessDialog" >isShowSuccessDialog</a>
+                            </li>
+                            <li>
+                                    <span class="modifier">Public</span>
+                                <a href="#loadGender" >loadGender</a>
+                            </li>
+                            <li>
+                                    <span class="modifier">Public</span>
+                                <a href="#loadProfileVendorUser" >loadProfileVendorUser</a>
+                            </li>
+                            <li>
+                                    <span class="modifier">Public</span>
+                                <a href="#password" >password</a>
+                            </li>
+                            <li>
+                                    <span class="modifier">Public</span>
+                                <a href="#responseUser" >responseUser</a>
+                            </li>
+                            <li>
+                                    <span class="modifier">Public</span>
+                                <a href="#store" >store</a>
+                            </li>
+                            <li>
+                                <a href="#typeUser" >typeUser</a>
+                            </li>
+                            <li>
+                                    <span class="modifier">Public</span>
+                                <a href="#userState" >userState</a>
+                            </li>
+                            <li>
+                                    <span class="modifier">Public</span>
+                                <a href="#errorMessage" >errorMessage</a>
+                            </li>
+                            <li>
+                                    <span class="modifier">Public</span>
+                                <a href="#formGroup" >formGroup</a>
+                            </li>
+                            <li>
+                                    <span class="modifier">Public</span>
+                                <a href="#isSubmitted" >isSubmitted</a>
+                            </li>
+                            <li>
+                                    <span class="modifier">Public</span>
+                                <a href="#selectables" >selectables</a>
+                            </li>
+                            <li>
+                                    <span class="modifier">Public</span>
+                                <a href="#suggestions" >suggestions</a>
+                            </li>
+                            <li>
+                                    <span class="modifier">Public</span>
+                                <a href="#breadcrumbs" >breadcrumbs</a>
+                            </li>
+                            <li>
+                                    <span class="modifier">Public</span>
+                                <a href="#description" >description</a>
+                            </li>
+                            <li>
+                                    <span class="modifier">Public</span>
+                                <a href="#entity" >entity</a>
+                            </li>
+                            <li>
+                                    <span class="modifier">Public</span>
+                                <a href="#idElement" >idElement</a>
+                            </li>
+                            <li>
+                                    <span class="modifier">Public</span>
+                                <a href="#isRequireBreadcrumb" >isRequireBreadcrumb</a>
+                            </li>
+                            <li>
+                                    <span class="modifier">Public</span>
+                                <a href="#isShowDangerDialog" >isShowDangerDialog</a>
+                            </li>
+                            <li>
+                                    <span class="modifier">Public</span>
+                                <a href="#isShowQuestionDialog" >isShowQuestionDialog</a>
+                            </li>
+                            <li>
+                                    <span class="modifier">Public</span>
+                                <a href="#isShowWarningDialog" >isShowWarningDialog</a>
+                            </li>
+                            <li>
+                                    <span class="modifier">Public</span>
+                                <a href="#messageDialogDanger" >messageDialogDanger</a>
+                            </li>
+                            <li>
+                                    <span class="modifier">Public</span>
+                                <a href="#messageDialogQuestion" >messageDialogQuestion</a>
+                            </li>
+                            <li>
+                                    <span class="modifier">Public</span>
+                                <a href="#messageDialogSuccess" >messageDialogSuccess</a>
+                            </li>
+                            <li>
+                                    <span class="modifier">Public</span>
+                                <a href="#messageDialogWarning" >messageDialogWarning</a>
+                            </li>
+                            <li>
+                                    <span class="modifier">Public</span>
+                                <a href="#questionNegativeCallback" >questionNegativeCallback</a>
+                            </li>
+                            <li>
+                                    <span class="modifier">Public</span>
+                                <a href="#questionPositiveCallback" >questionPositiveCallback</a>
+                            </li>
+                            <li>
+                                    <span class="modifier">Public</span>
+                                <a href="#title" >title</a>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td class="col-md-4">
+                        <h6><b>Methods</b></h6>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <ul class="index-list">
+                            <li>
+                                    <span class="modifier">Public</span>
+                                    <span class="modifier"></span>
+                                <a href="#actionCancel" >actionCancel</a>
+                            </li>
+                            <li>
+                                    <span class="modifier">Public</span>
+                                    <span class="modifier"></span>
+                                <a href="#actionOkDialogSuccess" >actionOkDialogSuccess</a>
+                            </li>
+                            <li>
+                                    <span class="modifier">Public</span>
+                                    <span class="modifier"></span>
+                                <a href="#actionSave" >actionSave</a>
+                            </li>
+                            <li>
+                                    <span class="modifier">Public</span>
+                                    <span class="modifier"></span>
+                                <a href="#actionUpdate" >actionUpdate</a>
+                            </li>
+                            <li>
+                                    <span class="modifier">Public</span>
+                                <a href="#handleClosePopup" >handleClosePopup</a>
+                            </li>
+                            <li>
+                                    <span class="modifier">Public</span>
+                                <a href="#initializedFormEditor" >initializedFormEditor</a>
+                            </li>
+                            <li>
+                                    <span class="modifier">Public</span>
+                                    <span class="modifier"></span>
+                                <a href="#loadData" >loadData</a>
+                            </li>
+                            <li>
+                                    <span class="modifier">Public</span>
+                                <a href="#loadDataBranches" >loadDataBranches</a>
+                            </li>
+                            <li>
+                                    <span class="modifier">Public</span>
+                                <a href="#loadSelectableGender" >loadSelectableGender</a>
+                            </li>
+                            <li>
+                                <a href="#ngOnInit" >ngOnInit</a>
+                            </li>
+                            <li>
+                                    <span class="modifier">Public</span>
+                                <a href="#actionRemove" >actionRemove</a>
+                            </li>
+                            <li>
+                                    <span class="modifier">Public</span>
+                                    <span class="modifier"></span>
+                                <a href="#onChangeLanguage" >onChangeLanguage</a>
+                            </li>
+                            <li>
+                                    <span class="modifier">Public</span>
+                                    <span class="modifier"></span>
+                                <a href="#onInit" >onInit</a>
+                            </li>
+                            <li>
+                                    <span class="modifier">Public</span>
+                                <a href="#actionOkDialogWarning" >actionOkDialogWarning</a>
+                            </li>
+                            <li>
+                                    <span class="modifier">Public</span>
+                                <a href="#loadIp" >loadIp</a>
+                            </li>
+                            <li>
+                                    <span class="modifier">Public</span>
+                                <a href="#onDestroy" >onDestroy</a>
+                            </li>
+                            <li>
+                                    <span class="modifier">Protected</span>
+                                <a href="#reDraw" >reDraw</a>
+                            </li>
+                            <li>
+                                    <span class="modifier">Protected</span>
+                                <a href="#translate" >translate</a>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
+
+
+
+
+
+        </tbody>
+    </table>
+</section>
+
+    <section>
+    <h3 id="constructor">Constructor</h3>
+        <table class="table table-sm table-bordered">
+            <tbody>
+                <tr>
+                    <td class="col-md-4">
+<code>constructor(_spinner: NgxSpinnerService, _formBuilder: UntypedFormBuilder, _router: <a href="https://angular.io/api/router/Router" target="_blank">Router</a>, _activatedRoute: <a href="https://angular.io/api/router/ActivatedRoute" target="_blank">ActivatedRoute</a>, _userService: <a href="../injectables/UserStateService.html" target="_self">UserStateService</a>, _mapService: <a href="../injectables/MapService.html" target="_self">MapService</a>, _restUser: <a href="../injectables/UserService.html" target="_self">UserService</a>, _http: <a href="https://angular.io/api/common/http/HttpClient" target="_blank">HttpClient</a>, _stateStore: <a href="../injectables/StoreService.html" target="_self">StoreService</a>, _branchRestService: <a href="../injectables/BranchRestService.html" target="_self">BranchRestService</a>, _branchStore: <a href="../injectables/BranchService.html" target="_self">BranchService</a>)</code>
+                    </td>
+                </tr>
+                        <tr>
+                            <td class="col-md-4">
+                                <div class="io-line">Defined in <a href="" data-line="33" class="link-to-prism">src/app/pages/vendor-manager/pages/management/access/user/user.component.ts:33</a></div>
+                            </td>
+                        </tr>
+
+                <tr>
+                    <td class="col-md-4">
+                            <div>
+                                    <b>Parameters :</b>
+                                    <table class="params">
+                                        <thead>
+                                            <tr>
+                                                <td>Name</td>
+                                                    <td>Type</td>
+                                                <td>Optional</td>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                                <tr>
+                                                        <td>_spinner</td>
+                                                  
+                                                        <td>
+                                                                    <code>NgxSpinnerService</code>
+                                                        </td>
+                                                  
+                                                    <td>
+                                                            No
+                                                    </td>
+                                                    
+                                                </tr>
+                                                <tr>
+                                                        <td>_formBuilder</td>
+                                                  
+                                                        <td>
+                                                                    <code>UntypedFormBuilder</code>
+                                                        </td>
+                                                  
+                                                    <td>
+                                                            No
+                                                    </td>
+                                                    
+                                                </tr>
+                                                <tr>
+                                                        <td>_router</td>
+                                                  
+                                                        <td>
+                                                                        <code><a href="https://angular.io/api/router/Router" target="_blank" >Router</a></code>
+                                                        </td>
+                                                  
+                                                    <td>
+                                                            No
+                                                    </td>
+                                                    
+                                                </tr>
+                                                <tr>
+                                                        <td>_activatedRoute</td>
+                                                  
+                                                        <td>
+                                                                        <code><a href="https://angular.io/api/router/ActivatedRoute" target="_blank" >ActivatedRoute</a></code>
+                                                        </td>
+                                                  
+                                                    <td>
+                                                            No
+                                                    </td>
+                                                    
+                                                </tr>
+                                                <tr>
+                                                        <td>_userService</td>
+                                                  
+                                                        <td>
+                                                                        <code><a href="../injectables/UserStateService.html" target="_self" >UserStateService</a></code>
+                                                        </td>
+                                                  
+                                                    <td>
+                                                            No
+                                                    </td>
+                                                    
+                                                </tr>
+                                                <tr>
+                                                        <td>_mapService</td>
+                                                  
+                                                        <td>
+                                                                        <code><a href="../injectables/MapService.html" target="_self" >MapService</a></code>
+                                                        </td>
+                                                  
+                                                    <td>
+                                                            No
+                                                    </td>
+                                                    
+                                                </tr>
+                                                <tr>
+                                                        <td>_restUser</td>
+                                                  
+                                                        <td>
+                                                                        <code><a href="../injectables/UserService.html" target="_self" >UserService</a></code>
+                                                        </td>
+                                                  
+                                                    <td>
+                                                            No
+                                                    </td>
+                                                    
+                                                </tr>
+                                                <tr>
+                                                        <td>_http</td>
+                                                  
+                                                        <td>
+                                                                        <code><a href="https://angular.io/api/common/http/HttpClient" target="_blank" >HttpClient</a></code>
+                                                        </td>
+                                                  
+                                                    <td>
+                                                            No
+                                                    </td>
+                                                    
+                                                </tr>
+                                                <tr>
+                                                        <td>_stateStore</td>
+                                                  
+                                                        <td>
+                                                                        <code><a href="../injectables/StoreService.html" target="_self" >StoreService</a></code>
+                                                        </td>
+                                                  
+                                                    <td>
+                                                            No
+                                                    </td>
+                                                    
+                                                </tr>
+                                                <tr>
+                                                        <td>_branchRestService</td>
+                                                  
+                                                        <td>
+                                                                        <code><a href="../injectables/BranchRestService.html" target="_self" >BranchRestService</a></code>
+                                                        </td>
+                                                  
+                                                    <td>
+                                                            No
+                                                    </td>
+                                                    
+                                                </tr>
+                                                <tr>
+                                                        <td>_branchStore</td>
+                                                  
+                                                        <td>
+                                                                        <code><a href="../injectables/BranchService.html" target="_self" >BranchService</a></code>
+                                                        </td>
+                                                  
+                                                    <td>
+                                                            No
+                                                    </td>
+                                                    
+                                                </tr>
+                                        </tbody>
+                                    </table>
+                            </div>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+</section>
+
+
+
+
+
+    <section>
+    
+    <h3 id="methods">
+        Methods
+    </h3>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="actionCancel"></a>
+                    <span class="name">
+                        <span class="modifier">Public</span>
+                        <span class="modifier"></span>
+                        <span ><b>actionCancel</b></span>
+                        <a href="#actionCancel"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+            <tr>
+                <td class="col-md-4">
+                    <span class="modifier-icon icon ion-ios-reset"></span>
+                    <code>actionCancel()</code>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+                    <div class="io-line">Inherited from         <code><a href="../classes/TizoEditorComponent.html" target="_self" >TizoEditorComponent</a></code>
+</div>
+                </td>
+            </tr>
+            <tr>
+                <td class="col-md-4">
+                        <div class="io-line">Defined in         <code><a href="../classes/TizoEditorComponent.html#source" target="_self" >TizoEditorComponent:263</a></code>
+</div>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+
+                    <div class="io-description">
+                        <b>Returns : </b>        <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >void</a></code>
+
+                    </div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="actionOkDialogSuccess"></a>
+                    <span class="name">
+                        <span class="modifier">Public</span>
+                        <span class="modifier"></span>
+                        <span ><b>actionOkDialogSuccess</b></span>
+                        <a href="#actionOkDialogSuccess"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+            <tr>
+                <td class="col-md-4">
+                    <span class="modifier-icon icon ion-ios-reset"></span>
+                    <code>actionOkDialogSuccess(data?: <a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank">any</a>)</code>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+                    <div class="io-line">Inherited from         <code><a href="../classes/TizoViewComponent.html" target="_self" >TizoViewComponent</a></code>
+</div>
+                </td>
+            </tr>
+            <tr>
+                <td class="col-md-4">
+                        <div class="io-line">Defined in         <code><a href="../classes/TizoViewComponent.html#source" target="_self" >TizoViewComponent:257</a></code>
+</div>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+
+                    <div class="io-description">
+                        <b>Parameters :</b>
+                        
+                        <table class="params">
+                            <thead>
+                                <tr>
+                                    <td>Name</td>
+                                    <td>Type</td>
+                                    <td>Optional</td>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>data</td>
+                                    <td>
+                                                <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >any</a></code>
+                                    </td>
+
+                                    <td>
+                                        Yes
+                                    </td>
+
+
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <div>
+                    </div>
+                    <div class="io-description">
+                        <b>Returns : </b>        <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >void</a></code>
+
+                    </div>
+                    <div class="io-description">
+                        
+                    </div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="actionSave"></a>
+                    <span class="name">
+                        <span class="modifier">Public</span>
+                        <span class="modifier"></span>
+                        <span ><b>actionSave</b></span>
+                        <a href="#actionSave"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+            <tr>
+                <td class="col-md-4">
+                    <span class="modifier-icon icon ion-ios-reset"></span>
+                    <code>actionSave()</code>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+                    <div class="io-line">Inherited from         <code><a href="../classes/TizoEditorComponent.html" target="_self" >TizoEditorComponent</a></code>
+</div>
+                </td>
+            </tr>
+            <tr>
+                <td class="col-md-4">
+                        <div class="io-line">Defined in         <code><a href="../classes/TizoEditorComponent.html#source" target="_self" >TizoEditorComponent:159</a></code>
+</div>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+
+                    <div class="io-description">
+                        <b>Returns : </b>        <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >void</a></code>
+
+                    </div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="actionUpdate"></a>
+                    <span class="name">
+                        <span class="modifier">Public</span>
+                        <span class="modifier"></span>
+                        <span ><b>actionUpdate</b></span>
+                        <a href="#actionUpdate"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+            <tr>
+                <td class="col-md-4">
+                    <span class="modifier-icon icon ion-ios-reset"></span>
+                    <code>actionUpdate()</code>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+                    <div class="io-line">Inherited from         <code><a href="../classes/TizoEditorComponent.html" target="_self" >TizoEditorComponent</a></code>
+</div>
+                </td>
+            </tr>
+            <tr>
+                <td class="col-md-4">
+                        <div class="io-line">Defined in         <code><a href="../classes/TizoEditorComponent.html#source" target="_self" >TizoEditorComponent:209</a></code>
+</div>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+
+                    <div class="io-description">
+                        <b>Returns : </b>        <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >void</a></code>
+
+                    </div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="handleClosePopup"></a>
+                    <span class="name">
+                        <span class="modifier">Public</span>
+                        <span ><b>handleClosePopup</b></span>
+                        <a href="#handleClosePopup"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+            <tr>
+                <td class="col-md-4">
+                    <span class="modifier-icon icon ion-ios-reset"></span>
+                    <code>handleClosePopup()</code>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+                    <div class="io-line">Defined in <a href="" data-line="268"
+                            class="link-to-prism">src/app/pages/vendor-manager/pages/management/access/user/user.component.ts:268</a></div>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+
+                    <div class="io-description">
+                        <b>Returns : </b>        <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >void</a></code>
+
+                    </div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="initializedFormEditor"></a>
+                    <span class="name">
+                        <span class="modifier">Public</span>
+                        <span ><b>initializedFormEditor</b></span>
+                        <a href="#initializedFormEditor"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+            <tr>
+                <td class="col-md-4">
+                    <span class="modifier-icon icon ion-ios-reset"></span>
+                    <code>initializedFormEditor(idStore: <a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank">any</a>)</code>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+                    <div class="io-line">Defined in <a href="" data-line="146"
+                            class="link-to-prism">src/app/pages/vendor-manager/pages/management/access/user/user.component.ts:146</a></div>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+
+                    <div class="io-description">
+                        <b>Parameters :</b>
+                        
+                        <table class="params">
+                            <thead>
+                                <tr>
+                                    <td>Name</td>
+                                    <td>Type</td>
+                                    <td>Optional</td>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>idStore</td>
+                                    <td>
+                                                <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >any</a></code>
+                                    </td>
+
+                                    <td>
+                                        No
+                                    </td>
+
+
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <div>
+                    </div>
+                    <div class="io-description">
+                        <b>Returns : </b>        <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >void</a></code>
+
+                    </div>
+                    <div class="io-description">
+                        
+                    </div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="loadData"></a>
+                    <span class="name">
+                        <span class="modifier">Public</span>
+                        <span class="modifier"></span>
+                        <span ><b>loadData</b></span>
+                        <a href="#loadData"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+            <tr>
+                <td class="col-md-4">
+                    <span class="modifier-icon icon ion-ios-reset"></span>
+                    <code>loadData()</code>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+                    <div class="io-line">Inherited from         <code><a href="../classes/TizoViewComponent.html" target="_self" >TizoViewComponent</a></code>
+</div>
+                </td>
+            </tr>
+            <tr>
+                <td class="col-md-4">
+                        <div class="io-line">Defined in         <code><a href="../classes/TizoViewComponent.html#source" target="_self" >TizoViewComponent:62</a></code>
+</div>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+
+                    <div class="io-description">
+                        <b>Returns : </b>        <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >void</a></code>
+
+                    </div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="loadDataBranches"></a>
+                    <span class="name">
+                        <span class="modifier">Public</span>
+                        <span ><b>loadDataBranches</b></span>
+                        <a href="#loadDataBranches"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+            <tr>
+                <td class="col-md-4">
+                    <span class="modifier-icon icon ion-ios-reset"></span>
+                    <code>loadDataBranches(idStore: <a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank">any</a>)</code>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+                    <div class="io-line">Defined in <a href="" data-line="104"
+                            class="link-to-prism">src/app/pages/vendor-manager/pages/management/access/user/user.component.ts:104</a></div>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+
+                    <div class="io-description">
+                        <b>Parameters :</b>
+                        
+                        <table class="params">
+                            <thead>
+                                <tr>
+                                    <td>Name</td>
+                                    <td>Type</td>
+                                    <td>Optional</td>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>idStore</td>
+                                    <td>
+                                                <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >any</a></code>
+                                    </td>
+
+                                    <td>
+                                        No
+                                    </td>
+
+
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <div>
+                    </div>
+                    <div class="io-description">
+                        <b>Returns : </b>        <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >void</a></code>
+
+                    </div>
+                    <div class="io-description">
+                        
+                    </div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="loadSelectableGender"></a>
+                    <span class="name">
+                        <span class="modifier">Public</span>
+                        <span ><b>loadSelectableGender</b></span>
+                        <a href="#loadSelectableGender"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+            <tr>
+                <td class="col-md-4">
+                    <span class="modifier-icon icon ion-ios-reset"></span>
+                    <code>loadSelectableGender()</code>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+                    <div class="io-line">Defined in <a href="" data-line="120"
+                            class="link-to-prism">src/app/pages/vendor-manager/pages/management/access/user/user.component.ts:120</a></div>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+
+                    <div class="io-description">
+                        <b>Returns : </b>        <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >void</a></code>
+
+                    </div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="ngOnInit"></a>
+                    <span class="name">
+                        <span ><b>ngOnInit</b></span>
+                        <a href="#ngOnInit"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+            <tr>
+                <td class="col-md-4">
+<code>ngOnInit()</code>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+                    <div class="io-line">Defined in <a href="" data-line="55"
+                            class="link-to-prism">src/app/pages/vendor-manager/pages/management/access/user/user.component.ts:55</a></div>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+
+                    <div class="io-description">
+                        <b>Returns : </b>        <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >void</a></code>
+
+                    </div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="actionRemove"></a>
+                    <span class="name">
+                        <span class="modifier">Public</span>
+                        <span ><b>actionRemove</b></span>
+                        <a href="#actionRemove"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+            <tr>
+                <td class="col-md-4">
+                    <span class="modifier-icon icon ion-ios-reset"></span>
+                    <code>actionRemove(data: T)</code>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+                    <div class="io-line">Inherited from         <code><a href="../classes/TizoEditorComponent.html" target="_self" >TizoEditorComponent</a></code>
+</div>
+                </td>
+            </tr>
+            <tr>
+                <td class="col-md-4">
+                        <div class="io-line">Defined in         <code><a href="../classes/TizoEditorComponent.html#source" target="_self" >TizoEditorComponent:47</a></code>
+</div>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+
+                    <div class="io-description">
+                        <b>Parameters :</b>
+                        
+                        <table class="params">
+                            <thead>
+                                <tr>
+                                    <td>Name</td>
+                                    <td>Type</td>
+                                    <td>Optional</td>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>data</td>
+                                    <td>
+                                            <code>T</code>
+                                    </td>
+
+                                    <td>
+                                        No
+                                    </td>
+
+
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <div>
+                    </div>
+                    <div class="io-description">
+                        <b>Returns : </b>        <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >void</a></code>
+
+                    </div>
+                    <div class="io-description">
+                        
+                    </div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="onChangeLanguage"></a>
+                    <span class="name">
+                        <span class="modifier">Public</span>
+                        <span class="modifier"></span>
+                        <span ><b>onChangeLanguage</b></span>
+                        <a href="#onChangeLanguage"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+            <tr>
+                <td class="col-md-4">
+                    <span class="modifier-icon icon ion-ios-reset"></span>
+                    <code>onChangeLanguage()</code>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+                    <div class="io-line">Inherited from         <code><a href="../classes/TizoViewComponent.html" target="_self" >TizoViewComponent</a></code>
+</div>
+                </td>
+            </tr>
+            <tr>
+                <td class="col-md-4">
+                        <div class="io-line">Defined in         <code><a href="../classes/TizoViewComponent.html#source" target="_self" >TizoViewComponent:51</a></code>
+</div>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+
+                    <div class="io-description">
+                        <b>Returns : </b>        <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >void</a></code>
+
+                    </div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="onInit"></a>
+                    <span class="name">
+                        <span class="modifier">Public</span>
+                        <span class="modifier"></span>
+                        <span ><b>onInit</b></span>
+                        <a href="#onInit"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+            <tr>
+                <td class="col-md-4">
+                    <span class="modifier-icon icon ion-ios-reset"></span>
+                    <code>onInit()</code>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+                    <div class="io-line">Inherited from         <code><a href="../classes/TizoViewComponent.html" target="_self" >TizoViewComponent</a></code>
+</div>
+                </td>
+            </tr>
+            <tr>
+                <td class="col-md-4">
+                        <div class="io-line">Defined in         <code><a href="../classes/TizoViewComponent.html#source" target="_self" >TizoViewComponent:37</a></code>
+</div>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+
+                    <div class="io-description">
+                        <b>Returns : </b>        <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >void</a></code>
+
+                    </div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="actionOkDialogWarning"></a>
+                    <span class="name">
+                        <span class="modifier">Public</span>
+                        <span ><b>actionOkDialogWarning</b></span>
+                        <a href="#actionOkDialogWarning"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+            <tr>
+                <td class="col-md-4">
+                    <span class="modifier-icon icon ion-ios-reset"></span>
+                    <code>actionOkDialogWarning(data?: <a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank">any</a>)</code>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+                    <div class="io-line">Inherited from         <code><a href="../classes/TizoViewComponent.html" target="_self" >TizoViewComponent</a></code>
+</div>
+                </td>
+            </tr>
+            <tr>
+                <td class="col-md-4">
+                        <div class="io-line">Defined in         <code><a href="../classes/TizoViewComponent.html#source" target="_self" >TizoViewComponent:71</a></code>
+</div>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+
+                    <div class="io-description">
+                        <b>Parameters :</b>
+                        
+                        <table class="params">
+                            <thead>
+                                <tr>
+                                    <td>Name</td>
+                                    <td>Type</td>
+                                    <td>Optional</td>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>data</td>
+                                    <td>
+                                                <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >any</a></code>
+                                    </td>
+
+                                    <td>
+                                        Yes
+                                    </td>
+
+
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <div>
+                    </div>
+                    <div class="io-description">
+                        <b>Returns : </b>        <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >void</a></code>
+
+                    </div>
+                    <div class="io-description">
+                        
+                    </div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="loadIp"></a>
+                    <span class="name">
+                        <span class="modifier">Public</span>
+                        <span ><b>loadIp</b></span>
+                        <a href="#loadIp"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+            <tr>
+                <td class="col-md-4">
+                    <span class="modifier-icon icon ion-ios-reset"></span>
+                    <code>loadIp()</code>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+                    <div class="io-line">Inherited from         <code><a href="../classes/TizoViewComponent.html" target="_self" >TizoViewComponent</a></code>
+</div>
+                </td>
+            </tr>
+            <tr>
+                <td class="col-md-4">
+                        <div class="io-line">Defined in         <code><a href="../classes/TizoViewComponent.html#source" target="_self" >TizoViewComponent:77</a></code>
+</div>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+
+                    <div class="io-description">
+                        <b>Returns : </b>        <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >void</a></code>
+
+                    </div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="onDestroy"></a>
+                    <span class="name">
+                        <span class="modifier">Public</span>
+                        <span ><b>onDestroy</b></span>
+                        <a href="#onDestroy"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+            <tr>
+                <td class="col-md-4">
+                    <span class="modifier-icon icon ion-ios-reset"></span>
+                    <code>onDestroy()</code>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+                    <div class="io-line">Inherited from         <code><a href="../classes/TizoViewComponent.html" target="_self" >TizoViewComponent</a></code>
+</div>
+                </td>
+            </tr>
+            <tr>
+                <td class="col-md-4">
+                        <div class="io-line">Defined in         <code><a href="../classes/TizoViewComponent.html#source" target="_self" >TizoViewComponent:61</a></code>
+</div>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+
+                    <div class="io-description">
+                        <b>Returns : </b>        <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >void</a></code>
+
+                    </div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="reDraw"></a>
+                    <span class="name">
+                        <span class="modifier">Protected</span>
+                        <span ><b>reDraw</b></span>
+                        <a href="#reDraw"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+            <tr>
+                <td class="col-md-4">
+                    <span class="modifier-icon icon ion-ios-reset"></span>
+                    <code>reDraw()</code>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+                    <div class="io-line">Inherited from         <code><a href="../classes/TizoViewComponent.html" target="_self" >TizoViewComponent</a></code>
+</div>
+                </td>
+            </tr>
+            <tr>
+                <td class="col-md-4">
+                        <div class="io-line">Defined in         <code><a href="../classes/TizoViewComponent.html#source" target="_self" >TizoViewComponent:65</a></code>
+</div>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+
+                    <div class="io-description">
+                        <b>Returns : </b>        <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >void</a></code>
+
+                    </div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="translate"></a>
+                    <span class="name">
+                        <span class="modifier">Protected</span>
+                        <span ><b>translate</b></span>
+                        <a href="#translate"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+            <tr>
+                <td class="col-md-4">
+                    <span class="modifier-icon icon ion-ios-reset"></span>
+                    <code>translate(key: <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string" target="_blank">string</a>)</code>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+                    <div class="io-line">Inherited from         <code><a href="../classes/TizoViewComponent.html" target="_self" >TizoViewComponent</a></code>
+</div>
+                </td>
+            </tr>
+            <tr>
+                <td class="col-md-4">
+                        <div class="io-line">Defined in         <code><a href="../classes/TizoViewComponent.html#source" target="_self" >TizoViewComponent:67</a></code>
+</div>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+
+                    <div class="io-description">
+                        <b>Parameters :</b>
+                        
+                        <table class="params">
+                            <thead>
+                                <tr>
+                                    <td>Name</td>
+                                    <td>Type</td>
+                                    <td>Optional</td>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>key</td>
+                                    <td>
+                                                <code><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string" target="_blank" >string</a></code>
+                                    </td>
+
+                                    <td>
+                                        No
+                                    </td>
+
+
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <div>
+                    </div>
+                    <div class="io-description">
+                        <b>Returns : </b>        <code><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string" target="_blank" >string</a></code>
+
+                    </div>
+                    <div class="io-description">
+                        
+                    </div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+</section>
+    <section>
+    
+    <h3 id="inputs">
+        Properties
+    </h3>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="_http"></a>
+                    <span class="name">
+                            <span class="modifier">Public</span>
+                            <span class="modifier"></span>
+                        <span ><b>_http</b></span>
+                        <a href="#_http"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Type : </i>        <code><a href="https://angular.io/api/common/http/HttpClient" target="_blank" >HttpClient</a></code>
+
+                    </td>
+                </tr>
+                        <tr>
+                            <td class="col-md-4">
+                                <div class="io-line">Inherited from         <code><a href="../classes/TizoViewComponent.html" target="_self" >TizoViewComponent</a></code>
+</div>
+                            </td>
+                        </tr>
+                    <tr>
+                        <td class="col-md-4">
+                                <div class="io-line">Defined in         <code><a href="../classes/TizoViewComponent.html#source" target="_self" >TizoViewComponent:43</a></code>
+</div>
+                        </td>
+                    </tr>
+
+
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="ipUser"></a>
+                    <span class="name">
+                            <span class="modifier">Public</span>
+                            <span class="modifier"></span>
+                        <span ><b>ipUser</b></span>
+                        <a href="#ipUser"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Type : </i>        <code><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string" target="_blank" >string</a></code>
+
+                    </td>
+                </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Default value : </i><code>&#x27;&#x27;</code>
+                    </td>
+                </tr>
+                        <tr>
+                            <td class="col-md-4">
+                                <div class="io-line">Inherited from         <code><a href="../classes/TizoViewComponent.html" target="_self" >TizoViewComponent</a></code>
+</div>
+                            </td>
+                        </tr>
+                    <tr>
+                        <td class="col-md-4">
+                                <div class="io-line">Defined in         <code><a href="../classes/TizoViewComponent.html#source" target="_self" >TizoViewComponent:29</a></code>
+</div>
+                        </td>
+                    </tr>
+
+
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="isShowSuccessDialog"></a>
+                    <span class="name">
+                            <span class="modifier">Public</span>
+                            <span class="modifier"></span>
+                        <span ><b>isShowSuccessDialog</b></span>
+                        <a href="#isShowSuccessDialog"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Type : </i>        <code><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/boolean" target="_blank" >boolean</a></code>
+
+                    </td>
+                </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Default value : </i><code>false</code>
+                    </td>
+                </tr>
+                        <tr>
+                            <td class="col-md-4">
+                                <div class="io-line">Inherited from         <code><a href="../classes/TizoViewComponent.html" target="_self" >TizoViewComponent</a></code>
+</div>
+                            </td>
+                        </tr>
+                    <tr>
+                        <td class="col-md-4">
+                                <div class="io-line">Defined in         <code><a href="../classes/TizoViewComponent.html#source" target="_self" >TizoViewComponent:33</a></code>
+</div>
+                        </td>
+                    </tr>
+
+
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="loadGender"></a>
+                    <span class="name">
+                            <span class="modifier">Public</span>
+                        <span ><b>loadGender</b></span>
+                        <a href="#loadGender"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Default value : </i><code>() &#x3D;&gt; {...}</code>
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                                <div class="io-line">Defined in <a href="" data-line="135" class="link-to-prism">src/app/pages/vendor-manager/pages/management/access/user/user.component.ts:135</a></div>
+                        </td>
+                    </tr>
+
+
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="loadProfileVendorUser"></a>
+                    <span class="name">
+                            <span class="modifier">Public</span>
+                        <span ><b>loadProfileVendorUser</b></span>
+                        <a href="#loadProfileVendorUser"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Default value : </i><code>() &#x3D;&gt; {...}</code>
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                                <div class="io-line">Defined in <a href="" data-line="86" class="link-to-prism">src/app/pages/vendor-manager/pages/management/access/user/user.component.ts:86</a></div>
+                        </td>
+                    </tr>
+
+
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="password"></a>
+                    <span class="name">
+                            <span class="modifier">Public</span>
+                        <span ><b>password</b></span>
+                        <a href="#password"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Type : </i>        <code><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string" target="_blank" >string</a></code>
+
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                                <div class="io-line">Defined in <a href="" data-line="27" class="link-to-prism">src/app/pages/vendor-manager/pages/management/access/user/user.component.ts:27</a></div>
+                        </td>
+                    </tr>
+
+
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="responseUser"></a>
+                    <span class="name">
+                            <span class="modifier">Public</span>
+                        <span ><b>responseUser</b></span>
+                        <a href="#responseUser"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Type : </i>        <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >any</a></code>
+
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                                <div class="io-line">Defined in <a href="" data-line="28" class="link-to-prism">src/app/pages/vendor-manager/pages/management/access/user/user.component.ts:28</a></div>
+                        </td>
+                    </tr>
+
+
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="store"></a>
+                    <span class="name">
+                            <span class="modifier">Public</span>
+                        <span ><b>store</b></span>
+                        <a href="#store"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Type : </i>        <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >any</a></code>
+
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                                <div class="io-line">Defined in <a href="" data-line="30" class="link-to-prism">src/app/pages/vendor-manager/pages/management/access/user/user.component.ts:30</a></div>
+                        </td>
+                    </tr>
+
+
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="typeUser"></a>
+                    <span class="name">
+                        <span ><b>typeUser</b></span>
+                        <a href="#typeUser"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Type : </i>        <code><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string" target="_blank" >string</a></code>
+
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                                <div class="io-line">Defined in <a href="" data-line="26" class="link-to-prism">src/app/pages/vendor-manager/pages/management/access/user/user.component.ts:26</a></div>
+                        </td>
+                    </tr>
+
+
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="userState"></a>
+                    <span class="name">
+                            <span class="modifier">Public</span>
+                        <span ><b>userState</b></span>
+                        <a href="#userState"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Type : </i>        <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >any</a></code>
+
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                                <div class="io-line">Defined in <a href="" data-line="31" class="link-to-prism">src/app/pages/vendor-manager/pages/management/access/user/user.component.ts:31</a></div>
+                        </td>
+                    </tr>
+
+
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="errorMessage"></a>
+                    <span class="name">
+                            <span class="modifier">Public</span>
+                        <span ><b>errorMessage</b></span>
+                        <a href="#errorMessage"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Type : </i>    <code>string | any</code>
+
+                    </td>
+                </tr>
+                        <tr>
+                            <td class="col-md-4">
+                                <div class="io-line">Inherited from         <code><a href="../classes/TizoEditorComponent.html" target="_self" >TizoEditorComponent</a></code>
+</div>
+                            </td>
+                        </tr>
+                    <tr>
+                        <td class="col-md-4">
+                                <div class="io-line">Defined in         <code><a href="../classes/TizoEditorComponent.html#source" target="_self" >TizoEditorComponent:22</a></code>
+</div>
+                        </td>
+                    </tr>
+
+
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="formGroup"></a>
+                    <span class="name">
+                            <span class="modifier">Public</span>
+                        <span ><b>formGroup</b></span>
+                        <a href="#formGroup"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Type : </i>    <code>UntypedFormGroup</code>
+
+                    </td>
+                </tr>
+                        <tr>
+                            <td class="col-md-4">
+                                <div class="io-line">Inherited from         <code><a href="../classes/TizoEditorComponent.html" target="_self" >TizoEditorComponent</a></code>
+</div>
+                            </td>
+                        </tr>
+                    <tr>
+                        <td class="col-md-4">
+                                <div class="io-line">Defined in         <code><a href="../classes/TizoEditorComponent.html#source" target="_self" >TizoEditorComponent:19</a></code>
+</div>
+                        </td>
+                    </tr>
+
+
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="isSubmitted"></a>
+                    <span class="name">
+                            <span class="modifier">Public</span>
+                        <span ><b>isSubmitted</b></span>
+                        <a href="#isSubmitted"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Type : </i>        <code><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/boolean" target="_blank" >boolean</a></code>
+
+                    </td>
+                </tr>
+                        <tr>
+                            <td class="col-md-4">
+                                <div class="io-line">Inherited from         <code><a href="../classes/TizoEditorComponent.html" target="_self" >TizoEditorComponent</a></code>
+</div>
+                            </td>
+                        </tr>
+                    <tr>
+                        <td class="col-md-4">
+                                <div class="io-line">Defined in         <code><a href="../classes/TizoEditorComponent.html#source" target="_self" >TizoEditorComponent:23</a></code>
+</div>
+                        </td>
+                    </tr>
+
+
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="selectables"></a>
+                    <span class="name">
+                            <span class="modifier">Public</span>
+                        <span ><b>selectables</b></span>
+                        <a href="#selectables"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Type : </i>    <code>literal type | any</code>
+
+                    </td>
+                </tr>
+                        <tr>
+                            <td class="col-md-4">
+                                <div class="io-line">Inherited from         <code><a href="../classes/TizoEditorComponent.html" target="_self" >TizoEditorComponent</a></code>
+</div>
+                            </td>
+                        </tr>
+                    <tr>
+                        <td class="col-md-4">
+                                <div class="io-line">Defined in         <code><a href="../classes/TizoEditorComponent.html#source" target="_self" >TizoEditorComponent:20</a></code>
+</div>
+                        </td>
+                    </tr>
+
+
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="suggestions"></a>
+                    <span class="name">
+                            <span class="modifier">Public</span>
+                        <span ><b>suggestions</b></span>
+                        <a href="#suggestions"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Type : </i>    <code>literal type</code>
+
+                    </td>
+                </tr>
+                        <tr>
+                            <td class="col-md-4">
+                                <div class="io-line">Inherited from         <code><a href="../classes/TizoEditorComponent.html" target="_self" >TizoEditorComponent</a></code>
+</div>
+                            </td>
+                        </tr>
+                    <tr>
+                        <td class="col-md-4">
+                                <div class="io-line">Defined in         <code><a href="../classes/TizoEditorComponent.html#source" target="_self" >TizoEditorComponent:21</a></code>
+</div>
+                        </td>
+                    </tr>
+
+
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="breadcrumbs"></a>
+                    <span class="name">
+                            <span class="modifier">Public</span>
+                        <span ><b>breadcrumbs</b></span>
+                        <a href="#breadcrumbs"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Type : </i>        <code><a href="../interfaces/BreadcrumbInterface.html" target="_self" >BreadcrumbInterface[]</a></code>
+
+                    </td>
+                </tr>
+                        <tr>
+                            <td class="col-md-4">
+                                <div class="io-line">Inherited from         <code><a href="../classes/TizoViewComponent.html" target="_self" >TizoViewComponent</a></code>
+</div>
+                            </td>
+                        </tr>
+                    <tr>
+                        <td class="col-md-4">
+                                <div class="io-line">Defined in         <code><a href="../classes/TizoViewComponent.html#source" target="_self" >TizoViewComponent:15</a></code>
+</div>
+                        </td>
+                    </tr>
+
+
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="description"></a>
+                    <span class="name">
+                            <span class="modifier">Public</span>
+                        <span ><b>description</b></span>
+                        <a href="#description"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Type : </i>    <code>string | any</code>
+
+                    </td>
+                </tr>
+                        <tr>
+                            <td class="col-md-4">
+                                <div class="io-line">Inherited from         <code><a href="../classes/TizoViewComponent.html" target="_self" >TizoViewComponent</a></code>
+</div>
+                            </td>
+                        </tr>
+                    <tr>
+                        <td class="col-md-4">
+                                <div class="io-line">Defined in         <code><a href="../classes/TizoViewComponent.html#source" target="_self" >TizoViewComponent:14</a></code>
+</div>
+                        </td>
+                    </tr>
+
+
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="entity"></a>
+                    <span class="name">
+                            <span class="modifier">Public</span>
+                        <span ><b>entity</b></span>
+                        <a href="#entity"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Type : </i>    <code>T | any</code>
+
+                    </td>
+                </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Default value : </i><code>null</code>
+                    </td>
+                </tr>
+                        <tr>
+                            <td class="col-md-4">
+                                <div class="io-line">Inherited from         <code><a href="../classes/TizoViewComponent.html" target="_self" >TizoViewComponent</a></code>
+</div>
+                            </td>
+                        </tr>
+                    <tr>
+                        <td class="col-md-4">
+                                <div class="io-line">Defined in         <code><a href="../classes/TizoViewComponent.html#source" target="_self" >TizoViewComponent:24</a></code>
+</div>
+                        </td>
+                    </tr>
+
+
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="idElement"></a>
+                    <span class="name">
+                            <span class="modifier">Public</span>
+                        <span ><b>idElement</b></span>
+                        <a href="#idElement"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Type : </i>        <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >any</a></code>
+
+                    </td>
+                </tr>
+                        <tr>
+                            <td class="col-md-4">
+                                <div class="io-line">Inherited from         <code><a href="../classes/TizoViewComponent.html" target="_self" >TizoViewComponent</a></code>
+</div>
+                            </td>
+                        </tr>
+                    <tr>
+                        <td class="col-md-4">
+                                <div class="io-line">Defined in         <code><a href="../classes/TizoViewComponent.html#source" target="_self" >TizoViewComponent:23</a></code>
+</div>
+                        </td>
+                    </tr>
+
+            <tr>
+                <td class="col-md-4">
+                    <div class="io-description"><div><pre class="line-numbers"><code class="language-none">           la entidad a gestionar en cada validation
+           o consulta que se quiera implementar.</code></pre></div></div>
+                </td>
+            </tr>
+
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="isRequireBreadcrumb"></a>
+                    <span class="name">
+                            <span class="modifier">Public</span>
+                        <span ><b>isRequireBreadcrumb</b></span>
+                        <a href="#isRequireBreadcrumb"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Type : </i>        <code><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/boolean" target="_blank" >boolean</a></code>
+
+                    </td>
+                </tr>
+                        <tr>
+                            <td class="col-md-4">
+                                <div class="io-line">Inherited from         <code><a href="../classes/TizoViewComponent.html" target="_self" >TizoViewComponent</a></code>
+</div>
+                            </td>
+                        </tr>
+                    <tr>
+                        <td class="col-md-4">
+                                <div class="io-line">Defined in         <code><a href="../classes/TizoViewComponent.html#source" target="_self" >TizoViewComponent:26</a></code>
+</div>
+                        </td>
+                    </tr>
+
+
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="isShowDangerDialog"></a>
+                    <span class="name">
+                            <span class="modifier">Public</span>
+                        <span ><b>isShowDangerDialog</b></span>
+                        <a href="#isShowDangerDialog"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Type : </i>        <code><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/boolean" target="_blank" >boolean</a></code>
+
+                    </td>
+                </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Default value : </i><code>false</code>
+                    </td>
+                </tr>
+                        <tr>
+                            <td class="col-md-4">
+                                <div class="io-line">Inherited from         <code><a href="../classes/TizoViewComponent.html" target="_self" >TizoViewComponent</a></code>
+</div>
+                            </td>
+                        </tr>
+                    <tr>
+                        <td class="col-md-4">
+                                <div class="io-line">Defined in         <code><a href="../classes/TizoViewComponent.html#source" target="_self" >TizoViewComponent:37</a></code>
+</div>
+                        </td>
+                    </tr>
+
+
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="isShowQuestionDialog"></a>
+                    <span class="name">
+                            <span class="modifier">Public</span>
+                        <span ><b>isShowQuestionDialog</b></span>
+                        <a href="#isShowQuestionDialog"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Type : </i>        <code><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/boolean" target="_blank" >boolean</a></code>
+
+                    </td>
+                </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Default value : </i><code>false</code>
+                    </td>
+                </tr>
+                        <tr>
+                            <td class="col-md-4">
+                                <div class="io-line">Inherited from         <code><a href="../classes/TizoViewComponent.html" target="_self" >TizoViewComponent</a></code>
+</div>
+                            </td>
+                        </tr>
+                    <tr>
+                        <td class="col-md-4">
+                                <div class="io-line">Defined in         <code><a href="../classes/TizoViewComponent.html#source" target="_self" >TizoViewComponent:41</a></code>
+</div>
+                        </td>
+                    </tr>
+
+
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="isShowWarningDialog"></a>
+                    <span class="name">
+                            <span class="modifier">Public</span>
+                        <span ><b>isShowWarningDialog</b></span>
+                        <a href="#isShowWarningDialog"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Type : </i>        <code><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/boolean" target="_blank" >boolean</a></code>
+
+                    </td>
+                </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Default value : </i><code>false</code>
+                    </td>
+                </tr>
+                        <tr>
+                            <td class="col-md-4">
+                                <div class="io-line">Inherited from         <code><a href="../classes/TizoViewComponent.html" target="_self" >TizoViewComponent</a></code>
+</div>
+                            </td>
+                        </tr>
+                    <tr>
+                        <td class="col-md-4">
+                                <div class="io-line">Defined in         <code><a href="../classes/TizoViewComponent.html#source" target="_self" >TizoViewComponent:33</a></code>
+</div>
+                        </td>
+                    </tr>
+
+
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="messageDialogDanger"></a>
+                    <span class="name">
+                            <span class="modifier">Public</span>
+                        <span ><b>messageDialogDanger</b></span>
+                        <a href="#messageDialogDanger"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Type : </i>        <code><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string" target="_blank" >string</a></code>
+
+                    </td>
+                </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Default value : </i><code>&#x27;&#x27;</code>
+                    </td>
+                </tr>
+                        <tr>
+                            <td class="col-md-4">
+                                <div class="io-line">Inherited from         <code><a href="../classes/TizoViewComponent.html" target="_self" >TizoViewComponent</a></code>
+</div>
+                            </td>
+                        </tr>
+                    <tr>
+                        <td class="col-md-4">
+                                <div class="io-line">Defined in         <code><a href="../classes/TizoViewComponent.html#source" target="_self" >TizoViewComponent:38</a></code>
+</div>
+                        </td>
+                    </tr>
+
+
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="messageDialogQuestion"></a>
+                    <span class="name">
+                            <span class="modifier">Public</span>
+                        <span ><b>messageDialogQuestion</b></span>
+                        <a href="#messageDialogQuestion"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Type : </i>        <code><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string" target="_blank" >string</a></code>
+
+                    </td>
+                </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Default value : </i><code>&#x27;&#x27;</code>
+                    </td>
+                </tr>
+                        <tr>
+                            <td class="col-md-4">
+                                <div class="io-line">Inherited from         <code><a href="../classes/TizoViewComponent.html" target="_self" >TizoViewComponent</a></code>
+</div>
+                            </td>
+                        </tr>
+                    <tr>
+                        <td class="col-md-4">
+                                <div class="io-line">Defined in         <code><a href="../classes/TizoViewComponent.html#source" target="_self" >TizoViewComponent:42</a></code>
+</div>
+                        </td>
+                    </tr>
+
+
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="messageDialogSuccess"></a>
+                    <span class="name">
+                            <span class="modifier">Public</span>
+                        <span ><b>messageDialogSuccess</b></span>
+                        <a href="#messageDialogSuccess"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Type : </i>        <code><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string" target="_blank" >string</a></code>
+
+                    </td>
+                </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Default value : </i><code>&#x27;&#x27;</code>
+                    </td>
+                </tr>
+                        <tr>
+                            <td class="col-md-4">
+                                <div class="io-line">Inherited from         <code><a href="../classes/TizoViewComponent.html" target="_self" >TizoViewComponent</a></code>
+</div>
+                            </td>
+                        </tr>
+                    <tr>
+                        <td class="col-md-4">
+                                <div class="io-line">Defined in         <code><a href="../classes/TizoViewComponent.html#source" target="_self" >TizoViewComponent:30</a></code>
+</div>
+                        </td>
+                    </tr>
+
+
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="messageDialogWarning"></a>
+                    <span class="name">
+                            <span class="modifier">Public</span>
+                        <span ><b>messageDialogWarning</b></span>
+                        <a href="#messageDialogWarning"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Type : </i>        <code><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string" target="_blank" >string</a></code>
+
+                    </td>
+                </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Default value : </i><code>&#x27;&#x27;</code>
+                    </td>
+                </tr>
+                        <tr>
+                            <td class="col-md-4">
+                                <div class="io-line">Inherited from         <code><a href="../classes/TizoViewComponent.html" target="_self" >TizoViewComponent</a></code>
+</div>
+                            </td>
+                        </tr>
+                    <tr>
+                        <td class="col-md-4">
+                                <div class="io-line">Defined in         <code><a href="../classes/TizoViewComponent.html#source" target="_self" >TizoViewComponent:34</a></code>
+</div>
+                        </td>
+                    </tr>
+
+
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="questionNegativeCallback"></a>
+                    <span class="name">
+                            <span class="modifier">Public</span>
+                        <span ><b>questionNegativeCallback</b></span>
+                        <a href="#questionNegativeCallback"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Type : </i>        <code><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/function" target="_blank" >function</a></code>
+
+                    </td>
+                </tr>
+                        <tr>
+                            <td class="col-md-4">
+                                <div class="io-line">Inherited from         <code><a href="../classes/TizoViewComponent.html" target="_self" >TizoViewComponent</a></code>
+</div>
+                            </td>
+                        </tr>
+                    <tr>
+                        <td class="col-md-4">
+                                <div class="io-line">Defined in         <code><a href="../classes/TizoViewComponent.html#source" target="_self" >TizoViewComponent:45</a></code>
+</div>
+                        </td>
+                    </tr>
+
+
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="questionPositiveCallback"></a>
+                    <span class="name">
+                            <span class="modifier">Public</span>
+                        <span ><b>questionPositiveCallback</b></span>
+                        <a href="#questionPositiveCallback"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Type : </i>        <code><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/function" target="_blank" >function</a></code>
+
+                    </td>
+                </tr>
+                        <tr>
+                            <td class="col-md-4">
+                                <div class="io-line">Inherited from         <code><a href="../classes/TizoViewComponent.html" target="_self" >TizoViewComponent</a></code>
+</div>
+                            </td>
+                        </tr>
+                    <tr>
+                        <td class="col-md-4">
+                                <div class="io-line">Defined in         <code><a href="../classes/TizoViewComponent.html#source" target="_self" >TizoViewComponent:44</a></code>
+</div>
+                        </td>
+                    </tr>
+
+
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="title"></a>
+                    <span class="name">
+                            <span class="modifier">Public</span>
+                        <span ><b>title</b></span>
+                        <a href="#title"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Type : </i>        <code><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string" target="_blank" >string</a></code>
+
+                    </td>
+                </tr>
+                        <tr>
+                            <td class="col-md-4">
+                                <div class="io-line">Inherited from         <code><a href="../classes/TizoViewComponent.html" target="_self" >TizoViewComponent</a></code>
+</div>
+                            </td>
+                        </tr>
+                    <tr>
+                        <td class="col-md-4">
+                                <div class="io-line">Defined in         <code><a href="../classes/TizoViewComponent.html#source" target="_self" >TizoViewComponent:13</a></code>
+</div>
+                        </td>
+                    </tr>
+
+
+        </tbody>
+    </table>
+</section>
+
+</div>
+
+
+    <div class="tab-pane fade  tab-source-code" id="c-source">
+        <pre class="line-numbers compodoc-sourcecode"><code class="language-typescript">import { Component, OnInit } from &#x27;@angular/core&#x27;;
+import { TizoEditorComponent } from &quot;../../../../../../schemes/abstracts/tizo-editor.component&quot;;
+import { NgxSpinnerService } from &quot;ngx-spinner&quot;;
+import { UntypedFormBuilder } from &quot;@angular/forms&quot;;
+import { ActivatedRoute, Router } from &quot;@angular/router&quot;;
+import { UserService } from &quot;../../../../../../services/user/user.service&quot;;
+import { ResponseRequest } from &quot;../../../../../../schemes/entities/response/response-request&quot;;
+import { plainToInstance } from &quot;class-transformer&quot;;
+import { FormSelectable } from &quot;../../../../../../schemes/support/form-selectable&quot;;
+import { MapService } from &quot;../../../../../../services/map.service&quot;;
+import { HttpClient} from &quot;@angular/common/http&quot;;
+import {UserVendorEntity} from &quot;../../../../../../schemes/entities/user-vendor.entity&quot;;
+import {StoreService} from &quot;../../../../state/store.service&quot;;
+import {BranchRestService} from &quot;../../../../services/branch-rest.service&quot;;
+import {BranchService} from &quot;../../../../state/branch.service&quot;;
+import {UserStateService} from &quot;../../../../../../state/Observables/user-state.service&quot;;
+
+
+@Component({
+  selector: &#x27;app-user&#x27;,
+  templateUrl: &#x27;./user.component.html&#x27;,
+  styleUrls: [&#x27;./user.component.scss&#x27;]
+})
+export class UserComponent extends TizoEditorComponent&lt;any&gt; implements OnInit {
+
+  typeUser: string;
+  public password: string;
+  public responseUser: any;
+  public override ipUser: string &#x3D; &#x27;&#x27;;
+  public store: any;
+  public userState: any;
+
+  public override isShowSuccessDialog: boolean &#x3D; false;
+
+  constructor(
+    protected override readonly _spinner: NgxSpinnerService,
+    protected override readonly _formBuilder: UntypedFormBuilder,
+    protected override readonly _router: Router,
+    private _activatedRoute: ActivatedRoute,
+    private _userService: UserStateService,
+    private _mapService: MapService,
+    private _restUser: UserService,
+    public override _http: HttpClient,
+    private _stateStore: StoreService,
+    private _branchRestService: BranchRestService,
+    private _branchStore : BranchService
+  ) {
+    super(_spinner, _formBuilder, _router);
+
+    this.responseUser &#x3D; {
+
+    };
+  }
+
+  ngOnInit(): void {
+    this.idElement &#x3D; this._activatedRoute.snapshot.paramMap.get(&#x27;idVendorUser&#x27;) as string;
+    this.loadData();
+    this.loadProfileVendorUser();
+    this.loadSelectableGender();
+  }
+
+  public override loadData(): void {
+    // Get route link direction
+    this.entity &#x3D; new UserVendorEntity();
+    this._restUser.getUserData().subscribe({
+      next: ({data}:any) &#x3D;&gt; {
+        this.userState &#x3D; data.user;
+        let {idStore} &#x3D; data.user.storesPermissions[0];
+
+        this.loadDataBranches(idStore);
+        if (this.idElement) {
+          this.initializedFormEditor(idStore);
+        }
+      }
+    });
+
+    this._http.get(&#x27;https://api.ipregistry.co/?key&#x3D;pgkqpiif3nmlbdh0&#x27;).subscribe({
+      next: (response: any) &#x3D;&gt; {
+        this.ipUser &#x3D; response.ip;
+      }
+    });
+  }
+
+
+
+  public loadProfileVendorUser &#x3D; (): void &#x3D;&gt;{
+    this._restUser.getProfilesVendor().subscribe({
+      next: (response) &#x3D;&gt; {
+        let {data} &#x3D; plainToInstance(ResponseRequest, response);
+        const profiles: [] &#x3D; data.profileVendorUser;
+        const formSelectable: FormSelectable &#x3D; new FormSelectable();
+        formSelectable.value &#x3D; &#x27;idProfileVendorUser&#x27;;
+        formSelectable.name &#x3D; &#x27;name&#x27;;
+        formSelectable.data &#x3D; profiles;
+        this.selectables &#x3D; this._mapService.extend(
+          this._mapService.copy(this.selectables),
+          {idProfileVendorUser: formSelectable}
+        );
+      },
+      error: (error) &#x3D;&gt; {}
+    });
+  };
+
+  public loadDataBranches(idStore: any): void{
+    this._branchRestService.getAllBranches(idStore).subscribe({
+      next: (branches) &#x3D;&gt; {
+        let {data} &#x3D; plainToInstance(ResponseRequest, branches);
+        const formSelectable: FormSelectable &#x3D; new FormSelectable();
+        formSelectable.value &#x3D; &#x27;idStoreBranch&#x27;;
+        formSelectable.name &#x3D; &#x27;name&#x27;;
+        formSelectable.data &#x3D; data.branches;
+        this.selectables &#x3D; this._mapService.extend(
+          this._mapService.copy(this.selectables),
+          {branches: formSelectable}
+        );
+      },
+    });
+  }
+
+  public loadSelectableGender(): void{
+    const formSelectableGender: FormSelectable &#x3D; new FormSelectable();
+    formSelectableGender.value &#x3D; &#x27;gender&#x27;;
+    formSelectableGender.name &#x3D; &#x27;name&#x27;;
+    formSelectableGender.data &#x3D; [
+      { name: &#x27;Masculino&#x27;, value: 1 },
+      { name: &#x27;Femenino&#x27;, value: 2 },
+      { name: &#x27;Otro&#x27;, value: 3 },
+    ];
+    this.selectables &#x3D; this._mapService.extend(
+      this._mapService.copy(this.selectables),
+      { gender: formSelectableGender, }
+    );
+  }
+
+  public loadGender &#x3D; (type: string): number &#x3D;&gt;{
+    switch (type){
+    case &#x27;Masculino&#x27;:
+      return 1;
+    case &#x27;Femenino&#x27;:
+      return 2;
+    default:
+      return 3;
+    }
+  };
+
+  public initializedFormEditor(idStore: any): void{
+    this._restUser.getVendorUserProfileById( idStore, this.idElement).subscribe({
+      next: (response) &#x3D;&gt; {
+        let {data} &#x3D; plainToInstance(ResponseRequest, response);
+        data.user.phone &#x3D; data.user.phone.slice(4);
+        this.entity &#x3D; plainToInstance(UserVendorEntity, data.user);
+      },
+      error: error &#x3D;&gt; {
+        console.log(error);
+      }
+    });
+  }
+
+  public override actionSave() {
+    super.actionSave();
+    this._spinner.show();
+    const vendorUser &#x3D; this.formGroup.getRawValue();
+    vendorUser.gender &#x3D; this.loadGender(vendorUser.gender?.$ngOptionLabel.toString().trim());
+    vendorUser.phone &#x3D; vendorUser.phone.e164Number;
+    // get birthdate with moment
+    vendorUser.birthDate &#x3D; &#x60;${new Date(vendorUser.birthdate).getFullYear()}-${new Date(vendorUser.birthdate).getMonth() + 1}-${new Date(vendorUser.birthdate).getDate()}&#x60;;
+    vendorUser.ipAddress &#x3D; this.ipUser;
+
+
+    let branches: any &#x3D; [];
+    vendorUser.branches.map((item: any)&#x3D;&gt;branches.push({idBranch:item,idProfileVendorUser: vendorUser.idProfileVendorUser}));
+
+    let newUser &#x3D; {
+      &quot;firstName&quot;: vendorUser.firstName,
+      &quot;lastName&quot;: vendorUser.lastName,
+      &quot;ipAddress&quot;: vendorUser.ipAddress,
+      &quot;phone&quot;: vendorUser.phone,
+      &quot;email&quot;: vendorUser.email,
+      &quot;identification&quot;: vendorUser.identification,
+      &quot;gender&quot;: vendorUser.gender,
+      &quot;birthDate&quot;: vendorUser.birthDate,
+      &quot;password&quot;: &quot;12&quot;,
+      &quot;stores&quot;: [
+        {
+          &quot;idStore&quot;:this.userState.storesPermissions[0].idStore,
+          &quot;idProfileVendorUser&quot;: vendorUser.idProfileVendorUser,
+          &quot;branches&quot;: branches
+        }
+      ]
+    };
+    this._restUser.postVendorUser(newUser).subscribe({
+      next: (response) &#x3D;&gt; {
+        //console.log(response);
+        let {data} &#x3D; plainToInstance(ResponseRequest, response);
+        this.responseUser &#x3D; data.user;
+        this.password &#x3D; vendorUser.password;
+        this.isShowSuccessDialog &#x3D; true;
+        this.messageDialogSuccess &#x3D; &#x27;Usuario creado correctamente&#x27;;
+        this._spinner.hide();
+      },
+      error: err &#x3D;&gt; {
+        this._spinner.hide();
+        console.log(err);
+      }
+    });
+  }
+
+
+  public override actionUpdate() {
+    super.actionSave();
+    this._spinner.show();
+    const vendorUser &#x3D; this.formGroup.getRawValue();
+    vendorUser.gender &#x3D; this.loadGender(vendorUser.gender?.$ngOptionLabel?.toString().trim());
+    vendorUser.phone &#x3D; vendorUser.phone.e164Number;
+    // get birthdate with moment
+    vendorUser.birthDate &#x3D; &#x60;${new Date(vendorUser.birthdate).getFullYear()}-${new Date(vendorUser.birthdate).getMonth() + 1}-${new Date(vendorUser.birthdate).getDate()}&#x60;;
+    vendorUser.ipAddress &#x3D; this.ipUser;
+
+
+    let branches: any &#x3D; [];
+    vendorUser.branches.map((item: any)&#x3D;&gt;branches.push({idBranch:item,idProfileVendorUser: vendorUser.idProfileVendorUser}));
+
+    let newUser &#x3D; {
+      &quot;firstName&quot;: vendorUser.firstName,
+      &quot;lastName&quot;: vendorUser.lastName,
+      &quot;ipAddress&quot;: vendorUser.ipAddress,
+      &quot;phone&quot;: vendorUser.phone,
+      &quot;email&quot;: vendorUser.email,
+      &quot;identification&quot;: vendorUser.identification,
+      &quot;gender&quot;: vendorUser.gender,
+      &quot;birthDate&quot;: vendorUser.birthDate,
+      &quot;stores&quot;: [
+        {
+          &quot;idStore&quot;: this.userState.storesPermissions[0].idStore,
+          &quot;idProfileVendorUser&quot;: vendorUser.idProfileVendorUser,
+          &quot;branches&quot;: branches
+        }
+      ]
+    };
+    this._restUser.putVendorUser(this.idElement, newUser).subscribe({
+      next: (response) &#x3D;&gt; {
+        //console.log(response);
+        let {data} &#x3D; plainToInstance(ResponseRequest, response);
+        this.responseUser &#x3D; data.user;
+        this.password &#x3D; vendorUser.password;
+        this.isShowSuccessDialog &#x3D; true;
+        this.messageDialogSuccess &#x3D; &#x27;Usuario actualizado correctamente&#x27;;
+        this._spinner.hide();
+      },
+      error: err &#x3D;&gt; {
+        console.log(err);
+        this._spinner.hide();
+      }
+    });
+  }
+
+  public override actionOkDialogSuccess(data?: any) {
+    super.actionOkDialogSuccess(data);
+    this.isShowSuccessDialog &#x3D; false;
+    void this._router.navigate([&#x27;home/vendor/management/access/users&#x27;]);
+  }
+
+  public override actionCancel() {
+    super.actionCancel();
+    this._router.navigate([&#x27;home/vendor/management/access/users&#x27;]);
+  }
+
+  public handleClosePopup(){
+    this.isShowSuccessDialog &#x3D; false;
+    void this._router.navigate([&#x27;home/vendor/management/access/users&#x27;]);
+  }
+
+}
+</code></pre>
+    </div>
+
+    <div class="tab-pane fade " id="c-templateData">
+        <pre class="line-numbers"><code class="language-html">&lt;div&gt;
+
+
+  &lt;app-dynamic-form
+    [type]&#x3D;&quot;&#x27;simple&#x27;&quot;
+    [entity]&#x3D;&quot;entity&quot;
+    [formGroup]&#x3D;&quot;formGroup&quot;
+    [suggestions]&#x3D;&quot;suggestions&quot;
+    [selectables]&#x3D;&quot;selectables&quot;&gt;
+  &lt;/app-dynamic-form&gt;
+
+&lt;!--  &lt;div class&#x3D;&quot;container-user-component&quot;&gt;--&gt;
+&lt;!--    --&gt;
+
+&lt;!--&amp;lt;!&amp;ndash;    &lt;app-image-cropper&amp;ndash;&amp;gt;--&gt;
+&lt;!--&amp;lt;!&amp;ndash;      [nameImage]&#x3D;&quot;&#x27;Perfil del usuario&#x27;&quot;&gt;&amp;ndash;&amp;gt;--&gt;
+&lt;!--&amp;lt;!&amp;ndash;    &lt;/app-image-cropper&gt;&amp;ndash;&amp;gt;--&gt;
+&lt;!--  &lt;/div&gt;--&gt;
+
+  &lt;div class&#x3D;&quot;flex sm:justify-start md:justify-end my-2&quot;&gt;
+    &lt;div class&#x3D;&quot;flex mx-4&quot; role&#x3D;&quot;group&quot;&gt;
+
+      &lt;div *ngIf&#x3D;&quot;!idElement;else EditorContainer&quot;&gt;
+        &lt;button
+          [disabled]&#x3D;&quot;!formGroup.valid&quot;
+          [ngClass]&#x3D;&quot;!formGroup.valid?&#x27;opacity-40&#x27;:&#x27;&#x27;&quot;
+          class&#x3D;&quot;bg-orange text-white px-4 py-2 mx-2&quot; (click)&#x3D;&quot;actionSave()&quot;&gt;
+          Guardar Información
+          &lt;i class&#x3D;&quot;fa fa-save&quot;&gt;&lt;/i&gt;
+        &lt;/button&gt;
+      &lt;/div&gt;
+
+      &lt;ng-template #EditorContainer&gt;
+        &lt;button
+          *ngIf&#x3D;&quot;idElement&quot;
+          [disabled]&#x3D;&quot;!formGroup.valid&quot;
+          [ngClass]&#x3D;&quot;!formGroup.valid?&#x27;opacity-40&#x27;:&#x27;&#x27;&quot;
+          class&#x3D;&quot;bg-orange text-white px-4 py-2 mx-2&quot; (click)&#x3D;&quot;actionUpdate()&quot;&gt;
+          Editar Información
+          &lt;i class&#x3D;&quot;fa fa-save&quot;&gt;&lt;/i&gt;
+        &lt;/button&gt;
+      &lt;/ng-template&gt;
+
+      &lt;button class&#x3D;&quot;bg-pink text-white px-4 py-2 mx-2&quot; (click)&#x3D;&quot;actionCancel()&quot;&gt;
+        Cancelar
+        &lt;i class&#x3D;&quot;&quot;&gt;&lt;/i&gt;
+      &lt;/button&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;app-success-dialog
+ [isVisible]&#x3D;&quot;isShowSuccessDialog&quot;
+  [message]&#x3D;&quot;messageDialogSuccess&quot;
+ (eventEmitterOk)&#x3D;&quot;actionOkDialogSuccess()&quot;
+&gt;
+&lt;/app-success-dialog&gt;
+
+&lt;app-information-dialog
+  [isVisible]&#x3D;&quot;isShowSuccessDialog&quot;&gt;
+  &lt;div class&#x3D;&quot;container-popup  text-center rounded-md&quot;&gt;
+    &lt;h2 class&#x3D;&quot;text-2xl text-black font-bold pt-6&quot;&gt;¡Perfil creado exitosamente!&lt;/h2&gt;
+    &lt;div class&#x3D;&quot;&quot;&gt;
+      &lt;div class&#x3D;&quot;flex flex-col items-baseline justify-start my-7 px-10&quot;&gt;
+        &lt;p class&#x3D;&quot;text-black text-lg&quot;&gt;El perfil &lt;strong class&#x3D;&quot;underline text-[#49BD9F]&quot;&gt;{{responseUser.username}}&lt;/strong&gt; se ha creado&lt;/p&gt;
+        &lt;p class&#x3D;&quot;text-black text-lg&quot;&gt;Contraseña: {{password }}&lt;/p&gt;
+        &lt;p class&#x3D;&quot;text-black text-lg&quot;&gt;Nombre: {{responseUser.firstName}}, Apellido:  {{responseUser.lastName}}&lt;/p&gt;
+        &lt;p class&#x3D;&quot;text-black text-lg&quot;&gt;Correo: {{responseUser.email}}&lt;/p&gt;
+        &lt;p  class&#x3D;&quot;text-black text-lg&quot;&gt;Teléfono: {{responseUser.phone}}&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;button (click)&#x3D;&quot;handleClosePopup()&quot;
+              class&#x3D;&quot;rounded-lg font-bold text-black text-center py-2 px-7 text-sm
+                 transition duration-300 ease-in-out text-white bg-green &quot;&gt;
+        Aceptar
+      &lt;/button&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+&lt;/app-information-dialog&gt;
+
+
+&lt;!---
+&quot;idLogisticsUser&quot;: 9,
+            &quot;idStatusLogisticsUser&quot;: 1,
+            &quot;pathImage&quot;: null,
+            &quot;idProfileManagerUser&quot;: 1,
+            &quot;idCourier&quot;: 4,
+            &quot;identification&quot;: &quot;232323sdsdsd_&quot;,
+            &quot;firstName&quot;: &quot;Marcos&quot;,
+            &quot;lastName&quot;: &quot;Calo&quot;,
+            &quot;phone&quot;: &quot;2323&quot;,
+            &quot;ipCreation&quot;: &quot;0.0.0.0&quot;,
+            &quot;email&quot;: &quot;marc23m@gmail.com&quot;,
+            &quot;gender&quot;: 0,
+            &quot;loginLast&quot;: null,
+            &quot;birthdate&quot;: &quot;2000-12-12&quot;,
+            &quot;dateCreation&quot;: &quot;2022-05-25T17:52:15.492+00:00&quot;,
+            &quot;dateLastUpdate&quot;: &quot;2022-05-25T17:52:15.535+00:00&quot;,
+            &quot;username&quot;: &quot;l_marcos9&quot;,
+            &quot;connect&quot;: null,
+            &quot;notifications&quot;: null
+---&gt;
+</code></pre>
+    </div>
+
+    <div class="tab-pane fade " id="c-styleData">
+                <p class="comment">
+                    <code>./user.component.scss</code>
+                </p>
+                <pre class="line-numbers"><code class="language-scss">.container-user-component{
+  display: grid;
+  grid-template-columns: 1.5fr 0.5fr;
+  grid-template-rows: 1fr;
+  gap: 0px 0px;
+  grid-template-areas:
+    &quot;left right&quot;;
+
+  .left { grid-area: left; }
+  .right { grid-area: right; }
+}
+
+.container-popup{
+  width: 32rem;
+  height: 20rem;
+}
+</code></pre>
+    </div>
+
+    <div class="tab-pane fade " id="c-tree">
+        <div id="tree-container"></div>
+        <div class="tree-legend">
+            <div class="title">
+                <b>Legend</b>
+            </div>
+            <div>
+                <div class="color htmlelement"></div><span>Html element</span>
+            </div>
+            <div>
+                <div class="color component"></div><span>Component</span>
+            </div>
+            <div>
+                <div class="color directive"></div><span>Html element with directive</span>
+            </div>
+        </div>
+    </div>
+
+    
+</div>
+
+<script src="../js/libs/vis.min.js"></script>
+<script src="../js/libs/htmlparser.js"></script>
+<script src="../js/libs/deep-iterator.js"></script>
+<script>
+        var COMPONENT_TEMPLATE = '<div><div>  <app-dynamic-form    [type]="\'simple\'"    [entity]="entity"    [formGroup]="formGroup"    [suggestions]="suggestions"    [selectables]="selectables">  </app-dynamic-form><!--  <div class="container-user-component">--><!--    --><!--&lt;!&ndash;    <app-image-cropper&ndash;&gt;--><!--&lt;!&ndash;      [nameImage]="\'Perfil del usuario\'">&ndash;&gt;--><!--&lt;!&ndash;    </app-image-cropper>&ndash;&gt;--><!--  </div>-->  <div class="flex sm:justify-start md:justify-end my-2">    <div class="flex mx-4" role="group">      <div *ngIf="!idElement;else EditorContainer">        <button          [disabled]="!formGroup.valid"          [ngClass]="!formGroup.valid?\'opacity-40\':\'\'"          class="bg-orange text-white px-4 py-2 mx-2" (click)="actionSave()">          Guardar Información          <i class="fa fa-save"></i>        </button>      </div>      <ng-template #EditorContainer>        <button          *ngIf="idElement"          [disabled]="!formGroup.valid"          [ngClass]="!formGroup.valid?\'opacity-40\':\'\'"          class="bg-orange text-white px-4 py-2 mx-2" (click)="actionUpdate()">          Editar Información          <i class="fa fa-save"></i>        </button>      </ng-template>      <button class="bg-pink text-white px-4 py-2 mx-2" (click)="actionCancel()">        Cancelar        <i class=""></i>      </button>    </div>  </div></div><app-success-dialog [isVisible]="isShowSuccessDialog"  [message]="messageDialogSuccess" (eventEmitterOk)="actionOkDialogSuccess()"></app-success-dialog><app-information-dialog  [isVisible]="isShowSuccessDialog">  <div class="container-popup  text-center rounded-md">    <h2 class="text-2xl text-black font-bold pt-6">¡Perfil creado exitosamente!</h2>    <div class="">      <div class="flex flex-col items-baseline justify-start my-7 px-10">        <p class="text-black text-lg">El perfil <strong class="underline text-[#49BD9F]">{{responseUser.username}}</strong> se ha creado</p>        <p class="text-black text-lg">Contraseña: {{password }}</p>        <p class="text-black text-lg">Nombre: {{responseUser.firstName}}, Apellido:  {{responseUser.lastName}}</p>        <p class="text-black text-lg">Correo: {{responseUser.email}}</p>        <p  class="text-black text-lg">Teléfono: {{responseUser.phone}}</p>      </div>      <button (click)="handleClosePopup()"              class="rounded-lg font-bold text-black text-center py-2 px-7 text-sm                 transition duration-300 ease-in-out text-white bg-green ">        Aceptar      </button>    </div>  </div></app-information-dialog><!---"idLogisticsUser": 9,            "idStatusLogisticsUser": 1,            "pathImage": null,            "idProfileManagerUser": 1,            "idCourier": 4,            "identification": "232323sdsdsd_",            "firstName": "Marcos",            "lastName": "Calo",            "phone": "2323",            "ipCreation": "0.0.0.0",            "email": "marc23m@gmail.com",            "gender": 0,            "loginLast": null,            "birthdate": "2000-12-12",            "dateCreation": "2022-05-25T17:52:15.492+00:00",            "dateLastUpdate": "2022-05-25T17:52:15.535+00:00",            "username": "l_marcos9",            "connect": null,            "notifications": null---></div>'
+    var COMPONENTS = [{'name': 'AccessComponent', 'selector': 'app-access'},{'name': 'AccountsPayableComponent', 'selector': 'app-accounts-payable'},{'name': 'AccountsReceivableComponent', 'selector': 'app-accounts-receivable'},{'name': 'ApiIntegrationsComponent', 'selector': 'app-api-integrations'},{'name': 'ApiTizoComponent', 'selector': 'app-api-tizo'},{'name': 'AppComponent', 'selector': 'app-root'},{'name': 'BranchComponent', 'selector': 'app-branch'},{'name': 'BranchesComponent', 'selector': 'app-branches'},{'name': 'BreadcrumbComponent', 'selector': 'app-breadcrumb'},{'name': 'CancellationOfAccountsComponent', 'selector': 'app-cancellation-of-accounts'},{'name': 'ChangePasswordComponent', 'selector': 'app-change-password'},{'name': 'CompleteStepsComponent', 'selector': 'app-complete-steps'},{'name': 'CouponsComponent', 'selector': 'app-coupons'},{'name': 'CreditcardComponent', 'selector': 'app-creditcard'},{'name': 'CustomerComponent', 'selector': 'app-customer'},{'name': 'CustomersComponent', 'selector': 'app-customers'},{'name': 'CustomerShipmentMapComponent', 'selector': 'app-customer-shipment-map'},{'name': 'DashboardComponent', 'selector': 'app-dashboard'},{'name': 'DynamicFormComponent', 'selector': 'app-dynamic-form'},{'name': 'DynamicTableComponent', 'selector': 'app-dynamic-table'},{'name': 'ErrorComponent', 'selector': 'app-error'},{'name': 'FinanceComponent', 'selector': 'app-finance'},{'name': 'FooterComponent', 'selector': 'app-footer'},{'name': 'ForgotPasswordComponent', 'selector': 'app-forgot-password'},{'name': 'ImageCropperComponent', 'selector': 'app-image-cropper'},{'name': 'InformationDialogComponent', 'selector': 'app-information-dialog'},{'name': 'InvoicesComponent', 'selector': 'app-invoices'},{'name': 'InvoicesHistoricalComponent', 'selector': 'app-invoices-historical'},{'name': 'ManagementComponent', 'selector': 'app-management'},{'name': 'MapDirectionComponent', 'selector': 'app-map-direction'},{'name': 'MenuItemsComponent', 'selector': 'app-menu-items'},{'name': 'NavbarComponent', 'selector': 'app-navbar'},{'name': 'NotificationsComponent', 'selector': 'app-notifications'},{'name': 'PageListButtonsComponent', 'selector': 'app-page-list-buttons'},{'name': 'PagesComponent', 'selector': 'app-pages'},{'name': 'ProductComponent', 'selector': 'app-product'},{'name': 'ProductReturnComponent', 'selector': 'app-product-return'},{'name': 'ProductsComponent', 'selector': 'app-products'},{'name': 'ProfileManagerComponent', 'selector': 'app-profile-manager'},{'name': 'ProfilesManagerComponent', 'selector': 'app-profiles-manager'},{'name': 'PromotionsComponent', 'selector': 'app-promotions'},{'name': 'PromotionsContainerComponent', 'selector': 'app-promotions-container'},{'name': 'QuestionDialogComponent', 'selector': 'app-question-dialog'},{'name': 'RatingsComponent', 'selector': 'app-ratings'},{'name': 'RecordComponent', 'selector': 'app-record'},{'name': 'RecoveryPasswordComponent', 'selector': 'app-recovery-password'},{'name': 'ResetPasswordForgivenComponent', 'selector': 'app-reset-password-forgiven'},{'name': 'ShipmentMapComponent', 'selector': 'app-shipment-map'},{'name': 'ShipmentsProductsComponent', 'selector': 'app-shipments-products'},{'name': 'SidebarComponent', 'selector': 'app-sidebar'},{'name': 'SidebarSalesComponent', 'selector': 'app-sidebar-sales'},{'name': 'SidebarSystemComponent', 'selector': 'app-sidebar-system'},{'name': 'SigninComponent', 'selector': 'app-signin'},{'name': 'StatementPayableComponent', 'selector': 'app-statement-payable'},{'name': 'StatementsPayableComponent', 'selector': 'app-statements-payable'},{'name': 'StepsComponent', 'selector': 'app-steps'},{'name': 'StoreComponent', 'selector': 'app-store'},{'name': 'SuccessDialogComponent', 'selector': 'app-success-dialog'},{'name': 'TableDynamicTemplateComponent', 'selector': 'app-dynamic-table'},{'name': 'TizoDatepickerComponent', 'selector': 'app-tizo-datepicker'},{'name': 'TizoFilesComponent', 'selector': 'app-tizo-files'},{'name': 'TizoImageComponent', 'selector': 'app-tizo-image'},{'name': 'TizoModalComponent', 'selector': 'app-tizo-modal'},{'name': 'TizoPaginationComponent', 'selector': 'app-tizo-pagination'},{'name': 'TizoVideoComponent', 'selector': 'app-tizo-video'},{'name': 'UserComponent', 'selector': 'app-user'},{'name': 'UsersComponent', 'selector': 'app-users'},{'name': 'VendorComponent', 'selector': 'app-vendor'},{'name': 'WalletComponent', 'selector': 'app-wallet'},{'name': 'WarningDialogComponent', 'selector': 'app-warning-dialog'}];
+    var DIRECTIVES = [{'name': 'AppRoleDirective', 'selector': '[appRole]'},{'name': 'ClickOutSideDirective', 'selector': '[appClickOutSide]'},{'name': 'ColumnCustomDirective', 'selector': '[appColumnCustom]'},{'name': 'TizoTemplateDirective', 'selector': '[appTizoTemplate]'}];
+    var ACTUAL_COMPONENT = {'name': 'UserComponent'};
+</script>
+<script src="../js/tree.js"></script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                   </div><div class="search-results">
+    <div class="has-results">
+        <h1 class="search-results-title"><span class='search-results-count'></span> results matching "<span class='search-query'></span>"</h1>
+        <ul class="search-results-list"></ul>
+    </div>
+    <div class="no-results">
+        <h1 class="search-results-title">No results matching "<span class='search-query'></span>"</h1>
+    </div>
+</div>
+</div>
+               <!-- END CONTENT -->
+           </div>
+       </div>
+
+          <label class="dark-mode-switch">
+               <input type="checkbox">
+               <span class="slider">
+                    <svg class="slider-icon" viewBox="0 0 24 24" fill="none" height="20" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" width="20" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M21 12.79A9 9 0 1111.21 3 7 7 0 0021 12.79z"></path>
+                    </svg>
+               </span>
+          </label>
+
+       <script>
+            var COMPODOC_CURRENT_PAGE_DEPTH = 1;
+            var COMPODOC_CURRENT_PAGE_CONTEXT = 'component';
+            var COMPODOC_CURRENT_PAGE_URL = 'UserComponent.html';
+            var MAX_SEARCH_RESULTS = 15;
+       </script>
+
+       <script src="../js/libs/custom-elements.min.js"></script>
+       <script src="../js/libs/lit-html.js"></script>
+
+       <script src="../js/menu-wc.js" defer></script>
+       <script nomodule src="../js/menu-wc_es5.js" defer></script>
+
+       <script src="../js/libs/bootstrap-native.js"></script>
+
+       <script src="../js/libs/es6-shim.min.js"></script>
+       <script src="../js/libs/EventDispatcher.js"></script>
+       <script src="../js/libs/promise.min.js"></script>
+       <script src="../js/libs/zepto.min.js"></script>
+
+       <script src="../js/compodoc.js"></script>
+
+       <script src="../js/tabs.js"></script>
+       <script src="../js/menu.js"></script>
+       <script src="../js/libs/clipboard.min.js"></script>
+       <script src="../js/libs/prism.js"></script>
+       <script src="../js/sourceCode.js"></script>
+          <script src="../js/search/search.js"></script>
+          <script src="../js/search/lunr.min.js"></script>
+          <script src="../js/search/search-lunr.js"></script>
+          <script src="../js/search/search_index.js"></script>
+       <script src="../js/lazy-load-graphs.js"></script>
+
+
+    </body>
+</html>
